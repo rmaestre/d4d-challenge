@@ -21,9 +21,12 @@ Download uDig to manage geographical layers from [http://udig.refractions.net/](
 # Geographical layers (vectors)
 It is available into "geo_layers" folder the next datasets:
 
-* civ_gc_adg.zip: Polygon layer with administrative boundaries (download from http://www.fao.org/geonetwork/srv/en/metadata.show?currTab=simple&id=37177)
+* civ_gc_adg.zip: Land Cover (download from http://www.fao.org/geonetwork/srv/en/metadata.show?currTab=simple&id=37177)
 * rails.zip: Lines with Rails lines (download from http://cod.humanitarianresponse.info/es/country-region/c%C3%B4te-divoire)
 * route.zip: Road route lines (download from http://cod.humanitarianresponse.info/es/country-region/c%C3%B4te-divoire)
+* CDI-level_1_SHP.zip: Regions (9) - Latitude & Longitude Coordinates (downloaded from http://www.maplibrary.org/stacks/africa/Cote%20d%60Ivoire/index.php)
+* CDI_admin_SHP.zip: Departments (59) - Latitude & Longitude Coordinates (downloaded from http://www.maplibrary.org/stacks/africa/Cote%20d%60Ivoire/index.php)
+* {59} Xxx_SHP.zip: A map for each department, enumerating their inner sub-prefectures (230, TBC with D4D datasets) (downloaded from http://www.maplibrary.org/stacks/africa/Cote%20d%60Ivoire/index.php)
 	
 # First step with uDig
 
