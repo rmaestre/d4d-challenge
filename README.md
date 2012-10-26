@@ -17,6 +17,10 @@ bla bla ....
 # SIG Free software
 Download uDig to manage geographical layers from [http://udig.refractions.net/](http://udig.refractions.net/)
 
+# CartoDB (not free!!)
+
+Maps creation and visualization tool. It's possible to import SHP zipped files into tables for building maps. More info available at [CartoDB](http://cartodb.com/) and pricing [here](http://cartodb.com/pricing)
+
 
 # Geographical layers (vectors)
 It is available into "geo_layers" folder the next datasets:
