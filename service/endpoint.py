@@ -37,7 +37,7 @@ class EndpointService(tornado.web.RequestHandler):
         """
         """
         # Get parameters. Dates range.
-        # format: DD:MM:HH, e.g.: 21:12:03
+        # format: YYYY:DD:MM:HH, e.g.: 2011:21:12:03
         date_start = self.get_argument("ds")
         date_end = self.get_argument("de")
         output = self.get_argument("output")
@@ -79,14 +79,14 @@ class EndpointService(tornado.web.RequestHandler):
         # Split day:month:year
         chunks = date_target.split(":")
         # Checking asserts
-        # Three parts day+month+year 
-        assert(len(chunks) == 3) 
+        # Three parts day+month+hour+year 
+        assert(len(chunks) == 4) 
         # Each part with len == 2
-        assert(len(chunks[0]) == 2 and len(chunks[1]) == 2 and len(chunks[2]) == 2)
+        assert(len(chunks[0]) == 4 and len(chunks[1]) == 2 and len(chunks[2]) == 2 and len(chunks[3]) == 2)
         # Only digits are allowed
-        assert(chunks[0].isdigit() and chunks[1].isdigit() and chunks[2].isdigit())
+        assert(chunks[0].isdigit() and chunks[1].isdigit() and chunks[2].isdigit() and chunks[3].isdigit())
         # Ranges for days, months and years
-        assert(1<=int(chunks[0])<=31 and 1<=int(chunks[1])<=12 and 1<=int(chunks[2])<=99)
+        assert(2011<=int(chunks[0])<=2012 and 1<=int(chunks[1])<=31 and 1<=int(chunks[2])<=12 and 0<=int(chunks[3])<=24)
                 
                 
                 
