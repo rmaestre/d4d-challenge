@@ -21,6 +21,8 @@ import re
 import os, sys
 from types import *
 from pymongo import *
+from space_temporal import SpaceTemporalModel
+import shapefile
 #sys.path.append("./utils")
 
     
@@ -53,20 +55,35 @@ class EndpointService(tornado.web.RequestHandler):
         assert(output in ["shp", "dot"])
         
         
-        
-        
-        # TODO
-        
-        # Conexion a mongo con el filtrado por fechas (los datos estarán en la mongo de web40)
-        
-        # Pasarle los datos a la clase creada por BOB para que genere la matriz spacio-temporal
-        
+        # Create shapefile output structure
+        w = shapefile.Writer(shapefile.POLYLINE)
+        # Call to SpaceTemporalModel manager
+        stm = SpaceTemporalModel()
+        # "2011:07:12:00", "2011:07:12:12"
+        traces = stm.retieve_data_and_create_model(date_start, date_end)
+        lines = []
+        for trace in traces:
+            if len(traces[trace]) > 0:
+                line = []
+                for point in traces[trace]["trace"]:
+                    line.append([point[1],point[0]])
+                lines.append(line)
+
+        # Save lines to SHP
+        w.line(parts=lines)
+        w.field('FIRST_FLD','C','40')
+        w.field('SECOND_FLD','C','40')
+        w.record('First','Polygon')
+        w.save('geodata/polygon.shp')
+            
         # Segun el OUTPUT y con la matriz spacio-temporal, generar el fichero de salida
         
         
         
         response["result"] = None
         response["time"] = time.time() - a
+        
+
         self.write(response)
     
     
