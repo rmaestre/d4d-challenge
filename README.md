@@ -17,6 +17,10 @@ bla bla ....
 # SIG Free software
 Download uDig to manage geographical layers from [http://udig.refractions.net/](http://udig.refractions.net/)
 
+# CartoDB (not free!!)
+
+Maps creation and visualization tool. It's possible to import SHP zipped files into tables for building maps. More info available at [CartoDB](http://cartodb.com/) and pricing [here](http://cartodb.com/pricing)
+
 
 # Geographical layers (vectors)
 It is available into "geo_layers" folder the next datasets:
@@ -27,7 +31,8 @@ It is available into "geo_layers" folder the next datasets:
 * CDI-level_1_SHP.zip: Regions (9) - Latitude & Longitude Coordinates (downloaded from http://www.maplibrary.org/stacks/africa/Cote%20d%60Ivoire/index.php)
 * CDI_admin_SHP.zip: Departments (59) - Latitude & Longitude Coordinates (downloaded from http://www.maplibrary.org/stacks/africa/Cote%20d%60Ivoire/index.php)
 * {59} Xxx_SHP.zip: A map for each department, enumerating their inner sub-prefectures (230, TBC with D4D datasets) (downloaded from http://www.maplibrary.org/stacks/africa/Cote%20d%60Ivoire/index.php)
-	
+* CIV_wat.zip: Rivers, canals, and lakes. Seperate files for line and area features (download from http://www.diva-gis.org/gData)	
+
 # First step with uDig
 
 This step should be performed for each geographical resource
