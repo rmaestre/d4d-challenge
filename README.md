@@ -11,8 +11,6 @@ We are going to try to correlate micro-migrations between work-hours (we should 
 * [D4D Challenge](http://www.d4d.orange.com/home) 
 * [Paper. Data for Development: the D4D Challenge on Mobile Phone Data](http://arxiv.org/abs/1210.0137) 
 
-# Final abstract ?
-bla bla ....
 
 # SIG Free software
 Download uDig to manage geographical layers from [http://udig.refractions.net/](http://udig.refractions.net/)
@@ -21,6 +19,9 @@ Download uDig to manage geographical layers from [http://udig.refractions.net/](
 
 Maps creation and visualization tool. It's possible to import SHP zipped files into tables for building maps. More info available at [CartoDB](http://cartodb.com/) and pricing [here](http://cartodb.com/pricing)
 
+# Shapefile (ESRI format) manager
+
+* [pyshp 1.1.4](http://pypi.python.org/pypi/pyshp) Python library to create polygon, polylines, points, etc ... Integrated in our service.
 
 # Geographical layers (vectors)
 It is available into "geo_layers" folder the next datasets:
