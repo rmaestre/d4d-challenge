@@ -23,7 +23,9 @@ from types import *
 from pymongo import *
 from space_temporal import SpaceTemporalModel
 import shapefile
-#sys.path.append("./utils")
+import tarfile
+import uuid
+import shutil
 
     
 class EndpointService(tornado.web.RequestHandler):
@@ -50,45 +52,66 @@ class EndpointService(tornado.web.RequestHandler):
         response["result"] = {}
         
         # Check input format constrains
-        self.assert_date_format(date_start)
-        self.assert_date_format(date_end)
-        assert(output in ["shp", "dot"])
-        
-        
-        # Create shapefile output structure
-        w = shapefile.Writer(shapefile.POLYLINE)
-        # Call to SpaceTemporalModel manager
-        stm = SpaceTemporalModel()
-        # "2011:07:12:00", "2011:07:12:12"
-        traces = stm.retieve_data_and_create_model(date_start, date_end)
-        lines = []
-        for trace in traces:
-            if len(traces[trace]) > 0:
-                line = []
-                for point in traces[trace]["trace"]:
-                    line.append([point[1],point[0]])
-                lines.append(line)
+        try:
+            self.assert_date_format(date_start)
+            self.assert_date_format(date_end)
+            assert(output in ["shp", "dot"])
 
-        # Save lines to SHP
-        w.line(parts=lines)
-        w.field('FIRST_FLD','C','40')
-        w.field('SECOND_FLD','C','40')
-        w.record('First','Polygon')
-        w.save('geodata/polygon.shp')
-            
-        # Segun el OUTPUT y con la matriz spacio-temporal, generar el fichero de salida
-        
-        
-        
-        response["result"] = None
-        response["time"] = time.time() - a
-        
+            # Call to SpaceTemporalModel manager
+            stm = SpaceTemporalModel()
+            # "2011:07:12:00", "2011:07:12:12"
+            traces = stm.retieve_data_and_create_model(date_start, date_end)
+            lines = []
+            antennas = {}
+            for trace in traces:
+                if len(traces[trace]) > 0:
+                    line = []
+                    for point in traces[trace]["trace"]:
+                        line.append([point[1],point[0]])
+                        if (point[1],point[0]) not in antennas:
+                            antennas[(point[1],point[0])] = 1
+                        else:
+                            antennas[(point[1],point[0])] += 1
+                    lines.append(line)
 
-        self.write(response)
-    
-    
-    
-    
+            # create unique temporal id
+            tmp_id = str(uuid.uuid1())
+            # Save lines to SHP
+            w_traces = shapefile.Writer(shapefile.POLYLINE)
+            w_traces.line(parts=lines)
+            w_traces.field('FIRST_FLD','C','40')
+            w_traces.field('SECOND_FLD','C','40')
+            w_traces.record('First','Polygon')
+        
+            # Save antenna points
+            w = shapefile.Writer(shapefile.POINT)
+            for antenna in antennas:
+                w.point(antenna[0], antenna[1])
+
+            w.field('FIRST_FLD')
+            w.field('SECOND_FLD','C','40')
+        
+            try:
+                w_traces.save('/tmp/%s/commuting_polylines.shp' % tmp_id)
+                w.save('/tmp/%s/commuting_antennas.shp' % tmp_id)
+
+                tar = tarfile.open("/tmp/%s/data.tar.gz" % tmp_id, "w:gz")
+                for name in ['/tmp/%s/commuting_antennas.shp' % tmp_id, 
+                            '/tmp/%s/commuting_polylines.shp' % tmp_id]:
+                            tar.add(name)
+                tar.close()
+
+                self.set_header("Content-Disposition","attachment;filename=data_%s.tar.gz" % tmp_id);
+                File = open("/tmp/%s/data.tar.gz" % tmp_id,"rb")
+                self.write(File.read())
+                File.close()
+                # Remove temporal dir
+                shutil.rmtree("/tmp/%s/" % tmp_id)
+            except:
+                self.write("No data between temporal tange")
+        except:
+            self.write("Format dates are not correct")
+
     def assert_date_format(self, date_target):
         """
         Checking the input date format using an "upto" asserts
