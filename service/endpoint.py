@@ -26,6 +26,7 @@ import shapefile
 import tarfile
 import uuid
 import shutil
+import traceback
 
     
 class EndpointService(tornado.web.RequestHandler):
@@ -78,10 +79,14 @@ class EndpointService(tornado.web.RequestHandler):
             tmp_id = str(uuid.uuid1())
             # Save lines to SHP
             w_traces = shapefile.Writer(shapefile.POLYLINE)
-            w_traces.line(parts=lines)
             w_traces.field('FIRST_FLD','C','40')
-            w_traces.field('SECOND_FLD','C','40')
-            w_traces.record('First','Polygon')
+            for line in lines:
+                if len(line) > 1:
+                    w_traces.line(parts = [line])
+                    w_traces.record(FIRST_FLD='First')
+                else:
+                    print("Line jumped")
+            
         
             # Save antenna points
             w = shapefile.Writer(shapefile.POINT)
@@ -97,7 +102,11 @@ class EndpointService(tornado.web.RequestHandler):
 
                 tar = tarfile.open("/tmp/%s/data.tar.gz" % tmp_id, "w:gz")
                 for name in ['/tmp/%s/commuting_antennas.shp' % tmp_id, 
-                            '/tmp/%s/commuting_polylines.shp' % tmp_id]:
+                            '/tmp/%s/commuting_antennas.dbf' % tmp_id,
+                            '/tmp/%s/commuting_antennas.shx' % tmp_id,
+                            '/tmp/%s/commuting_polylines.shp' % tmp_id,
+                            '/tmp/%s/commuting_polylines.dbf' % tmp_id,
+                            '/tmp/%s/commuting_polylines.shx' % tmp_id]:
                             tar.add(name)
                 tar.close()
 
@@ -108,8 +117,10 @@ class EndpointService(tornado.web.RequestHandler):
                 # Remove temporal dir
                 shutil.rmtree("/tmp/%s/" % tmp_id)
             except:
+                print(traceback.format_exc())
                 self.write("No data between temporal tange")
-        except:
+        except Exception:
+            print(traceback.format_exc())
             self.write("Format dates are not correct")
 
     def assert_date_format(self, date_target):
