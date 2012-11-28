@@ -30,7 +30,7 @@ class GephiGraph:
         for antennas, data in self.edges_model.items():
             values = []
             for time_gap in data:
-                values.append(GephiAttValues(len(time_gap['users']), time_gap['date_start'], time_gap['date_end']))
+                values.append(GephiEdgeAttValues(len(time_gap['users']), time_gap['date_start'], time_gap['date_end']))
             edge = GephiEdge(antennas[0], antennas[1], values)
             edges.append(edge.build_xml())
         return edges
@@ -50,7 +50,7 @@ class GephiGraph:
         node_attrs.append(etree.Element("attribute", id="value", title="value", type="integer"))
         graph.append(node_attrs)
         edge_attrs = etree.Element("attributes", CLASS="edge", mode="dynamic")
-        edge_attrs.append(etree.Element("attribute", id="value", title="value", type="integer"))
+        edge_attrs.append(etree.Element("attribute", id="weight", title="Weight", type="float"))
         graph.append(edge_attrs)
         graph.append(self.__build_nodes())
         graph.append(self.__build_edges())
@@ -88,6 +88,18 @@ class GephiAttValues:
         return etree.Element("attvalue", FOR="value", value = self.value, start = self.start_time,
             end = self.end_time)
 
+class GephiEdgeAttValues:
+
+    def __init__(self, value, start_time, end_time):
+        self.value = "%s.0" % value 
+        self.weight = "%s" % value
+        self.start_time = "%s" % time.mktime(start_time.timetuple())
+        self.end_time = "%s" % time.mktime(end_time.timetuple())
+
+    def build_xml(self):
+        return etree.Element("attvalue", FOR="weight", value = self.weight, start = self.start_time,
+            end = self.end_time)
+
 class GephiEdge:
 
     def __init__(self, source, target, values):
@@ -96,7 +108,7 @@ class GephiEdge:
         self.values = values
 
     def build_xml(self):
-        edge = etree.Element("edge", source = self.source, target = self.target)
+        edge = etree.Element("edge", source = self.source, target = self.target, weight = "0")
         att_values = etree.Element("attvalues")
         for value in self.values:
             att_values.append(value.build_xml())
@@ -104,8 +116,8 @@ class GephiEdge:
         return edge
 
 stm = SpaceTemporalModel()
-nodes_model = stm.create_gephi_node_model(datetime(2011, 12, 7, 8, 0), datetime(2011, 12, 7, 20, 0))
-edges_model = stm.create_gephi_edge_model(datetime(2011, 12, 7, 8, 0), datetime(2011, 12, 7, 20, 0))
+nodes_model = stm.create_gephi_node_model(datetime(2011, 12, 7, 0, 0), datetime(2011, 12, 8, 0, 0))
+edges_model = stm.create_gephi_edge_model(datetime(2011, 12, 7, 0, 0), datetime(2011, 12, 8, 0, 0))
 graph = GephiGraph(nodes_model, edges_model)
 
 content = etree.tostring(graph.build_xml(), pretty_print=True)
