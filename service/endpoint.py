@@ -90,11 +90,11 @@ class EndpointService(tornado.web.RequestHandler):
         
             # Save antenna points
             w = shapefile.Writer(shapefile.POINT)
-            for antenna in antennas:
-                w.point(antenna[0], antenna[1])
-
             w.field('FIRST_FLD')
             w.field('SECOND_FLD','C','40')
+            for antenna in antennas:
+                w.point(antenna[0], antenna[1])
+                w.record(FIRST_FLD='First')
         
             try:
                 w_traces.save('/tmp/%s/commuting_polylines.shp' % tmp_id)
@@ -149,7 +149,7 @@ app = tornado.web.Application([
     
 # To test single server file
 if __name__ == '__main__':
-   app.listen(8008)
+   app.listen(80)
    tornado.ioloop.IOLoop.instance().start()
 
 
