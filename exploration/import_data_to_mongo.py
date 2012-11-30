@@ -50,7 +50,7 @@ def __get_collection(config, collection_name):
     
     
     
-# DATASET 3 - SUB-PREFECTURES
+# DATASET 3 - SUB-PREFECTURESS
     
 # Get collection
 traces_by_subprefectures = __get_collection(config, "traces_by_subprefectures")
