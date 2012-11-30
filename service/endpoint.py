@@ -22,6 +22,7 @@ import os, sys
 from types import *
 from pymongo import *
 from space_temporal import SpaceTemporalModel
+from space_temporal_subprefectures import SpaceTemporalModelForSubprefectures
 import shapefile
 import tarfile
 import uuid
@@ -46,6 +47,7 @@ class EndpointService(tornado.web.RequestHandler):
         date_start = self.get_argument("ds")
         date_end = self.get_argument("de")
         output = self.get_argument("output")
+        node = self.get_argument("node")
         # Starting script benchmark
         a = time.time()
         # Prepare output data structure
@@ -57,22 +59,32 @@ class EndpointService(tornado.web.RequestHandler):
             self.assert_date_format(date_start)
             self.assert_date_format(date_end)
             assert(output in ["shp", "dot"])
+            assert(node in ["ant", "subpref"])
 
+            t1 = time.time()
+            
             # Call to SpaceTemporalModel manager
-            stm = SpaceTemporalModel()
             # "2011:07:12:00", "2011:07:12:12"
-            traces = stm.retieve_data_and_create_model(date_start, date_end)
+            if (node == 'ant'):
+                stm = SpaceTemporalModel()
+                traces = stm.retieve_data_and_create_model(date_start, date_end)
+            else: # 'subpref'
+                stm = SpaceTemporalModelForSubprefectures()
+                traces = stm.retieve_data_and_create_model(date_start, date_end)
+
+            print("SpaceTemporalModel call: %d" % (time.time() - t1))
+                            
             lines = []
-            antennas = {}
+            nodes = {} # antennas or sup-prefectures
             for trace in traces:
                 if len(traces[trace]) > 0:
                     line = []
                     for point in traces[trace]["trace"]:
                         line.append([point[1],point[0]])
-                        if (point[1],point[0]) not in antennas:
-                            antennas[(point[1],point[0])] = 1
+                        if (point[1],point[0]) not in nodes:
+                            nodes[(point[1],point[0])] = 1
                         else:
-                            antennas[(point[1],point[0])] += 1
+                            nodes[(point[1],point[0])] += 1
                     lines.append(line)
 
             # create unique temporal id
@@ -88,12 +100,12 @@ class EndpointService(tornado.web.RequestHandler):
                     print("Line jumped")
             
         
-            # Save antenna points
+            # Save node points
             w = shapefile.Writer(shapefile.POINT)
             w.field('FIRST_FLD')
             w.field('SECOND_FLD','C','40')
-            for antenna in antennas:
-                w.point(antenna[0], antenna[1])
+            for node in nodes:
+                w.point(node[0], node[1])
                 w.record(FIRST_FLD='First')
         
             try:
@@ -118,7 +130,7 @@ class EndpointService(tornado.web.RequestHandler):
                 shutil.rmtree("/tmp/%s/" % tmp_id)
             except:
                 print(traceback.format_exc())
-                self.write("No data between temporal tange")
+                self.write("No data between temporal range")
         except Exception:
             print(traceback.format_exc())
             self.write("Format dates are not correct")
@@ -138,6 +150,7 @@ class EndpointService(tornado.web.RequestHandler):
         assert(chunks[0].isdigit() and chunks[1].isdigit() and chunks[2].isdigit() and chunks[3].isdigit())
         # Ranges for days, months and years
         assert(2011<=int(chunks[0])<=2012 and 1<=int(chunks[1])<=31 and 1<=int(chunks[2])<=12 and 0<=int(chunks[3])<=24)
+        # TODO Validate [1-DIC-2011 → 28-APR-2012]: 150 days (3600h and 100h missing)
                 
                 
                 
@@ -149,7 +162,7 @@ app = tornado.web.Application([
     
 # To test single server file
 if __name__ == '__main__':
-   app.listen(80)
+   app.listen(8008)
    tornado.ioloop.IOLoop.instance().start()
 
 

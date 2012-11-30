@@ -1,5 +1,6 @@
 from lxml import etree
 from space_temporal import SpaceTemporalModel
+from space_temporal_subprefectures import SpaceTemporalModelForSubprefectures
 from datetime import datetime
 import time
 
@@ -11,7 +12,6 @@ class GephiGraph:
 
     def __build_nodes(self):
         nodes = etree.Element("nodes")
-        children = []
         for antenna, data in self.nodes_model.items():
             latitude = -1
             longitude = -1
@@ -26,7 +26,6 @@ class GephiGraph:
 
     def __build_edges(self):
         edges = etree.Element("edges")
-        children = []
         for antennas, data in self.edges_model.items():
             values = []
             for time_gap in data:
@@ -115,7 +114,8 @@ class GephiEdge:
         edge.append(att_values)
         return edge
 
-stm = SpaceTemporalModel()
+stm = SpaceTemporalModelForSubprefectures()
+#stm = SpaceTemporalModel()
 nodes_model = stm.create_gephi_node_model(datetime(2011, 12, 7, 0, 0), datetime(2011, 12, 8, 0, 0))
 edges_model = stm.create_gephi_edge_model(datetime(2011, 12, 7, 0, 0), datetime(2011, 12, 8, 0, 0))
 graph = GephiGraph(nodes_model, edges_model)
