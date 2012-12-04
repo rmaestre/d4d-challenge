@@ -43,14 +43,14 @@ for line in open("../rawdata/ANT_POS.TSV" , 'r'):
 antennas[-1] = (-1,-1)
 
 # Specific month and day to start the search
-day = 27
-month = 3
+day = 26
+month = 2
 
-print("%s\t%s" % ("hour", "lenght"))
+print("%s\t%s\t%s" % ("hour", "lenght", "total"))
 # Perform analysis for each day
 for h in range(1,23):
     start = datetime(2012, month, day, h, 0, 0)
-    end =   datetime(2012, month, day, h+1, 0, 0)
+    end =   datetime(2012, month, day, h+1, 59, 59)
     # Debug info
     #print(start," ",end)  
     # Create user traces              
@@ -60,6 +60,7 @@ for h in range(1,23):
             users[trace["userid"]] = []
         users[trace["userid"]].append(trace["antennaid"])
     # Calculate max length and user distance
+    antenna_cont = 0
     users_final = {}
     for user in users:
         users_final[user] = {}
@@ -72,33 +73,49 @@ for h in range(1,23):
             if antennas[users[user][i]][0] != -1 and antennas[users[user][i+1]][0] != -1:
                 users_final[user]["trace_points"].append(antennas[users[user][i]])
                 acum += get_distance(antennas[users[user][i]], antennas[users[user][i+1]])
+                antenna_cont += 1
             i += 1
         users_final[user]["trace_lenght"] = acum
     # Return the mean
     for user in users_final:
         acum += users_final[user]["trace_lenght"]
     try:
-        print("%s\t%s" % (h, (acum/len(users_final))))
+        print("%s\t%s\t%s" % (h, acum/antenna_cont, len(users_final)))
     except:
-        print("%s\t%s" % (h, 0))
+        print("%s\t%s\t%s" % (h, 0, 0))
     
     
     
 """
 # Save user traces into a SHP file
-w_traces = shapefile.Writer(shapefile.POLYLINE)
-w_traces.field('FIRST_FLD','C','40')
+w_traces_long = shapefile.Writer(shapefile.POLYLINE)
+w_traces_long.field('FIRST_FLD','C','40')
+
+w_traces_short = shapefile.Writer(shapefile.POLYLINE)
+w_traces_short.field('FIRST_FLD','C','40')
+
 for user in users_final:
     l_points = []
     for point in users_final[user]["trace_points"]:
         l_points.append([point[0],point[1]])
-    if len(l_points) > 0 and users_final[user]["trace_lenght"] > 4:
-        print(users_final[user]["trace_lenght"])
-        w_traces.line(parts = [l_points])
-        w_traces.record(FIRST_FLD = users_final[user]["trace_lenght"])
+        
+    if len(l_points) > 2:
+        #print(users_final[user]["trace_lenght"])
+        #print(users_final[user]["trace_points"])
+        if users_final[user]["trace_lenght"] > 10:
+            w_traces_long.line(parts = [l_points])
+            w_traces_long.record(FIRST_FLD = users_final[user]["trace_lenght"])
+        else:
+            w_traces_short.line(parts = [l_points])
+            w_traces_short.record(FIRST_FLD = users_final[user]["trace_lenght"])
+    else:
+        print(l_points)
+            
 # Save shapefile
-w_traces.save('/tmp/commuting_polylines.shp')
+w_traces_long.save('/tmp/cl_long.shp')
+w_traces_short.save('/tmp/cl_short.shp')
 """
+
 
 
 
