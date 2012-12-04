@@ -20,24 +20,10 @@ class SpaceTemporalModel:
     """
     def __init__(self):
         """
-        Load and retieve collection pointer from MongoDB
+        Init method
         """
-        self.config = {}
-        self.config['db'] = {}
-        self.config['db']['host'] = "web40"
-        self.config['db']['port'] = 27017
-        self.config['db']['db'] = "d4dchallenge"
-        self.config['db']['collection'] = "traces"
-        self.traces = self.__get_collection(self.config)
+        # Nothing to-do
 
-    def __get_collection(self, config):
-        """
-        Return collection from MongoDB with a specific configuration
-        """
-        connection = Connection(config['db']['host'], config['db']['port'])
-        db = connection[config['db']['db']]
-        collection = db[config['db']['collection']]
-        return collection
         
     def retieve_data_and_create_model(self, strech):
         """
@@ -46,29 +32,40 @@ class SpaceTemporalModel:
         # Debug prints
         users = {}
         graph = {}
-        for item in self.traces.find():
-            if (item["date"].hour >= strech[0] and item["date"].hour<= strech[1] and 
-                item["date"].weekday()!=5 and item["date"].weekday()!=6):
-                if item['userid'] not in users:
-                    users[item['userid']] = {}
-                    users[item['userid']]["trace"] = []
-                if item['antenna']["lon"] != -1:
-                    if len(users[item['userid']]["trace"]) == 0:
-                        users[item['userid']]["trace"].append(item["antennaid"])
-                    else:
-                        if item["antennaid"] not in graph:
-                            graph[item["antennaid"]] = {}
-                        if users[item['userid']]["trace"][0] not in graph[item["antennaid"]]:
-                            graph[item["antennaid"]][users[item['userid']]["trace"][0]] = 1
+        for index in range(0,9):
+            print("")
+            print(index)
+            cont = 0
+            for line in open("../rawdata/SET2TSV/POS_SAMPLE_%d.TSV" % (index) , 'r'):
+                line = line.replace("\n","")
+                chunks = line.split("\t")
+                if len(chunks) == 3:
+                    item = {}
+                    item["userid"] = int(chunks[0])
+                    item["antennaid"] = int(chunks[2])
+                    item["date"] = datetime.strptime(chunks[1], '%Y-%m-%d %H:%M:%S')
+                    if (item["date"].hour >= strech[0] and item["date"].hour<= strech[1] and 
+                        item["date"].weekday()!=5 and item["date"].weekday()!=6):
+ 
+                        if item['userid'] not in users:
+                            users[item['userid']] = {}
+                            users[item['userid']]["trace"] = []
+                        if len(users[item['userid']]["trace"]) == 0:
+                            users[item['userid']]["trace"].append(item["antennaid"])
                         else:
-                            graph[item["antennaid"]][users[item['userid']]["trace"][0]] += 1
-                        # drop list and save las point
-                        users[item['userid']]["trace"] = [item["antennaid"]]
+                            if item["antennaid"] not in graph:
+                                graph[item["antennaid"]] = {}
+                            if users[item['userid']]["trace"][0] not in graph[item["antennaid"]]:
+                                graph[item["antennaid"]][users[item['userid']]["trace"][0]] = 1
+                            else:
+                                graph[item["antennaid"]][users[item['userid']]["trace"][0]] += 1
+                            # drop list and save las point
+                            users[item['userid']]["trace"] = [item["antennaid"]]
         pickle.dump(graph, open( "graph_grouped%s-%s.pkl" % (strech[0],strech[1]), "wb" ) )
         
         
 stm = SpaceTemporalModel()
-model = stm.retieve_data_and_create_model((6,9))
+model = stm.retieve_data_and_create_model((11,15))
 print(model)
 
 
