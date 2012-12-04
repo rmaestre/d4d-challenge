@@ -43,7 +43,7 @@ for line in open("../rawdata/ANT_POS.TSV" , 'r'):
 antennas[-1] = (-1,-1)
 
 # Specific month and day to start the search
-day = 6
+day = 27
 month = 3
 
 print("%s\t%s" % ("hour", "lenght"))
@@ -77,7 +77,10 @@ for h in range(1,23):
     # Return the mean
     for user in users_final:
         acum += users_final[user]["trace_lenght"]
-    print("%s\t%s" % (h, (acum/len(users_final))))
+    try:
+        print("%s\t%s" % (h, (acum/len(users_final))))
+    except:
+        print("%s\t%s" % (h, 0))
     
     
     
