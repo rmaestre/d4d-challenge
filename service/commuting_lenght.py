@@ -2,7 +2,7 @@ import math
 import shapefile
 from pymongo import *
 from datetime import datetime
-
+import sys
 
 config = {}
 config['db'] = {}
@@ -43,14 +43,20 @@ for line in open("../rawdata/ANT_POS.TSV" , 'r'):
 antennas[-1] = (-1,-1)
 
 # Specific month and day to start the search
-day = 26
-month = 2
+day = 27
+month = 3
+year = 2012
 
+f_out = open("/tmp/output-%s_%s_%s.tsv" % (day, month, year), "w")
+# Statistic vars
+ci_values = []
 print("%s\t%s\t%s" % ("hour", "lenght", "total"))
+f_out.write("%s\t%s\t%s\n" % ("hour", "lenght", "total"))
+
 # Perform analysis for each day
 for h in range(1,23):
-    start = datetime(2012, month, day, h, 0, 0)
-    end =   datetime(2012, month, day, h+1, 59, 59)
+    start = datetime(year, month, day, h, 0, 0)
+    end =   datetime(year, month, day, h+1, 59, 59)
     # Debug info
     #print(start," ",end)  
     # Create user traces              
@@ -80,46 +86,63 @@ for h in range(1,23):
     for user in users_final:
         acum += users_final[user]["trace_lenght"]
     try:
-        print("%s\t%s\t%s" % (h, acum/antenna_cont, len(users_final)))
+        # Save max and min commuting index
+        current_ci = acum/antenna_cont
+        ci_values.append(current_ci)
+        # Dump information
+        print("%s\t%s\t%s" % (h, current_ci, antenna_cont))
+        f_out.write("%s\t%s\t%s\n" % (h, current_ci, antenna_cont))
     except:
         print("%s\t%s\t%s" % (h, 0, 0))
-    
-    
-    
-"""
+        f_out.write("%s\t%s\t%s\n" % (h, 0, 0))
+f_out.close()
+
+# Calulate commuting index avg
+commuting_index_avg = (max(ci_values) - min(ci_values))/2    
+
 # Save user traces into a SHP file
+# long one
 w_traces_long = shapefile.Writer(shapefile.POLYLINE)
-w_traces_long.field('FIRST_FLD','C','40')
+w_traces_long.field('WEIGHT','N','40')
+# short one
+w_traces_short = shapefile.Writer(shapefile.POINT)
+w_traces_short.field('WEIGHT','N','40')
 
-w_traces_short = shapefile.Writer(shapefile.POLYLINE)
-w_traces_short.field('FIRST_FLD','C','40')
-
+antenna_weight = {}
+print("Max:%s min:%s avg:%s" % (max(ci_values), min(ci_values), commuting_index_avg))
+# Iterate over the users traces
+longs = 0
+shorts = 0
 for user in users_final:
+    # Create a list of points
     l_points = []
     for point in users_final[user]["trace_points"]:
         l_points.append([point[0],point[1]])
-        
-    if len(l_points) > 2:
-        #print(users_final[user]["trace_lenght"])
-        #print(users_final[user]["trace_points"])
-        if users_final[user]["trace_lenght"] > 10:
+    # If we have enougth information
+    if len(l_points) > 1:
+        if users_final[user]["trace_lenght"] > commuting_index_avg:
+            longs += 1
             w_traces_long.line(parts = [l_points])
-            w_traces_long.record(FIRST_FLD = users_final[user]["trace_lenght"])
+            w_traces_long.record(WEIGHT = users_final[user]["trace_lenght"])
         else:
-            w_traces_short.line(parts = [l_points])
-            w_traces_short.record(FIRST_FLD = users_final[user]["trace_lenght"])
-    else:
-        print(l_points)
-            
-# Save shapefile
+            shorts += 1
+            for point in l_points:
+                point = (point[0],point[1])
+                if point not in antenna_weight:
+                    antenna_weight[point] = 1
+                else:
+                    antenna_weight[point] += 1
+# Print stats                
+print("Moving:%.2s  Static:%.2s" % ((longs*100)/(longs+shorts), (shorts*100)/(longs+shorts)))
+
+# Save points
+for antenna in antenna_weight:
+    w_traces_short.point(antenna[0],antenna[1])
+    w_traces_short.record(WEIGHT = math.log(antenna_weight[antenna]))
+    
+# Save shapefiles
 w_traces_long.save('/tmp/cl_long.shp')
 w_traces_short.save('/tmp/cl_short.shp')
-"""
 
 
 
-
-
-
-
-  
