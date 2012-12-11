@@ -48,12 +48,8 @@ day = 2
 month = 1
 year = 2012
 
-f_out = open("/tmp/output-%s_%s_%s.tsv" % (day, month, year), "w")
 # Statistic vars
 ci_values = []
-print("%s\t%s\t%s" % ("hour", "lenght", "total"))
-f_out.write("%s\t%s\t%s\n" % ("hour", "lenght", "total"))
-
 
 # Data structure to save data per weeks
 data = {}
@@ -61,7 +57,9 @@ for w in range(0,7):
     # 0=Monday, ..., 7=Sunday
     data[w] = {}
     for h in range(0,23):
-        data[w][h] = []
+        data[w][h] = {}
+        data[w][h]["length"] = []
+        data[w][h]["acum"] = []
 
 init_day = datetime(year, month, day, 0, 0, 0)
 day_cont = 0
@@ -106,10 +104,12 @@ while day_cont < 7*16:
             ci_values.append(current_ci)
             # Dump information
             print("%s\t%s\t%s" % (h, current_ci, antenna_cont))
-            data[init_day.weekday()][h].append(current_ci)
+            data[init_day.weekday()][h]["length"].append(current_ci)
+            data[init_day.weekday()][h]["acum"].append(antenna_cont)
         except:
             print("%s\t%s\t%s" % (h, 0, 0))   
-            data[init_day.weekday()][h].append(0)
+            data[init_day.weekday()][h]["length"].append(0)
+            data[init_day.weekday()][h]["acum"].append(0)
         print(data)
     day_cont += 1
     init_day += timedelta(days=1)

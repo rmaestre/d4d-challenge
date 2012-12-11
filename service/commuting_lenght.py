@@ -43,8 +43,8 @@ for line in open("../rawdata/ANT_POS.TSV" , 'r'):
 antennas[-1] = (-1,-1)
 
 # Specific month and day to start the search
-day = 27
-month = 3
+day = 3
+month = 4
 year = 2012
 
 f_out = open("/tmp/output-%s_%s_%s.tsv" % (day, month, year), "w")
@@ -54,7 +54,7 @@ print("%s\t%s\t%s" % ("hour", "lenght", "total"))
 f_out.write("%s\t%s\t%s\n" % ("hour", "lenght", "total"))
 
 # Perform analysis for each day
-for h in range(1,23):
+for h in range(0,23):
     start = datetime(year, month, day, h, 0, 0)
     end =   datetime(year, month, day, h+1, 59, 59)
     # Debug info
