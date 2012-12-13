@@ -16,8 +16,9 @@ for line in open("/tmp/data_commuting_analysis.tsv", "r"):
             column_count += 1
     line_count += 1
     
-week = 
+
+week = 5
 i = 2
 while i < 23:
-    print("%d\t%.5f\t%.5f" % (i, float(data[i][3]), float(data[i][3])-float(data[i-1][3])))
+    print("%d\t%.5f\t%.5f" % (i, float(data[i][week]), float(data[i][week])-float(data[i-1][week])))
     i += 1
