@@ -56,7 +56,7 @@ data = {}
 for w in range(0,7):
     # 0=Monday, ..., 7=Sunday
     data[w] = {}
-    for h in range(0,23):
+    for h in range(0,24):
         data[w][h] = {}
         data[w][h]["length"] = []
         data[w][h]["acum"] = []
@@ -66,9 +66,9 @@ day_cont = 0
 while day_cont < 7*16:
     print(init_day)
     # Perform analysis for each day
-    for h in range(1,23):
+    for h in range(1,24):
         start = datetime(init_day.year, init_day.month, init_day.day, h, 0, 0)
-        end =   datetime(init_day.year, init_day.month, init_day.day, h+1, 59, 59)
+        end =   datetime(init_day.year, init_day.month, init_day.day, h, 59, 59)
         # Debug info
         print(start," <<>>",end)  
         # Create user traces              

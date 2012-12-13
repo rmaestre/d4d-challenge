@@ -56,7 +56,7 @@ f_out.write("%s\t%s\t%s\n" % ("hour", "lenght", "total"))
 # Perform analysis for each day
 for h in range(0,23):
     start = datetime(year, month, day, h, 0, 0)
-    end =   datetime(year, month, day, h+1, 59, 59)
+    end =   datetime(year, month, day, h, 59, 59)
     # Debug info
     #print(start," ",end)  
     # Create user traces              

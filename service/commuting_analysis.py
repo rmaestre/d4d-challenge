@@ -6,14 +6,14 @@ data = pickle.load(open( "data_analysis_complete.pkl", "rb" ) )
 
 f_out = open("/tmp/data_commuting_analysis.tsv", "w")
 f_out.write("hour\tlen_lunes\ttot_lunes\tlen_martes\ttot_martes\tlen_miercoles\ttot_miercoles\tlen_jueves\ttot_jueves\tlen_viernes\ttot_viernes\tlen_sabado\ttot_sabado\tlen_domingo\ttot_domingo\n")
-for hour in range(1,23):
+for hour in range(0,24):
     f_out.write("%s\t" % hour);
     for week in range(0,7):
         final_scape = ""
         if week != 6:
             final_scape = "\t"
         mean = sum(data[week][hour]["length"])/(len(data[week][hour]["length"])-2)
-        n = len(data[week][hour])-2
+        n = len(data[week][hour]["length"])-2
         acum = 0
         i = 0
         while i < n:
