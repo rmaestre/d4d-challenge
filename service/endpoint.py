@@ -22,7 +22,6 @@ import os, sys
 from types import *
 from pymongo import *
 from space_temporal import SpaceTemporalModel
-from space_temporal_subprefectures import SpaceTemporalModelForSubprefectures
 import shapefile
 import tarfile
 import uuid
@@ -47,7 +46,6 @@ class EndpointService(tornado.web.RequestHandler):
         date_start = self.get_argument("ds")
         date_end = self.get_argument("de")
         output = self.get_argument("output")
-        node = self.get_argument("node")
         # Starting script benchmark
         a = time.time()
         # Prepare output data structure
@@ -59,23 +57,17 @@ class EndpointService(tornado.web.RequestHandler):
             self.assert_date_format(date_start)
             self.assert_date_format(date_end)
             assert(output in ["shp", "dot"])
-            assert(node in ["ant", "subpref"])
 
             t1 = time.time()
             
             # Call to SpaceTemporalModel manager
             # "2011:07:12:00", "2011:07:12:12"
-            if (node == 'ant'):
-                stm = SpaceTemporalModel()
-                traces = stm.retieve_data_and_create_model(date_start, date_end)
-            else: # 'subpref'
-                stm = SpaceTemporalModelForSubprefectures()
-                traces = stm.retieve_data_and_create_model(date_start, date_end)
-
+            stm = SpaceTemporalModel()
+            traces = stm.retieve_data_and_create_model(date_start, date_end)
             print("SpaceTemporalModel call: %d" % (time.time() - t1))
                             
             lines = []
-            nodes = {} # antennas or sup-prefectures
+            nodes = {}
             for trace in traces:
                 if len(traces[trace]) > 0:
                     line = []
@@ -162,7 +154,7 @@ app = tornado.web.Application([
     
 # To test single server file
 if __name__ == '__main__':
-   app.listen(8008)
+   app.listen(80)
    tornado.ioloop.IOLoop.instance().start()
 
 
