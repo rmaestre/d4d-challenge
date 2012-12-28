@@ -58,8 +58,10 @@ cont_day = 0
 while cont_day < 7*16:
     print(init_day)
     
-    if init_day.weekday() != 0:
-        print("Jumping day")
+    # 0=Monday, ...., 7=Sunday
+    WEEK_DAY = 1
+    if init_day.weekday() != WEEK_DAY:
+        print("Jumping day!")
     else:
         # Perform analysis for each day
         for h in range(1,24):
@@ -98,13 +100,18 @@ while cont_day < 7*16:
                         list_lenght = len(flatten_trace)
                         index = 0
                         while index < list_lenght - 1:
+                            # Added new node_from If previusly node_from does not exists
                             if flatten_trace[index] not in graph[h].nodes():
                                 graph[h].add_node(flatten_trace[index])
+                            # Added new node_to If previusly node_to does not exists
                             if flatten_trace[index + 1] not in graph[h].nodes():
                                 graph[h].add_node(flatten_trace[index + 1])
+                            # Added new edge between nodes If previusly edge does not exists
+                            # with weight = 1
                             if (flatten_trace[index], flatten_trace[index + 1]) not in graph[h].edges():
                                 graph[h].add_edge(flatten_trace[index], flatten_trace[index + 1], weight = 1)
                             else:
+                                # Get existent edge amd increment one value its current weight
                                 edge_weight = graph[h][flatten_trace[index]][flatten_trace[index + 1]]["weight"]
                                 graph[h].add_edge(flatten_trace[index], 
                                                     flatten_trace[index + 1], 
@@ -119,8 +126,7 @@ while cont_day < 7*16:
     cont_day+=1
     init_day += timedelta(days=1)
     
-pickle.dump(graph, open("/tmp/networks.p", "wb"))
-graph = pickle.load(open("/tmp/networks.p", "rb"))
+pickle.dump(graph, open("/tmp/networks%s.p" % WEEK_DAY, "wb"))
     
     
     
