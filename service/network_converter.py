@@ -9,4 +9,4 @@ import networkx as nx
 
 graph = pickle.load(open("/tmp/networks.p", "rb"))
 
-print(graph)
+print(graph[3].edges())

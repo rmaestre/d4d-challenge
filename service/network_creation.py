@@ -44,7 +44,7 @@ for line in open("../rawdata/ANT_POS.TSV" , 'r'):
 # Data structure to save data per month of day
 graph = {}
 for h in range(0,24):
-    graph[h] = nx.Graph()
+    graph[h] = nx.DiGraph()
     
 # Specific month and day to start the search
 day = 2
