@@ -3,6 +3,12 @@ import shapefile
 from pymongo import *
 from datetime import datetime
 
+"""
+Somos más exigentes en cuanto a lo que consideramos movimiento de commuters.
+Ubicamos todas las antenas de una misma subprefectura en su centroide, ergo transiciones entre antenas de una misma subpref. de distancia nula
+
+
+"""
 
 config = {}
 config['db'] = {}
