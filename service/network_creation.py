@@ -37,7 +37,7 @@ for line in open("../rawdata/ANT_POS.TSV" , 'r'):
     chunks = line.split("\t")
     
     # If line is valid
-    if len(chunks) == 3:
+    if len(chunks) == 7:
         antenna_id = int(chunks[0])
         antennas[antenna_id] = [float(chunks[1]), float(chunks[2])]
 
@@ -58,8 +58,8 @@ cont_day = 0
 while cont_day < 7*16:
     print(init_day)
     
-    # 0=Monday, ...., 7=Sunday
-    WEEK_DAY = 1
+    # 0=Monday, ...., 6=Sunday
+    WEEK_DAY = 0
     if init_day.weekday() != WEEK_DAY:
         print("Jumping day!")
     else:
