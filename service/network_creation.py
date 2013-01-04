@@ -47,9 +47,9 @@ for h in range(0,24):
     graph[h] = nx.DiGraph()
     
 # Specific month and day to start the search
-day = 2
-month = 1
-year = 2012
+day = 1
+month = 12
+year = 2011
 
 init_day = datetime(year, month, day, 0, 0, 0)
 cont_day = 0
