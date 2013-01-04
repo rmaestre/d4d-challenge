@@ -1,0 +1,29 @@
+digraph G{
+	rankdir="LR";
+	
+	a [label = "1"];
+	b [label = "2"];
+	c [label = "3"];
+        d [label = "4"];
+        e [label = "5"];
+        f [label = "6"];
+        g [label = "1"];
+        h [label = "2"];
+        i [label = "3"];
+        j [label = "4"];
+        k [label = "5"];
+
+        a -> b;
+	b -> c;
+	c -> c;
+	c -> d;
+	d -> e;
+	e -> f;
+
+	g -> g;	
+	g -> h;
+	h -> i;
+	i -> j [color="#FFFFFF"];
+	j -> k;
+	j -> j;
+}
