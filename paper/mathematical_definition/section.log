@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.9.15)  4 JAN 2013 14:03
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.9.15)  6 JAN 2013 14:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -589,11 +589,12 @@ I treat `x_1_2' essentially like `x_1{}_2'.
 Missing character: There is no , in font nullfont!
 ! Double subscript.
 l.24 ...$ \vec{T}_0_0 = (p_1,p_2)  $, $ \vec{T}_1_
-                                                  0 = (p_1,p_1,p_2)  $ an so...
+                                                  0 = (p_1,p_1,p_2)  $ and s...
 I treat `x_1_2' essentially like `x_1{}_2'.
 
 Missing character: There is no a in font nullfont!
 Missing character: There is no n in font nullfont!
+Missing character: There is no d in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no o in font nullfont!
@@ -840,7 +841,55 @@ Missing character: There is no f in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no e in font nullfont!
-Missing character: There is no , in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no w in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no w in font nullfont!
+Missing character: There is no : in font nullfont!
 ! Undefined control sequence.
 l.33 $$U(u,t) = \dysplaystyle
                               6373 * \sum_{i=0}^{n-1} D(\vec{T}_u_t^i, \vec{...
@@ -852,25 +901,51 @@ and I'll forget about whatever was undefined.
 
 ! Double subscript.
 l.33 ...style 6373 * \sum_{i=0}^{n-1} D(\vec{T}_u_
-                                                  t^i, \vec{T}_u_t^{i+1},) $$
+                                                  t^i, \vec{T}_u_t^{i+1}) $$
 I treat `x_1_2' essentially like `x_1{}_2'.
 
 ! Double subscript.
 l.33 ...um_{i=0}^{n-1} D(\vec{T}_u_t^i, \vec{T}_u_
-                                                  t^{i+1},) $$
+                                                  t^{i+1}) $$
 I treat `x_1_2' essentially like `x_1{}_2'.
 
 
-Overfull \hbox (148.9977pt too wide) detected at line 33
+Overfull \hbox (144.55328pt too wide) detected at line 33
 \OML/cmm/m/it/10 U\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 u; t\OT1/cmr/m/n/10 ) = 637
 3 \OMS/cmsy/m/n/10 ^^C [] \OML/cmm/m/it/10 D\OT1/cmr/m/n/10 ([][]\OML/cmm/m/it/
-10 ; [][]; \OT1/cmr/m/n/10 )
+10 ; [][]\OT1/cmr/m/n/10 )
  []
 
-Missing character: There is no , in font nullfont!
-Missing character: There is no a in font nullfont!
+Missing character: There is no T in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no o in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no d in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no w in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no h in font nullfont!
 Missing character: There is no e in font nullfont!
@@ -900,57 +975,111 @@ Missing character: There is no i in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no s in font nullfont!
-Missing character: There is no : in font nullfont!
-
-! LaTeX Error: Missing \begin{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.37 $
-      $N(u,t) = \dysplaystyle \sum_{i=0}^{n-1} S(\vec{T}_u_t^i, \vec{T}_u_t^...
-
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Overfull \hbox (20.0pt too wide) in paragraph at lines 37--37
-[] 
- []
-
-! Undefined control sequence.
-l.37 $$N(u,t) = \dysplaystyle
-                              \sum_{i=0}^{n-1} S(\vec{T}_u_t^i, \vec{T}_u_t^...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Double subscript.
-l.37 ...dysplaystyle \sum_{i=0}^{n-1} S(\vec{T}_u_
-                                                  t^i, \vec{T}_u_t^{i+1})$$
-I treat `x_1_2' essentially like `x_1{}_2'.
-
-! Double subscript.
-l.37 ...um_{i=0}^{n-1} S(\vec{T}_u_t^i, \vec{T}_u_
-                                                  t^{i+1})$$
-I treat `x_1_2' essentially like `x_1{}_2'.
-
-
-Overfull \hbox (118.91151pt too wide) detected at line 37
-\OML/cmm/m/it/10 N\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 u; t\OT1/cmr/m/n/10 ) = [] 
-\OML/cmm/m/it/10 S\OT1/cmr/m/n/10 ([][]\OML/cmm/m/it/10 ; [][]\OT1/cmr/m/n/10 )
-
- []
-
-Missing character: There is no w in font nullfont!
-Missing character: There is no h in font nullfont!
-Missing character: There is no e in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
 Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no c in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no , in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no k in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no y in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no y in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no : in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no w in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no : in font nullfont!
 
 ! LaTeX Error: Environment equation* undefined.
 
@@ -958,14 +1087,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.39 \begin{equation*}
+l.37 \begin{equation*}
                       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 ! Undefined control sequence.
-l.40 \text
+l.38 \text
           {S}(p_0, p_1) = \left \{
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -979,13 +1108,13 @@ Missing character: There is no p in font nullfont!
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.40 \text{S}(p_
+l.38 \text{S}(p_
                 0, p_1) = \left \{
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Misplaced alignment tab character &.
-l.42 0 &
+l.40 0 &
          \text{if } D(p_0, p_1) = 0 \\
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -995,7 +1124,7 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 ! Undefined control sequence.
-l.42 0 & \text
+l.40 0 & \text
               {if } D(p_0, p_1) = 0 \\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1004,7 +1133,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Misplaced alignment tab character &.
-l.43 1 &
+l.41 1 &
          \text{if } D(p_0, p_1) > 0 \\
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -1014,7 +1143,7 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 ! Undefined control sequence.
-l.43 1 & \text
+l.41 1 & \text
               {if } D(p_0, p_1) > 0 \\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1029,7 +1158,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.45 \end{equation*}
+l.43 \end{equation*}
                     
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1038,13 +1167,89 @@ or  <return>  to continue without it.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.45 \end{equation*}
+l.43 \end{equation*}
                     
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
 With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
+
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no w in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no : in font nullfont!
+
+Overfull \hbox (32.89233pt too wide) in paragraph at lines 33--45
+[]\OML/cmm/m/it/10 ; p[]\OT1/cmr/m/n/10 ) =
+ []
+
+
+Overfull \hbox (154.66238pt too wide) in paragraph at lines 33--45
+[]$
+ []
+
+! Undefined control sequence.
+l.45 $$N(u,t) = \dysplaystyle
+                              \sum_{i=0}^{n-1} S(\vec{T}_u_t^i, \vec{T}_u_t^...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Double subscript.
+l.45 ...dysplaystyle \sum_{i=0}^{n-1} S(\vec{T}_u_
+                                                  t^i, \vec{T}_u_t^{i+1})$$
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+! Double subscript.
+l.45 ...um_{i=0}^{n-1} S(\vec{T}_u_t^i, \vec{T}_u_
+                                                  t^{i+1})$$
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+
+Overfull \hbox (118.91151pt too wide) detected at line 45
+\OML/cmm/m/it/10 N\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 u; t\OT1/cmr/m/n/10 ) = [] 
+\OML/cmm/m/it/10 S\OT1/cmr/m/n/10 ([][]\OML/cmm/m/it/10 ; [][]\OT1/cmr/m/n/10 )
+
+ []
 
 )
 ! Emergency stop.

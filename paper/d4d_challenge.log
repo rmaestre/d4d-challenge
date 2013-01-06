@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.9.15)  4 JAN 2013 14:12
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.9.15)  6 JAN 2013 18:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -711,12 +711,12 @@ Try to go on, since this might almost work.
 \openout2 = `introduction/section.aux'.
 
 
-(./introduction/section.tex
-Underfull \hbox (badness 10000) in paragraph at lines 4--8
+(./introduction/section.tex)
+Underfull \hbox (badness 10000) in paragraph at lines 4--62
 
  []
 
-) [2
+[2
 
 ]
 \openout2 = `mathematical_definition/section.aux'.
@@ -742,7 +742,7 @@ I treat `x_1_2' essentially like `x_1{}_2'.
 
 ! Double subscript.
 l.24 ...$ \vec{T}_0_0 = (p_1,p_2)  $, $ \vec{T}_1_
-                                                  0 = (p_1,p_1,p_2)  $ an so...
+                                                  0 = (p_1,p_1,p_2)  $ and s...
 I treat `x_1_2' essentially like `x_1{}_2'.
 
 ! Double subscript.
@@ -766,12 +766,12 @@ and I'll forget about whatever was undefined.
 
 ! Double subscript.
 l.33 ...style 6373 * \sum_{i=0}^{n-1} D(\vec{T}_u_
-                                                  t^i, \vec{T}_u_t^{i+1},) $$
+                                                  t^i, \vec{T}_u_t^{i+1}) $$
 I treat `x_1_2' essentially like `x_1{}_2'.
 
 ! Double subscript.
 l.33 ...um_{i=0}^{n-1} D(\vec{T}_u_t^i, \vec{T}_u_
-                                                  t^{i+1},) $$
+                                                  t^{i+1}) $$
 I treat `x_1_2' essentially like `x_1{}_2'.
 
 
@@ -849,7 +849,7 @@ Here is how much of TeX's memory you used:
  11047 multiletter control sequences out of 15000+200000
  22252 words of font info for 61 fonts, out of 3000000 for 9000
  831 hyphenation exceptions out of 8191
- 37i,13n,39p,755b,321s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 37i,13n,39p,535b,321s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/local/texlive/2011/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
 </usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
 /usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></
@@ -873,7 +873,7 @@ mf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/local/texlive/2011/texmf
 -dist/fonts/type1/public/cm-super/sfrm2074.pfb></usr/local/texlive/2011/texmf-d
 ist/fonts/type1/public/cm-super/sfti1095.pfb></usr/local/texlive/2011/texmf-dis
 t/fonts/type1/public/cm-super/sftt1095.pfb>
-Output written on d4d_challenge.pdf (7 pages, 328742 bytes).
+Output written on d4d_challenge.pdf (7 pages, 329346 bytes).
 PDF statistics:
  187 PDF objects out of 1000 (max. 8388607)
  148 compressed objects within 2 object streams
