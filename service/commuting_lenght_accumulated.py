@@ -12,8 +12,10 @@ from test.datetimetester import DAY
     Assumptions:
     a) -1 antennas are not taken into account for the distance calculation, buy they're for calls
     b) No problem for appending each 50.000 users group every 15 days, since the it's very unlikely to have the same ID for 2 customers,
-    when the 15-days period (TSV) change and at the same hour --> check max_distance_for_a_single_transition
-    c) 
+    when the 15-days period (TSV) change and at the same hour --> check max_distance_for_a_single_transition keeps the same value
+    c) TODO Filtering for latitude or chosing only antennas from main urban regions
+    d) TODO sort() ??
+    e) Distance is very complicated to be measured... and there is a huge dispersion
     
     
 """
@@ -36,7 +38,11 @@ def __get_collection(config):
     collection = db[config['db']['collection']]
     return collection
     
+f_out = open("tmp/distances_for_single_transtion.tsv", "w")
+f_out.write("dist_i\n")
     
+
+
 def distance_on_unit_sphere(x,y):
     """ http://www.johndcook.com/python_longitude_latitude.html """
 
@@ -102,7 +108,9 @@ for w in range(0,7):
 #        data[w][h]["acum"] = []
         data[w][h]["distances"] = []
         data[w][h]["transitions"] = []
+        data[w][h]["stays"] = []
         data[w][h]["calls"] = []
+        data[w][h]["located_edges"] = []
         data[w][h]["users"] = []
         data[w][h]["dynamic_users"] = []
         data[w][h]["static_users"] = []
@@ -121,7 +129,9 @@ while day_cont < 150: # Perform analysis for each day
             # Create user traces              
             users = {}
             for trace in __get_collection(config).find({'date': {'$gte': start, '$lt':end}}).sort([('date', 1)]):
-                print(trace["date"])
+#                if antennas[trace["antennaid"]][1] > 8:
+#                    continue
+
                 if trace["userid"] not in users:
                     users[trace["userid"]] = []
     #            if trace["antennaid"] != -1: # -1 traces ignored
@@ -129,7 +139,6 @@ while day_cont < 150: # Perform analysis for each day
                 users[trace["userid"]].append(trace["antennaid"])
                     
             # Calculate max length and user distance
-            located_antennas_amount = 0
             users_amount = len(users)
             dynamic_users_cont = 0 # only those ones who really change their location during this hour
             static_users_cont = 0
@@ -139,7 +148,9 @@ while day_cont < 150: # Perform analysis for each day
                 users_final[user] = {}
     #            users_final[user]["trace_points"] = []
                 calls = len(users[user]) # amount of calls for this customer and this hour
+                located_edges = 0
                 transitions = 0
+                stays = 0
                 i = 0
                 dist = 0
                 while i < calls - 1: # since each iteration is for i and i+1
@@ -148,15 +159,20 @@ while day_cont < 150: # Perform analysis for each day
                         dist_i = distance_on_unit_sphere(antennas[users[user][i]], antennas[users[user][i+1]]) 
                         dist += dist_i
                         if dist_i > 0:
+                            f_out.write("%s\n" % dist_i);
                             transitions += 1 # minimum level for customers with -1 antennas
+                        else:
+                            stays += 1
                         if dist_i > max_distance_for_a_single_transition:
-                            print(antennas[users[user][i]], antennas[users[user][i+1]])
+#                            print ("hour: %d, antennas: %s - %s" % (h, antennas[users[user][i]], antennas[users[user][i+1]]))
                             max_distance_for_a_single_transition = dist_i
-                        located_antennas_amount += 1
+                        located_edges += 1
                     i += 1
                 users_final[user]["distance"] = dist
                 users_final[user]["transitions"] = transitions
+                users_final[user]["stays"] = stays
                 users_final[user]["calls"] = calls
+                users_final[user]["located_edges"] = located_edges
                 if dist > 0:
                     dynamic_users_cont += 1
                 else:
@@ -164,19 +180,26 @@ while day_cont < 150: # Perform analysis for each day
             # 'total_xxx' for all customers in this hour
             total_dist = 0 
             total_transitions = 0
+            total_stays = 0
             total_calls = 0
+            total_located_edges = 0
             for user in users_final:
                 total_dist += users_final[user]["distance"]
                 total_transitions += users_final[user]["transitions"]
+                total_stays += users_final[user]["stays"]
                 total_calls += users_final[user]["calls"]
+                total_located_edges += users_final[user]["located_edges"]
             try:
     #            print("%s\t%s\t%s" % (h, current_ci, dynamic_users_cont))
-                data[init_day.weekday()][h]["distances"].append(total_dist)
-                data[init_day.weekday()][h]["transitions"].append(total_transitions)
-                data[init_day.weekday()][h]["calls"].append(total_calls)
-                data[init_day.weekday()][h]["users"].append(users_amount)
-                data[init_day.weekday()][h]["dynamic_users"].append(dynamic_users_cont)
-                data[init_day.weekday()][h]["static_users"].append(static_users_cont)
+                if total_calls != 0: # 100h missing
+                    data[init_day.weekday()][h]["distances"].append(total_dist)
+                    data[init_day.weekday()][h]["transitions"].append(total_transitions)
+                    data[init_day.weekday()][h]["stays"].append(total_stays)
+                    data[init_day.weekday()][h]["calls"].append(total_calls)
+                    data[init_day.weekday()][h]["located_edges"].append(total_located_edges)
+                    data[init_day.weekday()][h]["users"].append(users_amount)
+                    data[init_day.weekday()][h]["dynamic_users"].append(dynamic_users_cont)
+                    data[init_day.weekday()][h]["static_users"].append(static_users_cont)
             except Exception as e:
                 print(">>>>>>>>>>>>>>>>>> ERROR%s\t%s\t%s" % (h, 0, 0))
                 print(e)   
