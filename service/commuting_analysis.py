@@ -81,6 +81,16 @@ for week_day in ['Monday']: #, 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Sa
 #            static_users = [i for i in static_users if i != 0]
         mean_static_users = sum(static_users)/len(static_users)
 
+
+        # Median calculation
+        # Sort values
+        distances_flatten = [i for i in distances if i != 0]
+        distances_flatten.sort()
+        # Get index to get median
+        n = round((len(distances_flatten)+1) / 2)
+        median_dynamic_users = distances_flatten[n]
+        
+        
         # NORMALIZED MAGNITUDES
 #        ratio_distances_dynamic_users = []
 #        i = 0
@@ -139,7 +149,6 @@ for week_day in ['Monday']: #, 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Sa
         f_out.write("%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s" % (mean_distances, mean_transitions, mean_stays, mean_calls, mean_located_edges, mean_users, mean_dynamic_users, mean_static_users, mean_ratio_distances_dynamic_users, mean_ratio_dynamic_users_users, mean_ratio_static_users_users, mean_ratio_transitions_located_antennas, mean_ratio_stays_located_antennas))
         f_out.write("\n")
     f_out.close()        
-        
         
         
         

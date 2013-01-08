@@ -210,5 +210,5 @@ while day_cont < 150: # Perform analysis for each day
     init_day += timedelta(days=1)
 #    pickle.dump( data, open( "tmp/save%s.p" % day_cont, "wb" ) ) # partial backup
 
-pickle.dump( data, open( "tmp/dataset2_matrix.pyc", "wb" ) )
+pickle.dump( data, open( "/tmp/dataset2_matrix.tsv", "wb" ) )
 print ("max_distance_for_a_single_transition: %s" % max_distance_for_a_single_transition)
