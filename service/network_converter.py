@@ -28,7 +28,7 @@ for line in open("../rawdata/ANT_POS.TSV" , 'r'):
         antennas[antenna_id] = [float(chunks[1]), float(chunks[2])]
         
         
-graph = pickle.load(open("/tmp/networks1.p", "rb"))
+graph = pickle.load(open("/tmp/networks0.p", "rb"))
 
 """
 # Print header info
@@ -39,18 +39,20 @@ for hour in range(0,24):
 """
 
 for hour in range(0,24):
+    
+    weights = {}
     for edge in graph[hour].edges():
+        if edge[1] not in weights:
+            weights[edge[1]] = 0
         weights[edge[1]] += graph[hour][edge[0]][edge[1]]["weight"]
-
-for hour in range(0,24):
-    fd_out = open("/tmp/hour_%s.tsv" % hour, "w")
+        
+    fd_out = open("/tmp/L_hour_%s.tsv" % hour, "w")
     fd_out.write("antenna_lon\tantenna_lat\tweight\n")
     for antenna in weights:
         if weights[antenna] > 0:
-            fd_out.write("%s\t%s\t%s\n" % (antennas[antenna][0], antennas[antenna][1], weights[antenna]))
+            fd_out.write("%s\t%s\t%s\n" % (antennas[antenna][0], antennas[antenna][1], math.log(weights[antenna], 2)))
     fd_out.close()
-    
-    
+
     
     
     

@@ -128,9 +128,10 @@ while day_cont < 150: # Perform analysis for each day
             end =   datetime(init_day.year, init_day.month, init_day.day, h, 59, 59)
             # Create user traces              
             users = {}
-            for trace in __get_collection(config).find({'date': {'$gte': start, '$lt':end}}): #.sort([('date', 1)])
+            for trace in __get_collection(config).find({'date': {'$gte': start, '$lt':end}}).sort([('date', 1)]):
 #                if antennas[trace["antennaid"]][1] > 8:
 #                    continue
+
                 if trace["userid"] not in users:
                     users[trace["userid"]] = []
     #            if trace["antennaid"] != -1: # -1 traces ignored
