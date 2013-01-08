@@ -40,7 +40,7 @@ data = pickle.load(open( "tmp/dataset2_matrix.pyc", "rb" ) )
 for week_day in ['Monday']: #, 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'
     filename = "tmp/dataset2_matrix_%s.tsv" % week_day
     f_out = open(filename, "w")
-    f_out.write("HOURS\tDISTANCES\tTRANSITIONS\tCALLS\tUSERS\tDYNAMIC_USERS\tSTATIC_USERS\tRATIO_DISTANCE2DYNAMIC_USERS\n")
+    f_out.write("HOURS\tDISTANCES\tTRANSITIONS\tSTAYS\tCALLS\tLOCATED_EDGES\tUSERS\tDYNAMIC_USERS\tSTATIC_USERS\tRATIO_DISTANCE2DYNAMIC_USERS\tRATIO_DYNAMIC_USERS2USERS\tRATIO_STATIC_USERS2USERS\tRATIO_TRANSITIONS2LOCATED_ANTENNAS\tRATIO_STAYS2LOCATED_ANTENNAS\n")
     
     # 0 = Monday ... 6 = Sunday
     week_day_id = get_week_day_id(week_day)
@@ -57,10 +57,18 @@ for week_day in ['Monday']: #, 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Sa
 #            transitions = [i for i in transitions if i != 0]
         mean_transitions = sum(transitions)/len(transitions)
         
+        stays = data[week_day_id][hour]["stays"]
+#            stays = [i for i in stays if i != 0]
+        mean_stays = sum(stays)/len(stays)
+        
         calls = data[week_day_id][hour]["calls"]
 #            calls = [i for i in calls if i != 0]
         mean_calls = sum(calls)/len(calls)
     
+        located_edges = data[week_day_id][hour]["located_edges"]
+#            located_edges = [i for i in located_edges if i != 0]
+        mean_located_edges = sum(located_edges)/len(located_edges)
+        
         users = data[week_day_id][hour]["users"]
 #            users = [i for i in users if i != 0]
         mean_users = sum(users)/len(users)
@@ -74,13 +82,49 @@ for week_day in ['Monday']: #, 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Sa
         mean_static_users = sum(static_users)/len(static_users)
 
         # NORMALIZED MAGNITUDES
-        ratio_distances_dynamic_users = []
-        i = 0
-        while i < len(distances):
-            if dynamic_users[i] != 0:
-                ratio_distances_dynamic_users.append(distances[i]/dynamic_users[i])
-            i += 1
-        mean_ratio_distances_dynamic_users = sum(ratio_distances_dynamic_users)/len(ratio_distances_dynamic_users)
+#        ratio_distances_dynamic_users = []
+#        i = 0
+#        while i < len(distances):
+#            if dynamic_users[i] != 0:
+#                ratio_distances_dynamic_users.append(distances[i]/dynamic_users[i])
+#            else:
+#                ratio_distances_dynamic_users.append(0)
+#                print("At %d dynamic user for %d Monday is zero" % (hour, dynamic_users[i]))
+#            i += 1
+#        mean_ratio_distances_dynamic_users = sum(ratio_distances_dynamic_users)/len(ratio_distances_dynamic_users)
+        mean_ratio_distances_dynamic_users = mean_distances/mean_dynamic_users
+        
+#        ratio_dynamic_users_users = []
+#        i = 0
+#        while i < len(dynamic_users):
+#            if users[i] != 0:
+#                ratio_dynamic_users_users.append(dynamic_users[i]/users[i])
+#            else:
+#                ratio_dynamic_users_users.append(0)
+#                print("At %d user for %d Monday is zero" % (hour, users[i]))
+#            i += 1
+#        mean_ratio_dynamic_users_users = sum(ratio_dynamic_users_users)/len(ratio_dynamic_users_users)
+        mean_ratio_dynamic_users_users = mean_dynamic_users/mean_users
+ 
+#       ratio_static_users_users = []
+#        i = 0
+#        while i < len(static_users):
+#            if users[i] != 0:
+#                ratio_static_users_users.append(static_users[i]/users[i])
+#            else:
+#                ratio_static_users_users.append(0)
+#                print("At %d user for %d Monday is zero" % (hour,users[i]))
+#            i += 1
+#        mean_ratio_static_users_users = sum(ratio_static_users_users)/len(ratio_static_users_users)
+        mean_ratio_static_users_users = mean_static_users/mean_users
+        
+#        ratio_transitions_located_antennas = []
+        mean_ratio_transitions_located_antennas = mean_transitions/mean_located_edges
+
+#        ratio_stays_located_antennas = []
+        mean_ratio_stays_located_antennas = mean_stays/mean_located_edges
+
+        
         
         
 #        # deviation
@@ -92,7 +136,7 @@ for week_day in ['Monday']: #, 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Sa
 #             i += 1
 #        deviation = math.sqrt(acum * (1/(n-1)))
         
-        f_out.write("%s\t%s\t%s\t%s\t%s\t%s\t%s" % (mean_distances, mean_transitions, mean_calls, mean_users, mean_dynamic_users, mean_static_users, mean_ratio_distances_dynamic_users))
+        f_out.write("%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s" % (mean_distances, mean_transitions, mean_stays, mean_calls, mean_located_edges, mean_users, mean_dynamic_users, mean_static_users, mean_ratio_distances_dynamic_users, mean_ratio_dynamic_users_users, mean_ratio_static_users_users, mean_ratio_transitions_located_antennas, mean_ratio_stays_located_antennas))
         f_out.write("\n")
     f_out.close()        
         
