@@ -38,7 +38,7 @@ def __get_collection(config):
     collection = db[config['db']['collection']]
     return collection
     
-f_out = open("tmp/distances_for_single_transtion.tsv", "w")
+f_out = open("/tmp/distances_for_single_transtion.tsv", "w")
 f_out.write("dist_i\n")
     
 

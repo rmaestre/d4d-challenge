@@ -35,12 +35,12 @@ def get_week_day_id(week_day):
         return 6
 
 
-data = pickle.load(open( "tmp/dataset2_matrix.pyc", "rb" ) )
+data = pickle.load(open( "/tmp/dataset2_matrix.tsv", "rb" ) )
 
 for week_day in ['Monday']: #, 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'
-    filename = "tmp/dataset2_matrix_%s.tsv" % week_day
+    filename = "/tmp/dataset2_matrix_%s.tsv" % week_day
     f_out = open(filename, "w")
-    f_out.write("HOURS\tDISTANCES\tTRANSITIONS\tSTAYS\tCALLS\tLOCATED_EDGES\tUSERS\tDYNAMIC_USERS\tSTATIC_USERS\tRATIO_DISTANCE2DYNAMIC_USERS\tRATIO_DYNAMIC_USERS2USERS\tRATIO_STATIC_USERS2USERS\tRATIO_TRANSITIONS2LOCATED_ANTENNAS\tRATIO_STAYS2LOCATED_ANTENNAS\n")
+    f_out.write("HOURS\tDISTANCES\tMEDIAN_DISTANCES\tTRANSITIONS\tSTAYS\tCALLS\tLOCATED_EDGES\tUSERS\tDYNAMIC_USERS\tSTATIC_USERS\tRATIO_DISTANCE2DYNAMIC_USERS\tRATIO_MEDIAN_DISTANCE2DYNAMIC_USERS\tRATIO_DYNAMIC_USERS2USERS\tRATIO_STATIC_USERS2USERS\tRATIO_TRANSITIONS2LOCATED_ANTENNAS\tRATIO_STAYS2LOCATED_ANTENNAS\n")
     
     # 0 = Monday ... 6 = Sunday
     week_day_id = get_week_day_id(week_day)
@@ -84,12 +84,15 @@ for week_day in ['Monday']: #, 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Sa
 
         # Median calculation
         # Sort values
+        distances = data[week_day_id][hour]["distances"]
         distances_flatten = [i for i in distances if i != 0]
         distances_flatten.sort()
         # Get index to get median
         n = round((len(distances_flatten)+1) / 2)
-        median_dynamic_users = distances_flatten[n]
+        median_distances = distances_flatten[n]
         
+        # Normalized distance from dynamic users
+        median_ratio_distances_dynamic_users = median_distances/mean_dynamic_users
         
         # NORMALIZED MAGNITUDES
 #        ratio_distances_dynamic_users = []
@@ -146,7 +149,12 @@ for week_day in ['Monday']: #, 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Sa
 #             i += 1
 #        deviation = math.sqrt(acum * (1/(n-1)))
         
-        f_out.write("%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s" % (mean_distances, mean_transitions, mean_stays, mean_calls, mean_located_edges, mean_users, mean_dynamic_users, mean_static_users, mean_ratio_distances_dynamic_users, mean_ratio_dynamic_users_users, mean_ratio_static_users_users, mean_ratio_transitions_located_antennas, mean_ratio_stays_located_antennas))
+        f_out.write("%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s" % 
+                                        (mean_distances, median_distances, mean_transitions, mean_stays, mean_calls, 
+                                        mean_located_edges, mean_users, mean_dynamic_users, mean_static_users, 
+                                        mean_ratio_distances_dynamic_users, median_ratio_distances_dynamic_users, 
+                                        mean_ratio_dynamic_users_users, mean_ratio_static_users_users, 
+                                        mean_ratio_transitions_located_antennas, mean_ratio_stays_located_antennas))
         f_out.write("\n")
     f_out.close()        
         
