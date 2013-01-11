@@ -30,9 +30,11 @@ def main():
     m.append_style('My Style',s)
 
     # World Map Layer
-    m.layers.append(create_layer('world','resources/ne_110m_admin_0_countries.shp','My Style'))
+    layer = create_layer('world','resources/ne_110m_admin_0_countries.shp','My Style')
+    m.layers.append(layer)
     # Ivory Coast Layer
-    m.layers.append(create_layer('points','resources/antennas.shp','My Style'))
+    layer2 = create_layer('points','resources/antennas.shp','My Style')
+    m.layers.append(layer2)
 
     # Zoom to layer 2 boundaries
     m.zoom_to_box(layer2.envelope())
@@ -42,10 +44,10 @@ def main():
 def create_layer(name, sourcefile, style):
     ds = mapnik.Shapefile(file=sourcefile)
     layer = mapnik.Layer(name)
-    layer.datasource = ds2
+    layer.datasource = ds
     layer.styles.append(style)
     return layer
 
 
-if name == '__main__':
+if __name__ == '__main__':
     main()
