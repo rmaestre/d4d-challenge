@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Map[]>
+<Map srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over" background-color="#b8dee6" maximum-extent="-20037508.34,-20037508.34,20037508.34,20037508.34">
+
+<Parameters>
+  <Parameter name="bounds">-8.9758,3.8862,-1.9885,11.0814</Parameter>
+  <Parameter name="center">-5.5591,7.5912,7</Parameter>
+  <Parameter name="format">png</Parameter>
+  <Parameter name="minzoom">6</Parameter>
+  <Parameter name="maxzoom">11</Parameter>
+  <Parameter name="name"><![CDATA[Ivory Coast]]></Parameter>
+  <Parameter name="description"><![CDATA[D4d Map]]></Parameter>
+</Parameters>
+
+
+<Style name="countries" filter-mode="first" >
+  <Rule>
+    <PolygonSymbolizer fill="#ffffff" />
+  </Rule>
+</Style>
+<Style name="countries-outline" filter-mode="first" >
+  <Rule>
+    <LineSymbolizer stroke="#1f2da4" stroke-width="2" stroke-linejoin="round" />
+  </Rule>
+</Style>
+<Layer name="countries"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>countries-outline</StyleName>
+    <StyleName>countries</StyleName>
+    <Datasource>
+       <Parameter name="file"><![CDATA[/home/desa/d4d-challenge/visualizations/map_service/resources/countries/82945364-10m-admin-0-countries.shp]]></Parameter>
+       <Parameter name="type"><![CDATA[shape]]></Parameter>
+    </Datasource>
+  </Layer>
+
+<Style name="boundaries-shape" filter-mode="first" >
+  <Rule>
+    <PolygonSymbolizer fill="#a9cfee" />
+  </Rule>
+</Style>
+<Style name="boundaries" filter-mode="first" >
+  <Rule>
+    <LineSymbolizer stroke="#1f2da4" stroke-width="1" stroke-linejoin="round" />
+  </Rule>
+</Style>
+<Layer name="boundaries"
+  srs="+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs">
+    <StyleName>boundaries</StyleName>
+    <StyleName>boundaries-shape</StyleName>
+    <Datasource>
+       <Parameter name="file"><![CDATA[/home/desa/d4d-challenge/visualizations/map_service/resources/boundaries/CDIadminSHP.shp]]></Parameter>
+       <Parameter name="id"><![CDATA[boundaries]]></Parameter>
+       <Parameter name="project"><![CDATA[D4DMAP]]></Parameter>
+       <Parameter name="srs"><![CDATA[+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs]]></Parameter>
+       <Parameter name="type"><![CDATA[shape]]></Parameter>
+    </Datasource>
+  </Layer>
+
+<Style name="antennas" filter-mode="first" >
+  <Rule>
+    <MaxScaleDenominator>1500000</MaxScaleDenominator>
+    <PointSymbolizer allow-overlap="true" placement="centroid" file="/home/desa/d4d-challenge/visualizations/map_service/resources/img/mobilephonetower.png" />
+  </Rule>
+  <Rule>
+    <MinScaleDenominator>3000000</MinScaleDenominator>
+    <PointSymbolizer allow-overlap="false" placement="centroid" file="/home/desa/d4d-challenge/visualizations/map_service/resources/img/mobilephonetower.png" />
+  </Rule>
+</Style>
+<Layer name="antennas"
+  srs="+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs">
+    <StyleName>antennas</StyleName>
+    <Datasource>
+       <Parameter name="file"><![CDATA[/home/desa/d4d-challenge/visualizations/map_service/resources/antennas/Archive.shp]]></Parameter>
+       <Parameter name="type"><![CDATA[shape]]></Parameter>
+    </Datasource>
+  </Layer>
+
+</Map>
