@@ -1,48 +1,51 @@
 This is BibTeX, Version 0.99d (TeX Live 2011)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: d4d_challenge.aux
-A level-1 auxiliary file: section1.aux
-A level-1 auxiliary file: conclusions.aux
+A level-1 auxiliary file: introduction/section.aux
+A level-1 auxiliary file: mathematical_definition/section.aux
+A level-1 auxiliary file: results/section.aux
+A level-1 auxiliary file: visualizations/section.aux
+A level-1 auxiliary file: conclusions/section.aux
 The style file: plainnat.bst
 Database file #1: biblio.bib
-You've used 2 entries,
+You've used 4 entries,
             2773 wiz_defined-function locations,
-            604 strings with 5191 characters,
-and the built_in function-call counts, 645 in all, are:
-= -- 56
-> -- 20
-< -- 2
-+ -- 8
-- -- 6
-* -- 32
-:= -- 104
-add.period$ -- 8
-call.type$ -- 2
-change.case$ -- 8
-chr.to.int$ -- 2
-cite$ -- 4
-duplicate$ -- 30
-empty$ -- 65
-format.name$ -- 8
-if$ -- 133
+            620 strings with 5911 characters,
+and the built_in function-call counts, 1821 in all, are:
+= -- 164
+> -- 107
+< -- 4
++ -- 37
+- -- 33
+* -- 119
+:= -- 279
+add.period$ -- 17
+call.type$ -- 4
+change.case$ -- 23
+chr.to.int$ -- 4
+cite$ -- 8
+duplicate$ -- 81
+empty$ -- 138
+format.name$ -- 39
+if$ -- 389
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 0
-newline$ -- 20
-num.names$ -- 8
-pop$ -- 24
+missing$ -- 1
+newline$ -- 33
+num.names$ -- 16
+pop$ -- 56
 preamble$ -- 1
-purify$ -- 6
+purify$ -- 19
 quote$ -- 0
-skip$ -- 27
+skip$ -- 82
 stack$ -- 0
-substring$ -- 4
-swap$ -- 2
-text.length$ -- 0
+substring$ -- 22
+swap$ -- 19
+text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 22
+type$ -- 44
 warning$ -- 0
-while$ -- 6
+while$ -- 13
 width$ -- 0
-write$ -- 35
+write$ -- 66
