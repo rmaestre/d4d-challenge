@@ -129,6 +129,7 @@ while day_cont < 150: # Perform analysis for each day
             # Create user traces              
             users = {}
             for trace in __get_collection(config).find({'date': {'$gte': start, '$lt':end}}).sort([('date', 1)]):
+                print(trace["date"])
 #                if antennas[trace["antennaid"]][1] > 8:
 #                    continue
 
