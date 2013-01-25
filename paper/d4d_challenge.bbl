@@ -1,0 +1,40 @@
+\begin{thebibliography}{4}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Cook(2012)]{distance}
+John~D. Cook.
+\newblock Computing the distance between two locations on earth from
+  coordinates, 2012.
+\newblock URL \url{http://www.johndcook.com/python_longitude_latitude.html}.
+\newblock [Online; accessed 4-January-2013].
+
+\bibitem[Marin et~al.(2012)Marin, Gonzalez, Maestre, Gonzalez, Martinez, Abad,
+  and Menezes]{labselecciones}
+Oscar Marin, Alejandro Gonzalez, Roberto Maestre, Julio Gonzalez, Marco
+  Martinez, Ruben Abad, and Leonardo Menezes.
+\newblock 15th october on twitter global revolution mapped, 2012.
+\newblock URL
+  \url{http://labs.paradigmatecnologico.com/2011/12/19/15th-october-on-twitter-global-revolution-mapped/}.
+\newblock [Online; accessed 23-January-2013].
+
+\bibitem[Solana and Alonso(2012)]{dyncoopnet2012}
+Ana Solana and David Alonso.
+\newblock Self-organizing networks and gis tools cases of use for the study of
+  trading cooperation (1400-1800).
+\newblock \emph{Journal of Knowledge Management, Economics and Information
+  Technology}, page pp. 402, 2012.
+\newblock ISSN 2069-5934.
+\newblock URL \url{http://www.scientificpapers.org/special-issue-june-2012/}.
+
+\bibitem[Wikipedia(2012)]{wiki:commuting}
+Wikipedia.
+\newblock Commuting --- wikipedia{,} the free encyclopedia, 2012.
+\newblock URL
+  \url{http://en.wikipedia.org/w/index.php?title=Commuting&oldid=525136196}.
+\newblock [Online; accessed 4-January-2013].
+
+\end{thebibliography}

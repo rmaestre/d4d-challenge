@@ -11,6 +11,7 @@
 \usepackage{subfigure}
 \usepackage{verbatim}
 \usepackage{hyperref}
+\usepackage{dsfont}
 
 \bibpunct{(}{)}{;}{a}{,}{,}
 
@@ -33,41 +34,44 @@
 				R. Abad \footnote{rabad@paradigmatecnologico.com}, 
 				A. Martín\footnote{amartin@paradigmatecnologico.com}, 
 				J. Gonzalez \footnote{jgonzalez@paradigmatecnologico.com}
-				F.J. Alba \footnote{fjalba@paradigmatecnologico.com}, \\
 				I. del Bosque \footnote{idelbosque@cchs.csic.es}, 
 				E. Perez \footnote{eperez@cchs.csic.es}
 				}\\ \\
-{\small MsC. Artificial Intelligence Research \\Technical University of Madrid}}
+{\small Paradigma Labs Research Group\\ Paradigma Tecnológico} \\ \\
+{\small Geographic Information Systems Unit \\ Spanish National Research Council}}
 
-\date{}
+\date{4-Jan-2013}
 \maketitle
 
 \begin{abstract} 
-Our idea is to use the geolocation data from the antennas processing the mobile phones calls in order to know which sub-prefectures the customers have been getting around.
+Our idea is to use the geolocation data from the antennas processing the mobile phones calls in order to know which sub-prefectures the customers have been getting around. The main goal of our project is developing spatio-temporal models to detect commuting patterns for the different sub-prefectures, including some other factors related to the region and/or time: wealth, development, infrastructure, investment, grants…
 
-The main goal of our project is developing spatio-temporal models to detect commuting patterns for the different sub-prefectures, including some other factors related to the region and/or time: wealth, development, infrastructure, investment, grants…
-
-By means of GIS technology, we will be able to apply our generated models to the gathered data and to analyze their correlations over the Côte d’Ivoire surface, working with geographical layers: landcover, roads map, railways lines, water sources… Consequently, the reached conclusions from our study will be properly visualized, allowing a better explanation of the facts.
-
-With a bigger amount of data gathered for a longer period, more interesting and accurate trends could be discovered, allowing us to calculate associated coefficients.
+By means of GIS technology, we will be able to apply our generated models to the gathered data and to analyze their correlations over the Côte d’Ivoire surface, working with geographical layers: landcover, roads map, railways lines, water sources… Consequently, the reached conclusions from our study will be properly visualized, allowing a better explanation of the facts. With a bigger amount of data gathered for a longer period, more interesting and accurate trends could be discovered, allowing us to calculate associated coefficients.
 
 Our analysis models will provide coherent data to support a correct urban design and will mean a monitoring tool for development, specially related to population dynamics.
-
 In the near future, some other measures could be included. For instance, hospitals and police stations locations, their calls rate… Thus, we could know its real use, being able to improve their service to the citizens: dangerous areas, crowded hospitals…
 \end{abstract}
 
 \newpage
 \setcounter{secnumdepth}{0}
-\section{Introduction}
-
-Bla bla
 
 
-\include{section1}
-%\include{section2}
-\include{conclusions}
+
+\include{introduction/section}
+
+\include{mathematical_definition/section}
+
+\include{results/section}
+
+\include{visualizations/section}
+
+\include{conclusions/section}
 
 
+
+\newpage
+\bibliographystyle{plainnat}
+\bibliography{biblio}
 
 \end{document}
 
