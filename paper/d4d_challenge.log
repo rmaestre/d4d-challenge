@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.9.15)  24 JAN 2013 12:08
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.9.15)  26 JAN 2013 21:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -585,6 +585,69 @@ LaTeX Warning: Label `sub@fig:subfig11' multiply defined.
 
 LaTeX Warning: Label `fig:fig1' multiply defined.
 
+
+LaTeX Warning: Label `fig:subfig11' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:subfig11' multiply defined.
+
+
+LaTeX Warning: Label `fig:fig1' multiply defined.
+
+
+LaTeX Warning: Label `fig:subfig11' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:subfig11' multiply defined.
+
+
+LaTeX Warning: Label `fig:fig1' multiply defined.
+
+
+LaTeX Warning: Label `fig:subfig11' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:subfig11' multiply defined.
+
+
+LaTeX Warning: Label `fig:fig1' multiply defined.
+
+
+LaTeX Warning: Label `fig:subfig11' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:subfig11' multiply defined.
+
+
+LaTeX Warning: Label `fig:fig1' multiply defined.
+
+
+LaTeX Warning: Label `fig:subfig11' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:subfig11' multiply defined.
+
+
+LaTeX Warning: Label `fig:fig1' multiply defined.
+
+
+LaTeX Warning: Label `fig:subfig11' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:subfig11' multiply defined.
+
+
+LaTeX Warning: Label `fig:fig1' multiply defined.
+
+
+LaTeX Warning: Label `fig:subfig11' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:subfig11' multiply defined.
+
+
+LaTeX Warning: Label `fig:fig1' multiply defined.
+
 ) (./visualizations/section.aux) (./conclusions/section.aux))
 \openout1 = `d4d_challenge.aux'.
 
@@ -678,29 +741,6 @@ I've put in what seems to be necessary to fix
 the current column of the current alignment.
 Try to go on, since this might almost work.
 
-! Missing } inserted.
-<inserted text> 
-                }
-l.45 
-     
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-! Missing { inserted.
-<inserted text> 
-                {
-l.45 
-     
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-
-Overfull \hbox (12.0583pt too wide) in paragraph at lines 45--45
- [][] 
- []
-
 [1
 
 {/usr/local/texlive/2011/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
@@ -722,13 +762,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--60
 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--60
+
+ []
+
 [2
 
 ]
 \openout2 = `mathematical_definition/section.aux'.
 
  (./mathematical_definition/section.tex
-<mathematical_definition/images/dynamic_users.pdf, id=53, 895.11305pt x 343.885
+<mathematical_definition/images/dynamic_users.pdf, id=59, 895.11305pt x 343.885
 24pt>
 File: mathematical_definition/images/dynamic_users.pdf Graphic file (type pdf)
  <use mathematical_definition/images/dynamic_users.pdf>
@@ -812,60 +857,171 @@ I treat `x_1_2' essentially like `x_1{}_2'.
 
 
 (./results/section.tex
-<results/images/calls_number.pdf, id=88, 505.89pt x 505.89pt>
+<results/images/calls_number.pdf, id=94, 505.89pt x 505.89pt>
 File: results/images/calls_number.pdf Graphic file (type pdf)
 
 <use results/images/calls_number.pdf>
 Package pdftex.def Info: results/images/calls_number.pdf used on input line 11.
 
-(pdftex.def)             Requested size: 202.3524pt x 202.3524pt.
+(pdftex.def)             Requested size: 252.94437pt x 252.94437pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 15--20
+Underfull \hbox (badness 10000) in paragraph at lines 15--26
 
  []
 
-) [4
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--26
+
+ []
 
 
- <./results/images/calls_number.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 15--26
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--26
+
+ []
+
+[4
+
+
+ <./results/images/calls_number.pdf>]pdfTeX warning (ext4): destination with th
+e same identifier (name{subfigure.2.1}) has been already used, duplicate ignore
+d
+<to be read again> 
+                   \relax 
+l.33 \subfigure
+               {pdfTeX warning (ext4): destination with the same identifier (na
+me{subfigure.2.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.33 \subfigure
+               {pdfTeX warning (ext4): destination with the same identifier (na
+me{subfigure.2.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.33 \subfigure
+               {pdfTeX warning (ext4): destination with the same identifier (na
+me{subfigure.2.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.33 \subfigure
+               {
+<results/images/monday_commuting_lenght.pdf, id=152, 408.89604pt x 382.90422pt>
+File: results/images/monday_commuting_lenght.pdf Graphic file (type pdf)
+<use results/images/monday_commuting_lenght.pdf>
+Package pdftex.def Info: results/images/monday_commuting_lenght.pdf used on inp
+ut line 36.
+(pdftex.def)             Requested size: 204.44751pt x 191.45163pt.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.47 \\
+       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.48 P
+      ictures shows that emerge a new $p'_1$ and $p'_2$ where $p'_1 > p'_2$,...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+File: results/images/monday_commuting_lenght.pdf Graphic file (type pdf)
+<use results/images/monday_commuting_lenght.pdf>
+Package pdftex.def Info: results/images/monday_commuting_lenght.pdf used on inp
+ut line 58.
+(pdftex.def)             Requested size: 204.44751pt x 191.45163pt.
+File: results/images/monday_commuting_lenght.pdf Graphic file (type pdf)
+
+<use results/images/monday_commuting_lenght.pdf>
+Package pdftex.def Info: results/images/monday_commuting_lenght.pdf used on inp
+ut line 64.
+(pdftex.def)             Requested size: 204.44751pt x 191.45163pt.
+File: results/images/monday_commuting_lenght.pdf Graphic file (type pdf)
+
+<use results/images/monday_commuting_lenght.pdf>
+Package pdftex.def Info: results/images/monday_commuting_lenght.pdf used on inp
+ut line 70.
+(pdftex.def)             Requested size: 204.44751pt x 191.45163pt.
+File: results/images/monday_commuting_lenght.pdf Graphic file (type pdf)
+
+<use results/images/monday_commuting_lenght.pdf>
+Package pdftex.def Info: results/images/monday_commuting_lenght.pdf used on inp
+ut line 76.
+(pdftex.def)             Requested size: 204.44751pt x 191.45163pt.
+File: results/images/monday_commuting_lenght.pdf Graphic file (type pdf)
+
+<use results/images/monday_commuting_lenght.pdf>
+Package pdftex.def Info: results/images/monday_commuting_lenght.pdf used on inp
+ut line 82.
+(pdftex.def)             Requested size: 204.44751pt x 191.45163pt.
+File: results/images/monday_commuting_lenght.pdf Graphic file (type pdf)
+
+<use results/images/monday_commuting_lenght.pdf>
+Package pdftex.def Info: results/images/monday_commuting_lenght.pdf used on inp
+ut line 88.
+(pdftex.def)             Requested size: 204.44751pt x 191.45163pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) [5 <./results/images/monday_commuting_lenght.pdf>] [6]
 \openout2 = `visualizations/section.aux'.
 
- (./visualizations/section.tex)
-[5
+
+(./visualizations/section.tex) [7
 
 
 ]
 \openout2 = `conclusions/section.aux'.
 
- (./conclusions/section.tex) [6
+ (./conclusions/section.tex) [8
 
 
-] (./d4d_challenge.bbl
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 12.
+]
+(./d4d_challenge.bbl
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 23.
 
 (/usr/local/texlive/2011/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-Underfull \hbox (badness 10000) in paragraph at lines 17--23
+Underfull \hbox (badness 10000) in paragraph at lines 34--40
 []\T1/cmr/m/n/10.95 Oscar Marin, Ale-jan-dro Gon-za-lez, Roberto Maestre, Julio
  Gon-za-lez, Marco Mar-
  []
 
 
-Underfull \hbox (badness 5578) in paragraph at lines 17--23
+Underfull \hbox (badness 5578) in paragraph at lines 34--40
 \T1/cmr/m/n/10.95 tinez, Ruben Abad, and Leonardo Menezes.  15th oc-to-ber on t
 wit-ter global rev-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 17--23
+Underfull \hbox (badness 10000) in paragraph at lines 34--40
 \T1/cmr/m/n/10.95 o-lu-tion mapped, 2012.  URL []$\T1/cmtt/m/n/10.95 http : / /
  labs . paradigmatecnologico . com / 2011 / 12 / 19 /
  []
 
 )
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 76.
- [7
+ [9
 
 ]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 76.
@@ -875,7 +1031,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 76.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 76.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 76.
 Package rerunfilecheck Info: File `d4d_challenge.out' has not changed.
-(rerunfilecheck)             Checksum: 32F21E1743CA32C5FC348DB65D77076B;335.
+(rerunfilecheck)             Checksum: 6B1E05D81D613785E7F2A12E8C8F898F;335.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -883,13 +1039,13 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 76.
  ) 
 Here is how much of TeX's memory you used:
- 7954 strings out of 493633
- 112121 string characters out of 3143377
- 203169 words of memory out of 3000000
- 11057 multiletter control sequences out of 15000+200000
+ 7976 strings out of 493633
+ 112584 string characters out of 3143377
+ 206255 words of memory out of 3000000
+ 11067 multiletter control sequences out of 15000+200000
  22252 words of font info for 61 fonts, out of 3000000 for 9000
  831 hyphenation exceptions out of 8191
- 37i,13n,39p,816b,321s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 37i,15n,39p,949b,391s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/local/texlive/2011/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
 </usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
 /usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></
@@ -903,20 +1059,18 @@ xlive/2011/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/loca
 l/texlive/2011/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/local/
 texlive/2011/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/te
 xlive/2011/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texl
-ive/2011/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb></usr/local/texliv
-e/2011/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/
-2011/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb></usr/local/texlive/20
-11/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2011
-/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2011/t
-exmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2011/tex
-mf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/local/texlive/2011/texmf
--dist/fonts/type1/public/cm-super/sfrm2074.pfb></usr/local/texlive/2011/texmf-d
-ist/fonts/type1/public/cm-super/sfti1095.pfb></usr/local/texlive/2011/texmf-dis
-t/fonts/type1/public/cm-super/sftt1095.pfb>
-Output written on d4d_challenge.pdf (7 pages, 400682 bytes).
+ive/2011/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb></usr/local/texliv
+e/2011/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/
+2011/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/20
+11/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2011
+/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/local/texlive/2011/t
+exmf-dist/fonts/type1/public/cm-super/sfrm2074.pfb></usr/local/texlive/2011/tex
+mf-dist/fonts/type1/public/cm-super/sfti1095.pfb></usr/local/texlive/2011/texmf
+-dist/fonts/type1/public/cm-super/sftt1095.pfb>
+Output written on d4d_challenge.pdf (9 pages, 496573 bytes).
 PDF statistics:
- 250 PDF objects out of 1000 (max. 8388607)
- 199 compressed objects within 2 object streams
- 22 named destinations out of 1000 (max. 500000)
- 51 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 347 PDF objects out of 1000 (max. 8388607)
+ 276 compressed objects within 3 object streams
+ 33 named destinations out of 1000 (max. 500000)
+ 56 words of extra memory for PDF output out of 10000 (max. 10000000)
 

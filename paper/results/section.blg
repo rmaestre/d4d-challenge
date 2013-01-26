@@ -1,11 +1,12 @@
 This is BibTeX, Version 0.99d (TeX Live 2011)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: section.aux
+I found no \citation commands---while reading file section.aux
 I found no \bibdata command---while reading file section.aux
 I found no \bibstyle command---while reading file section.aux
-You've used 5 entries,
+You've used 0 entries,
             0 wiz_defined-function locations,
-            89 strings with 571 characters,
+            83 strings with 488 characters,
 and the built_in function-call counts, 0 in all, are:
 = -- 0
 > -- 0
@@ -44,4 +45,4 @@ warning$ -- 0
 while$ -- 0
 width$ -- 0
 write$ -- 0
-(There were 2 error messages)
+(There were 3 error messages)

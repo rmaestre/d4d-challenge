@@ -35,7 +35,7 @@ def get_week_day_id(week_day):
         return 6
 
 
-data = pickle.load(open( "/tmp/dataset2_matrix.tsv", "rb" ) )
+data = pickle.load(open( "/tmp/dataset_lunes_matrix.tsv", "rb" ) )
 
 for week_day in ['Monday']: #, 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'
     filename = "/tmp/dataset2_matrix_%s.tsv" % week_day

@@ -59,7 +59,7 @@ while cont_day < 7*16:
     print(init_day)
     
     # 0=Monday, ...., 6=Sunday
-    WEEK_DAY = 0
+    WEEK_DAY = 6
     if init_day.weekday() != WEEK_DAY:
         print("Jumping day!")
     else:
