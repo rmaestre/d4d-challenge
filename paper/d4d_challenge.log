@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.9.15)  26 JAN 2013 21:00
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.9.15)  27 JAN 2013 13:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -769,11 +769,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--60
 
 [2
 
-]
+] [3]
 \openout2 = `mathematical_definition/section.aux'.
 
  (./mathematical_definition/section.tex
-<mathematical_definition/images/dynamic_users.pdf, id=59, 895.11305pt x 343.885
+<mathematical_definition/images/dynamic_users.pdf, id=68, 895.11305pt x 343.885
 24pt>
 File: mathematical_definition/images/dynamic_users.pdf Graphic file (type pdf)
  <use mathematical_definition/images/dynamic_users.pdf>
@@ -781,33 +781,37 @@ Package pdftex.def Info: mathematical_definition/images/dynamic_users.pdf used
 on input line 10.
 (pdftex.def)             Requested size: 402.79715pt x 154.74692pt.
 
+Underfull \hbox (badness 10000) in paragraph at lines 16--20
+
+ []
+
 ! Double subscript.
-l.18 $$ \vec{T}_u_
+l.20 $$ \vec{T}_u_
                   t = (p_0,p_1,...,p_n)  $$ where,
 I treat `x_1_2' essentially like `x_1{}_2'.
 
 ! Double subscript.
-l.24 For instance, $ \vec{T}_0_
+l.26 For instance, $ \vec{T}_0_
                                0 = (p_1,p_2)  $, $ \vec{T}_1_0 = (p_1,p_1,p_...
 I treat `x_1_2' essentially like `x_1{}_2'.
 
 ! Double subscript.
-l.24 ...$ \vec{T}_0_0 = (p_1,p_2)  $, $ \vec{T}_1_
+l.26 ...$ \vec{T}_0_0 = (p_1,p_2)  $, $ \vec{T}_1_
                                                   0 = (p_1,p_1,p_2)  $ and s...
 I treat `x_1_2' essentially like `x_1{}_2'.
 
 ! Double subscript.
-l.27 ...herical coordinates (i.e.: $\text{user}_u_
+l.29 ...herical coordinates (i.e.: $\text{user}_u_
                                                   t$):
 I treat `x_1_2' essentially like `x_1{}_2'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 18--28
+Underfull \hbox (badness 10000) in paragraph at lines 20--30
 
  []
 
 ! Undefined control sequence.
-l.33 $$U(u,t) = \dysplaystyle
+l.35 $$U(u,t) = \dysplaystyle
                               6373 * \sum_{i=0}^{n-1} D(\vec{T}_u_t^i, \vec{...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -816,22 +820,22 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Double subscript.
-l.33 ...style 6373 * \sum_{i=0}^{n-1} D(\vec{T}_u_
+l.35 ...style 6373 * \sum_{i=0}^{n-1} D(\vec{T}_u_
                                                   t^i, \vec{T}_u_t^{i+1}) $$
 I treat `x_1_2' essentially like `x_1{}_2'.
 
 ! Double subscript.
-l.33 ...um_{i=0}^{n-1} D(\vec{T}_u_t^i, \vec{T}_u_
+l.35 ...um_{i=0}^{n-1} D(\vec{T}_u_t^i, \vec{T}_u_
                                                   t^{i+1}) $$
 I treat `x_1_2' essentially like `x_1{}_2'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 33--37
+Underfull \hbox (badness 10000) in paragraph at lines 35--39
 
  []
 
 ! Undefined control sequence.
-l.45 $$N(u,t) = \dysplaystyle
+l.47 $$N(u,t) = \dysplaystyle
                               \sum_{i=0}^{n-1} S(\vec{T}_u_t^i, \vec{T}_u_t^...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -840,16 +844,16 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Double subscript.
-l.45 ...dysplaystyle \sum_{i=0}^{n-1} S(\vec{T}_u_
+l.47 ...dysplaystyle \sum_{i=0}^{n-1} S(\vec{T}_u_
                                                   t^i, \vec{T}_u_t^{i+1})$$
 I treat `x_1_2' essentially like `x_1{}_2'.
 
 ! Double subscript.
-l.45 ...um_{i=0}^{n-1} S(\vec{T}_u_t^i, \vec{T}_u_
+l.47 ...um_{i=0}^{n-1} S(\vec{T}_u_t^i, \vec{T}_u_
                                                   t^{i+1})$$
 I treat `x_1_2' essentially like `x_1{}_2'.
 
-) [3
+) [4
 
 
  <./mathematical_definition/images/dynamic_users.pdf>]
@@ -857,34 +861,34 @@ I treat `x_1_2' essentially like `x_1{}_2'.
 
 
 (./results/section.tex
-<results/images/calls_number.pdf, id=94, 505.89pt x 505.89pt>
+<results/images/calls_number.pdf, id=104, 505.89pt x 505.89pt>
 File: results/images/calls_number.pdf Graphic file (type pdf)
 
 <use results/images/calls_number.pdf>
-Package pdftex.def Info: results/images/calls_number.pdf used on input line 11.
+Package pdftex.def Info: results/images/calls_number.pdf used on input line 12.
 
 (pdftex.def)             Requested size: 252.94437pt x 252.94437pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 15--26
+Underfull \hbox (badness 10000) in paragraph at lines 16--27
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 15--26
+Underfull \hbox (badness 10000) in paragraph at lines 16--27
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 15--26
+Underfull \hbox (badness 10000) in paragraph at lines 16--27
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 15--26
+Underfull \hbox (badness 10000) in paragraph at lines 16--27
 
  []
 
-[4
+[5
 
 
  <./results/images/calls_number.pdf>]pdfTeX warning (ext4): destination with th
@@ -892,111 +896,112 @@ e same identifier (name{subfigure.2.1}) has been already used, duplicate ignore
 d
 <to be read again> 
                    \relax 
-l.33 \subfigure
+l.34 \subfigure
                {pdfTeX warning (ext4): destination with the same identifier (na
 me{subfigure.2.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.33 \subfigure
+l.34 \subfigure
                {pdfTeX warning (ext4): destination with the same identifier (na
 me{subfigure.2.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.33 \subfigure
+l.34 \subfigure
                {pdfTeX warning (ext4): destination with the same identifier (na
 me{subfigure.2.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.33 \subfigure
+l.34 \subfigure
                {
-<results/images/monday_commuting_lenght.pdf, id=152, 408.89604pt x 382.90422pt>
+<results/images/monday_commuting_lenght.pdf, id=162, 408.89604pt x 382.90422pt>
 File: results/images/monday_commuting_lenght.pdf Graphic file (type pdf)
 <use results/images/monday_commuting_lenght.pdf>
 Package pdftex.def Info: results/images/monday_commuting_lenght.pdf used on inp
-ut line 36.
+ut line 37.
 (pdftex.def)             Requested size: 204.44751pt x 191.45163pt.
 
+Underfull \hbox (badness 10000) in paragraph at lines 44--51
 
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.47 \\
-       
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+ []
 
 
-! LaTeX Error: There's no line here to end.
+Underfull \hbox (badness 10000) in paragraph at lines 44--51
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.48 P
-      ictures shows that emerge a new $p'_1$ and $p'_2$ where $p'_1 > p'_2$,...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+ []
 
 File: results/images/monday_commuting_lenght.pdf Graphic file (type pdf)
 <use results/images/monday_commuting_lenght.pdf>
 Package pdftex.def Info: results/images/monday_commuting_lenght.pdf used on inp
-ut line 58.
+ut line 60.
 (pdftex.def)             Requested size: 204.44751pt x 191.45163pt.
 File: results/images/monday_commuting_lenght.pdf Graphic file (type pdf)
 
 <use results/images/monday_commuting_lenght.pdf>
 Package pdftex.def Info: results/images/monday_commuting_lenght.pdf used on inp
-ut line 64.
+ut line 66.
 (pdftex.def)             Requested size: 204.44751pt x 191.45163pt.
 File: results/images/monday_commuting_lenght.pdf Graphic file (type pdf)
 
 <use results/images/monday_commuting_lenght.pdf>
 Package pdftex.def Info: results/images/monday_commuting_lenght.pdf used on inp
-ut line 70.
+ut line 72.
 (pdftex.def)             Requested size: 204.44751pt x 191.45163pt.
 File: results/images/monday_commuting_lenght.pdf Graphic file (type pdf)
 
 <use results/images/monday_commuting_lenght.pdf>
 Package pdftex.def Info: results/images/monday_commuting_lenght.pdf used on inp
-ut line 76.
+ut line 78.
 (pdftex.def)             Requested size: 204.44751pt x 191.45163pt.
 File: results/images/monday_commuting_lenght.pdf Graphic file (type pdf)
 
 <use results/images/monday_commuting_lenght.pdf>
 Package pdftex.def Info: results/images/monday_commuting_lenght.pdf used on inp
-ut line 82.
+ut line 84.
 (pdftex.def)             Requested size: 204.44751pt x 191.45163pt.
 File: results/images/monday_commuting_lenght.pdf Graphic file (type pdf)
 
 <use results/images/monday_commuting_lenght.pdf>
 Package pdftex.def Info: results/images/monday_commuting_lenght.pdf used on inp
-ut line 88.
+ut line 90.
 (pdftex.def)             Requested size: 204.44751pt x 191.45163pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) [5 <./results/images/monday_commuting_lenght.pdf>] [6]
+) [6 <./results/images/monday_commuting_lenght.pdf>] [7]
 \openout2 = `visualizations/section.aux'.
 
 
-(./visualizations/section.tex) [7
+(./visualizations/section.tex)
+Underfull \hbox (badness 10000) in paragraph at lines 5--66
+
+ []
+
+[8
 
 
 ]
 \openout2 = `conclusions/section.aux'.
 
- (./conclusions/section.tex) [8
+ (./conclusions/section.tex
+Underfull \hbox (badness 10000) in paragraph at lines 4--14
+
+ []
 
 
-]
-(./d4d_challenge.bbl
+Underfull \hbox (badness 10000) in paragraph at lines 4--14
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--14
+
+ []
+
+) [9
+
+
+] (./d4d_challenge.bbl
 LaTeX Font Info:    Try loading font information for T1+cmtt on input line 23.
 
 (/usr/local/texlive/2011/texmf-dist/tex/latex/base/t1cmtt.fd
@@ -1021,7 +1026,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 34--40
 
 )
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 76.
- [9
+ [10
 
 ]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 76.
@@ -1030,47 +1035,72 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 76.
 (./visualizations/section.aux) (./conclusions/section.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 76.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 76.
-Package rerunfilecheck Info: File `d4d_challenge.out' has not changed.
-(rerunfilecheck)             Checksum: 6B1E05D81D613785E7F2A12E8C8F898F;335.
 
+
+Package rerunfilecheck Warning: File `d4d_challenge.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `d4d_challenge.out':
+(rerunfilecheck)             Before: 66B85E5A55269F7E568EAC6E5659C8AD;351
+(rerunfilecheck)             After:  C5DBAB5E0636F94B45B935ECD691540B;357.
 
 LaTeX Warning: There were multiply-defined labels.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 76.
  ) 
 Here is how much of TeX's memory you used:
- 7976 strings out of 493633
- 112584 string characters out of 3143377
- 206255 words of memory out of 3000000
+ 7984 strings out of 493633
+ 112654 string characters out of 3143377
+ 206256 words of memory out of 3000000
  11067 multiletter control sequences out of 15000+200000
- 22252 words of font info for 61 fonts, out of 3000000 for 9000
+ 21476 words of font info for 60 fonts, out of 3000000 for 9000
  831 hyphenation exceptions out of 8191
- 37i,15n,39p,949b,391s stack positions out of 5000i,500n,10000p,200000b,50000s
-{/usr/local/texlive/2011/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
-</usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
-/usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></
-usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></us
-r/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/
-local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/loc
-al/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/loca
-l/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/
-texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/te
-xlive/2011/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/loca
-l/texlive/2011/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/local/
-texlive/2011/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/te
+ 37i,15n,39p,982b,390s stack positions out of 5000i,500n,10000p,200000b,50000s
+pdfTeX warning (dest): name{section.6} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.5} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{section.4} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{section.3} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{section.2} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{section.1} has been referenced but does not exist, 
+replaced by a fixed one
+
+{/usr/local/texlive/2011/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</
+usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></u
+sr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></us
+r/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/
+local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/lo
+cal/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local
+/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/
+texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/te
+xlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texl
+ive/2011/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/
+texlive/2011/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/local/te
 xlive/2011/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texl
-ive/2011/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb></usr/local/texliv
-e/2011/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/
-2011/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/20
-11/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2011
-/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/local/texlive/2011/t
-exmf-dist/fonts/type1/public/cm-super/sfrm2074.pfb></usr/local/texlive/2011/tex
-mf-dist/fonts/type1/public/cm-super/sfti1095.pfb></usr/local/texlive/2011/texmf
--dist/fonts/type1/public/cm-super/sftt1095.pfb>
-Output written on d4d_challenge.pdf (9 pages, 496573 bytes).
+ive/2011/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb></usr/local/texliv
+e/2011/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/
+2011/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb></usr/local/texlive/20
+11/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2011
+/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2011/t
+exmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2011/tex
+mf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/local/texlive/2011/texmf
+-dist/fonts/type1/public/cm-super/sfrm2074.pfb></usr/local/texlive/2011/texmf-d
+ist/fonts/type1/public/cm-super/sfti1095.pfb></usr/local/texlive/2011/texmf-dis
+t/fonts/type1/public/cm-super/sftt1095.pfb>
+Output written on d4d_challenge.pdf (10 pages, 503125 bytes).
 PDF statistics:
- 347 PDF objects out of 1000 (max. 8388607)
- 276 compressed objects within 3 object streams
- 33 named destinations out of 1000 (max. 500000)
- 56 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 370 PDF objects out of 1000 (max. 8388607)
+ 297 compressed objects within 3 object streams
+ 42 named destinations out of 1000 (max. 500000)
+ 64 words of extra memory for PDF output out of 10000 (max. 10000000)
 
