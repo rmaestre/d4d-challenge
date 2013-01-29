@@ -1,9 +1,26 @@
-\begin{thebibliography}{4}
+\begin{thebibliography}{6}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Alegria et~al.(2011)Alegria, Sahli, and Zimanyi]{5969036}
+A.C. Alegria, H.~Sahli, and E.~Zimanyi.
+\newblock Application of density analysis for landmine risk mapping.
+\newblock In \emph{Spatial Data Mining and Geographical Knowledge Services
+  (ICSDM), 2011 IEEE International Conference on}, pages 223 --228, 29
+  2011-july 1 2011.
+\newblock \doi{10.1109/ICSDM.2011.5969036}.
+
+\bibitem[Bithell(1990)]{SIM:SIM4780090616}
+J.~F. Bithell.
+\newblock An application of density estimation to geographical epidemiology.
+\newblock \emph{Statistics in Medicine}, 9\penalty0 (6):\penalty0 691--701,
+  1990.
+\newblock ISSN 1097-0258.
+\newblock \doi{10.1002/sim.4780090616}.
+\newblock URL \url{http://dx.doi.org/10.1002/sim.4780090616}.
 
 \bibitem[Cook(2012)]{distance}
 John~D. Cook.

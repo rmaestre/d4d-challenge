@@ -8,44 +8,44 @@ A level-1 auxiliary file: visualizations/section.aux
 A level-1 auxiliary file: conclusions/section.aux
 The style file: plainnat.bst
 Database file #1: biblio.bib
-You've used 4 entries,
+You've used 6 entries,
             2773 wiz_defined-function locations,
-            620 strings with 5911 characters,
-and the built_in function-call counts, 1821 in all, are:
-= -- 164
-> -- 107
-< -- 4
-+ -- 37
-- -- 33
-* -- 119
-:= -- 279
-add.period$ -- 17
-call.type$ -- 4
-change.case$ -- 23
-chr.to.int$ -- 4
-cite$ -- 8
-duplicate$ -- 81
-empty$ -- 138
-format.name$ -- 39
-if$ -- 389
+            641 strings with 6442 characters,
+and the built_in function-call counts, 2910 in all, are:
+= -- 273
+> -- 147
+< -- 6
++ -- 51
+- -- 45
+* -- 203
+:= -- 434
+add.period$ -- 27
+call.type$ -- 6
+change.case$ -- 33
+chr.to.int$ -- 6
+cite$ -- 12
+duplicate$ -- 136
+empty$ -- 234
+format.name$ -- 53
+if$ -- 632
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 1
-newline$ -- 33
-num.names$ -- 16
-pop$ -- 56
+missing$ -- 3
+newline$ -- 47
+num.names$ -- 24
+pop$ -- 74
 preamble$ -- 1
-purify$ -- 19
+purify$ -- 27
 quote$ -- 0
-skip$ -- 82
+skip$ -- 125
 stack$ -- 0
-substring$ -- 22
-swap$ -- 19
-text.length$ -- 1
+substring$ -- 84
+swap$ -- 34
+text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 44
+type$ -- 66
 warning$ -- 0
-while$ -- 13
+while$ -- 23
 width$ -- 0
-write$ -- 66
+write$ -- 100
