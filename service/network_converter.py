@@ -1,14 +1,24 @@
-import math
-import shapefile
-from pymongo import *
+# -*- coding: utf-8 -*-
+"""
+    This class processes the output file (pickle) returned by network_creation.py, adding lon/lat coordinates for each antenna.
+    Only 'dest_antennas' are considered for weight, that is, only 'inlinks', and the results are being expressed in logarithmic scale (2 basis).
+    
+    
+    Created 24/01/2013
+    
+    @author: Paradigma Labs
+"""
 from datetime import datetime, timedelta
-import sys
-import pickle
+from pymongo import *
 import itertools
+import math
 import networkx as nx
+import pickle
+import shapefile
+import sys
 
 
-# Load atennas positions
+# Load antennas positions
 antennas = {}
 weights = {}
 
@@ -42,7 +52,7 @@ for hour in range(0,24):
     
     weights = {}
     for edge in graph[hour].edges():
-        if edge[1] not in weights:
+        if edge[1] not in weights: # only 'node_to' taken into account
             weights[edge[1]] = 0
         weights[edge[1]] += graph[hour][edge[0]][edge[1]]["weight"]
         

@@ -8,11 +8,11 @@
     
     @author: Paradigma Labs
 """
-import tornado.ioloop
-from tornado.web import Application, RequestHandler, asynchronous
-from tornado.ioloop import IOLoop
-import logging
 from map_data_provider import get_data
+from tornado.ioloop import IOLoop
+from tornado.web import Application, RequestHandler, asynchronous
+import logging
+import tornado.ioloop
 
 class MapService(tornado.web.RequestHandler):
 

@@ -1,11 +1,25 @@
-import math
-import shapefile
-from pymongo import *
+# -*- coding: utf-8 -*-
+"""
+    This class calculates a 24h graph (pickle file) for a specific week-day, basing on traces from 2nd Dataset. 
+    '-1' antennas and 'stays' have been ignored, so that only 'transitions' between different located antennas are considered.
+    Moreover, traces are gathered in chronological order and (a,b) & (b,a) edges are differently considered
+    
+    --> By changing the variable WEEK_DAY (0=Monday, ...., 6=Sunday), the calculations will be done 
+
+    http://networkx.lanl.gov/reference/classes.digraph.html
+    
+    Created 24/01/2013
+    
+    @author: Paradigma Labs
+"""
 from datetime import datetime, timedelta
-import sys
-import pickle
+from pymongo import *
 import itertools
+import math
 import networkx as nx
+import pickle
+import shapefile
+import sys
 
 config = {}
 config['db'] = {}
@@ -24,7 +38,7 @@ def __get_collection(config):
     return collection
     
     
-# Load atennas positions
+# Load antennas positions
 antennas = {}
 
 # Load hte default antenna
@@ -37,7 +51,7 @@ for line in open("../rawdata/ANT_POS.TSV" , 'r'):
     chunks = line.split("\t")
     
     # If line is valid
-    if len(chunks) == 7:
+    if len(chunks) == 3:
         antenna_id = int(chunks[0])
         antennas[antenna_id] = [float(chunks[1]), float(chunks[2])]
 
@@ -71,47 +85,47 @@ while cont_day < 7*16:
             
             users = {}
             # Iterate over the mongoDB with a specific HOUR range saving user traces
-            for trace in __get_collection(config).find( {'date': {'$gte': start, '$lt':end}}).sort('date', -1):
+            for trace in __get_collection(config).find( {'date': {'$gte': start, '$lt':end}}).sort('date', 1):
                 if trace["userid"] not in users:
                     users[trace["userid"]] = []
-                if trace["antennaid"] != -1:
+                if trace["antennaid"] != -1: # removing -1 antennas
                     users[trace["userid"]].append(trace["antennaid"])
             
-            # Flat user traces (removing -1 antennas id, and replace list of antennas repetead)
+            # Flat user traces (replace list of antennas repeated)
             for user in users:
-                # Check if there is any antenna valus
+                # Check if there is any antenna value
                 if len(users[user]) > 1:
                 
                     # Add first antenna position
                     flatten_trace = [users[user][0]]
                 
-                    # Flat list of repetead values
+                    # Flat list
                     list_lenght = len(users[user])
                     index = 0
                     while index < list_lenght - 1:
-                        if users[user][index] != users[user][index + 1]:
-                            flatten_trace.append(users[user][index + 1])
+                        if users[user][index] != users[user][index + 1]: # ignoring repeated antennas ('stays'), only 'transitions' are taken into account
+                            flatten_trace.append(users[user][index + 1]) 
                         index += 1
                 
-                    # If we have one edge at least, is a minimun and valid subgraph
+                    # If we have one edge at least ( -> 2 nodes), is a minimum and valid subgraph
                     # and it will processed into a hash-graph structure
                     if len(flatten_trace) > 1:
                         #print("User: %s\tTrace: %s" % (user,flatten_trace))
                         list_lenght = len(flatten_trace)
                         index = 0
                         while index < list_lenght - 1:
-                            # Added new node_from If previusly node_from does not exists
+                            # Added new node_from If previously node_from does not exists
                             if flatten_trace[index] not in graph[h].nodes():
                                 graph[h].add_node(flatten_trace[index])
-                            # Added new node_to If previusly node_to does not exists
+                            # Added new node_to If previously node_to does not exists
                             if flatten_trace[index + 1] not in graph[h].nodes():
                                 graph[h].add_node(flatten_trace[index + 1])
-                            # Added new edge between nodes If previusly edge does not exists
+                            # Added new edge between nodes If previously edge does not exists
                             # with weight = 1
                             if (flatten_trace[index], flatten_trace[index + 1]) not in graph[h].edges():
                                 graph[h].add_edge(flatten_trace[index], flatten_trace[index + 1], weight = 1)
                             else:
-                                # Get existent edge amd increment one value its current weight
+                                # Get existent edge and increment one value its current weight
                                 edge_weight = graph[h][flatten_trace[index]][flatten_trace[index + 1]]["weight"]
                                 graph[h].add_edge(flatten_trace[index], 
                                                     flatten_trace[index + 1], 
