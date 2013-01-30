@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.9.15)  30 JAN 2013 11:24
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.9.15)  30 JAN 2013 12:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -927,101 +927,125 @@ me{subfigure.2.1}) has been already used, duplicate ignored
                    \relax 
 l.34 \subfigure
                {
-<results/images/monday_commuting_lenght.pdf, id=159, 505.89pt x 505.89pt>
-File: results/images/monday_commuting_lenght.pdf Graphic file (type pdf)
+<results/images/common_commuting_model.pdf, id=159, 505.89pt x 505.89pt>
+File: results/images/common_commuting_model.pdf Graphic file (type pdf)
 
-<use results/images/monday_commuting_lenght.pdf>
-Package pdftex.def Info: results/images/monday_commuting_lenght.pdf used on inp
-ut line 37.
+<use results/images/common_commuting_model.pdf>
+Package pdftex.def Info: results/images/common_commuting_model.pdf used on inpu
+t line 37.
 (pdftex.def)             Requested size: 252.94437pt x 252.94437pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 44--51
+! You can't use `macro parameter character #' in math mode.
+<recently read> ##
+                  
+l.47 ...grouped by the day of the week. Dataset $#
+                                                  2$ has been applied on the...
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `macro parameter character #' in math mode.
+<recently read> ##
+                  
+l.47 ...n the main results of our work. Dataset $#
+                                                  2$ provides a 8000000 {\co...
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 44--53
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 44--51
+Underfull \hbox (badness 10000) in paragraph at lines 44--53
 
  []
 
+<results/images/monday_commuting_lenght.pdf, id=160, 505.89pt x 505.89pt>
 File: results/images/monday_commuting_lenght.pdf Graphic file (type pdf)
+
 <use results/images/monday_commuting_lenght.pdf>
 Package pdftex.def Info: results/images/monday_commuting_lenght.pdf used on inp
-ut line 60.
+ut line 62.
 (pdftex.def)             Requested size: 151.76816pt x 151.76816pt.
 
-<results/images/thuesday_commuting_lenght.pdf, id=160, 505.89pt x 505.89pt>
+<results/images/thuesday_commuting_lenght.pdf, id=161, 505.89pt x 505.89pt>
 File: results/images/thuesday_commuting_lenght.pdf Graphic file (type pdf)
 
 <use results/images/thuesday_commuting_lenght.pdf>
 Package pdftex.def Info: results/images/thuesday_commuting_lenght.pdf used on i
-nput line 66.
+nput line 68.
 (pdftex.def)             Requested size: 151.76816pt x 151.76816pt.
 
-<results/images/wednesday_commuting_lenght.pdf, id=161, 505.89pt x 505.89pt>
+<results/images/wednesday_commuting_lenght.pdf, id=162, 505.89pt x 505.89pt>
 File: results/images/wednesday_commuting_lenght.pdf Graphic file (type pdf)
 
 <use results/images/wednesday_commuting_lenght.pdf>
 Package pdftex.def Info: results/images/wednesday_commuting_lenght.pdf used on 
-input line 72.
+input line 74.
 (pdftex.def)             Requested size: 151.76816pt x 151.76816pt.
 
-<results/images/thursday_commuting_lenght.pdf, id=162, 505.89pt x 505.89pt>
+<results/images/thursday_commuting_lenght.pdf, id=163, 505.89pt x 505.89pt>
 File: results/images/thursday_commuting_lenght.pdf Graphic file (type pdf)
 
 <use results/images/thursday_commuting_lenght.pdf>
 Package pdftex.def Info: results/images/thursday_commuting_lenght.pdf used on i
-nput line 78.
+nput line 80.
 (pdftex.def)             Requested size: 151.76816pt x 151.76816pt.
 
-<results/images/friday_commuting_lenght.pdf, id=163, 505.89pt x 505.89pt>
+<results/images/friday_commuting_lenght.pdf, id=164, 505.89pt x 505.89pt>
 File: results/images/friday_commuting_lenght.pdf Graphic file (type pdf)
 
 <use results/images/friday_commuting_lenght.pdf>
 Package pdftex.def Info: results/images/friday_commuting_lenght.pdf used on inp
-ut line 84.
+ut line 86.
 (pdftex.def)             Requested size: 151.76816pt x 151.76816pt.
 
-<results/images/saturday_commuting_lenght.pdf, id=164, 505.89pt x 505.89pt>
+<results/images/saturday_commuting_lenght.pdf, id=165, 505.89pt x 505.89pt>
 File: results/images/saturday_commuting_lenght.pdf Graphic file (type pdf)
 
 <use results/images/saturday_commuting_lenght.pdf>
 Package pdftex.def Info: results/images/saturday_commuting_lenght.pdf used on i
-nput line 90.
+nput line 92.
 (pdftex.def)             Requested size: 151.76816pt x 151.76816pt.
 
 ! Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.92 &
+l.94 &
       
 You have given more \span or & marks than there were
 in the preamble to the \halign or \valign now in progress.
 So I'll assume that you meant to type \cr instead.
 
-<results/images/sunday_commuting_lenght.pdf, id=165, 505.89pt x 505.89pt>
+<results/images/sunday_commuting_lenght.pdf, id=166, 505.89pt x 505.89pt>
 File: results/images/sunday_commuting_lenght.pdf Graphic file (type pdf)
 
 <use results/images/sunday_commuting_lenght.pdf>
 Package pdftex.def Info: results/images/sunday_commuting_lenght.pdf used on inp
-ut line 97.
+ut line 99.
 (pdftex.def)             Requested size: 151.76816pt x 151.76816pt.
 
-Overfull \hbox (23.39087pt too wide) in paragraph at lines 55--102
+Overfull \hbox (23.39087pt too wide) in paragraph at lines 57--104
  []$ 
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) [6 <./results/images/monday_commuting_lenght.pdf>] [7 <./results/images/thues
-day_commuting_lenght.pdf> <./results/images/wednesday_commuting_lenght.pdf> <./
-results/images/thursday_commuting_lenght.pdf> <./results/images/friday_commutin
-g_lenght.pdf> <./results/images/saturday_commuting_lenght.pdf> <./results/image
-s/sunday_commuting_lenght.pdf>]
+) [6 <./results/images/common_commuting_model.pdf>] [7 <./results/images/monday
+_commuting_lenght.pdf> <./results/images/thuesday_commuting_lenght.pdf> <./resu
+lts/images/wednesday_commuting_lenght.pdf> <./results/images/thursday_commuting
+_lenght.pdf> <./results/images/friday_commuting_lenght.pdf> <./results/images/s
+aturday_commuting_lenght.pdf> <./results/images/sunday_commuting_lenght.pdf>]
 \openout2 = `visualizations/section.aux'.
 
- (./visualizations/section.tex)
+
+(./visualizations/section.tex)
 Underfull \hbox (badness 10000) in paragraph at lines 5--66
 
  []
@@ -1093,10 +1117,10 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 76.
  ) 
 Here is how much of TeX's memory you used:
- 8009 strings out of 493633
- 113948 string characters out of 3143377
+ 8014 strings out of 493633
+ 114157 string characters out of 3143377
  206255 words of memory out of 3000000
- 11091 multiletter control sequences out of 15000+200000
+ 11095 multiletter control sequences out of 15000+200000
  21476 words of font info for 60 fonts, out of 3000000 for 9000
  831 hyphenation exceptions out of 8191
  37i,15n,39p,1066b,392s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1122,10 +1146,10 @@ exmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/local/texlive/2011/tex
 mf-dist/fonts/type1/public/cm-super/sfrm2074.pfb></usr/local/texlive/2011/texmf
 -dist/fonts/type1/public/cm-super/sfti1095.pfb></usr/local/texlive/2011/texmf-d
 ist/fonts/type1/public/cm-super/sftt1095.pfb>
-Output written on d4d_challenge.pdf (10 pages, 1153717 bytes).
+Output written on d4d_challenge.pdf (10 pages, 1230566 bytes).
 PDF statistics:
- 861 PDF objects out of 1000 (max. 8388607)
- 667 compressed objects within 7 object streams
+ 926 PDF objects out of 1000 (max. 8388607)
+ 716 compressed objects within 8 object streams
  37 named destinations out of 1000 (max. 500000)
- 94 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 99 words of extra memory for PDF output out of 10000 (max. 10000000)
 
