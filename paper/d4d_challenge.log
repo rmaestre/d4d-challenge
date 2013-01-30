@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.9.15)  27 JAN 2013 13:30
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.9.15)  30 JAN 2013 11:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -648,6 +648,15 @@ LaTeX Warning: Label `sub@fig:subfig11' multiply defined.
 
 LaTeX Warning: Label `fig:fig1' multiply defined.
 
+
+LaTeX Warning: Label `fig:subfig11' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:subfig11' multiply defined.
+
+
+LaTeX Warning: Label `fig:fig1' multiply defined.
+
 ) (./visualizations/section.aux) (./conclusions/section.aux))
 \openout1 = `d4d_challenge.aux'.
 
@@ -767,13 +776,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--60
 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--60
+
+ []
+
 [2
 
 ] [3]
 \openout2 = `mathematical_definition/section.aux'.
 
  (./mathematical_definition/section.tex
-<mathematical_definition/images/dynamic_users.pdf, id=68, 895.11305pt x 343.885
+<mathematical_definition/images/dynamic_users.pdf, id=67, 895.11305pt x 343.885
 24pt>
 File: mathematical_definition/images/dynamic_users.pdf Graphic file (type pdf)
  <use mathematical_definition/images/dynamic_users.pdf>
@@ -861,7 +875,7 @@ I treat `x_1_2' essentially like `x_1{}_2'.
 
 
 (./results/section.tex
-<results/images/calls_number.pdf, id=104, 505.89pt x 505.89pt>
+<results/images/calls_number.pdf, id=102, 505.89pt x 505.89pt>
 File: results/images/calls_number.pdf Graphic file (type pdf)
 
 <use results/images/calls_number.pdf>
@@ -913,12 +927,13 @@ me{subfigure.2.1}) has been already used, duplicate ignored
                    \relax 
 l.34 \subfigure
                {
-<results/images/monday_commuting_lenght.pdf, id=162, 408.89604pt x 382.90422pt>
+<results/images/monday_commuting_lenght.pdf, id=159, 505.89pt x 505.89pt>
 File: results/images/monday_commuting_lenght.pdf Graphic file (type pdf)
+
 <use results/images/monday_commuting_lenght.pdf>
 Package pdftex.def Info: results/images/monday_commuting_lenght.pdf used on inp
 ut line 37.
-(pdftex.def)             Requested size: 204.44751pt x 191.45163pt.
+(pdftex.def)             Requested size: 252.94437pt x 252.94437pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 44--51
 
@@ -933,46 +948,80 @@ File: results/images/monday_commuting_lenght.pdf Graphic file (type pdf)
 <use results/images/monday_commuting_lenght.pdf>
 Package pdftex.def Info: results/images/monday_commuting_lenght.pdf used on inp
 ut line 60.
-(pdftex.def)             Requested size: 204.44751pt x 191.45163pt.
-File: results/images/monday_commuting_lenght.pdf Graphic file (type pdf)
+(pdftex.def)             Requested size: 151.76816pt x 151.76816pt.
 
-<use results/images/monday_commuting_lenght.pdf>
-Package pdftex.def Info: results/images/monday_commuting_lenght.pdf used on inp
-ut line 66.
-(pdftex.def)             Requested size: 204.44751pt x 191.45163pt.
-File: results/images/monday_commuting_lenght.pdf Graphic file (type pdf)
+<results/images/thuesday_commuting_lenght.pdf, id=160, 505.89pt x 505.89pt>
+File: results/images/thuesday_commuting_lenght.pdf Graphic file (type pdf)
 
-<use results/images/monday_commuting_lenght.pdf>
-Package pdftex.def Info: results/images/monday_commuting_lenght.pdf used on inp
-ut line 72.
-(pdftex.def)             Requested size: 204.44751pt x 191.45163pt.
-File: results/images/monday_commuting_lenght.pdf Graphic file (type pdf)
+<use results/images/thuesday_commuting_lenght.pdf>
+Package pdftex.def Info: results/images/thuesday_commuting_lenght.pdf used on i
+nput line 66.
+(pdftex.def)             Requested size: 151.76816pt x 151.76816pt.
 
-<use results/images/monday_commuting_lenght.pdf>
-Package pdftex.def Info: results/images/monday_commuting_lenght.pdf used on inp
-ut line 78.
-(pdftex.def)             Requested size: 204.44751pt x 191.45163pt.
-File: results/images/monday_commuting_lenght.pdf Graphic file (type pdf)
+<results/images/wednesday_commuting_lenght.pdf, id=161, 505.89pt x 505.89pt>
+File: results/images/wednesday_commuting_lenght.pdf Graphic file (type pdf)
 
-<use results/images/monday_commuting_lenght.pdf>
-Package pdftex.def Info: results/images/monday_commuting_lenght.pdf used on inp
+<use results/images/wednesday_commuting_lenght.pdf>
+Package pdftex.def Info: results/images/wednesday_commuting_lenght.pdf used on 
+input line 72.
+(pdftex.def)             Requested size: 151.76816pt x 151.76816pt.
+
+<results/images/thursday_commuting_lenght.pdf, id=162, 505.89pt x 505.89pt>
+File: results/images/thursday_commuting_lenght.pdf Graphic file (type pdf)
+
+<use results/images/thursday_commuting_lenght.pdf>
+Package pdftex.def Info: results/images/thursday_commuting_lenght.pdf used on i
+nput line 78.
+(pdftex.def)             Requested size: 151.76816pt x 151.76816pt.
+
+<results/images/friday_commuting_lenght.pdf, id=163, 505.89pt x 505.89pt>
+File: results/images/friday_commuting_lenght.pdf Graphic file (type pdf)
+
+<use results/images/friday_commuting_lenght.pdf>
+Package pdftex.def Info: results/images/friday_commuting_lenght.pdf used on inp
 ut line 84.
-(pdftex.def)             Requested size: 204.44751pt x 191.45163pt.
-File: results/images/monday_commuting_lenght.pdf Graphic file (type pdf)
+(pdftex.def)             Requested size: 151.76816pt x 151.76816pt.
 
-<use results/images/monday_commuting_lenght.pdf>
-Package pdftex.def Info: results/images/monday_commuting_lenght.pdf used on inp
-ut line 90.
-(pdftex.def)             Requested size: 204.44751pt x 191.45163pt.
+<results/images/saturday_commuting_lenght.pdf, id=164, 505.89pt x 505.89pt>
+File: results/images/saturday_commuting_lenght.pdf Graphic file (type pdf)
+
+<use results/images/saturday_commuting_lenght.pdf>
+Package pdftex.def Info: results/images/saturday_commuting_lenght.pdf used on i
+nput line 90.
+(pdftex.def)             Requested size: 151.76816pt x 151.76816pt.
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.92 &
+      
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+<results/images/sunday_commuting_lenght.pdf, id=165, 505.89pt x 505.89pt>
+File: results/images/sunday_commuting_lenght.pdf Graphic file (type pdf)
+
+<use results/images/sunday_commuting_lenght.pdf>
+Package pdftex.def Info: results/images/sunday_commuting_lenght.pdf used on inp
+ut line 97.
+(pdftex.def)             Requested size: 151.76816pt x 151.76816pt.
+
+Overfull \hbox (23.39087pt too wide) in paragraph at lines 55--102
+ []$ 
+ []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) [6 <./results/images/monday_commuting_lenght.pdf>] [7]
+) [6 <./results/images/monday_commuting_lenght.pdf>] [7 <./results/images/thues
+day_commuting_lenght.pdf> <./results/images/wednesday_commuting_lenght.pdf> <./
+results/images/thursday_commuting_lenght.pdf> <./results/images/friday_commutin
+g_lenght.pdf> <./results/images/saturday_commuting_lenght.pdf> <./results/image
+s/sunday_commuting_lenght.pdf>]
 \openout2 = `visualizations/section.aux'.
 
-
-(./visualizations/section.tex)
+ (./visualizations/section.tex)
 Underfull \hbox (badness 10000) in paragraph at lines 5--66
 
  []
@@ -1035,72 +1084,48 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 76.
 (./visualizations/section.aux) (./conclusions/section.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 76.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 76.
+Package rerunfilecheck Info: File `d4d_challenge.out' has not changed.
+(rerunfilecheck)             Checksum: F7C3443DF7DEBB65E6CAB15BA45E2D79;355.
 
-
-Package rerunfilecheck Warning: File `d4d_challenge.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `d4d_challenge.out':
-(rerunfilecheck)             Before: 66B85E5A55269F7E568EAC6E5659C8AD;351
-(rerunfilecheck)             After:  C5DBAB5E0636F94B45B935ECD691540B;357.
 
 LaTeX Warning: There were multiply-defined labels.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 76.
  ) 
 Here is how much of TeX's memory you used:
- 7984 strings out of 493633
- 112654 string characters out of 3143377
- 206256 words of memory out of 3000000
- 11067 multiletter control sequences out of 15000+200000
+ 8009 strings out of 493633
+ 113948 string characters out of 3143377
+ 206255 words of memory out of 3000000
+ 11091 multiletter control sequences out of 15000+200000
  21476 words of font info for 60 fonts, out of 3000000 for 9000
  831 hyphenation exceptions out of 8191
- 37i,15n,39p,982b,390s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{section.6} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.5} has been referenced but does not exist, 
-replaced by a fixed one
-
-pdfTeX warning (dest): name{section.4} has been referenced but does not exist, 
-replaced by a fixed one
-
-pdfTeX warning (dest): name{section.3} has been referenced but does not exist, 
-replaced by a fixed one
-
-pdfTeX warning (dest): name{section.2} has been referenced but does not exist, 
-replaced by a fixed one
-
-pdfTeX warning (dest): name{section.1} has been referenced but does not exist, 
-replaced by a fixed one
-
-{/usr/local/texlive/2011/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</
-usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></u
-sr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></us
-r/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/
-local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/lo
-cal/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local
-/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/
-texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/te
-xlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texl
-ive/2011/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/
-texlive/2011/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/local/te
-xlive/2011/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texl
-ive/2011/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb></usr/local/texliv
-e/2011/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/
-2011/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb></usr/local/texlive/20
-11/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2011
-/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2011/t
-exmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2011/tex
-mf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/local/texlive/2011/texmf
--dist/fonts/type1/public/cm-super/sfrm2074.pfb></usr/local/texlive/2011/texmf-d
-ist/fonts/type1/public/cm-super/sfti1095.pfb></usr/local/texlive/2011/texmf-dis
-t/fonts/type1/public/cm-super/sftt1095.pfb>
-Output written on d4d_challenge.pdf (10 pages, 503125 bytes).
+ 37i,15n,39p,1066b,392s stack positions out of 5000i,500n,10000p,200000b,50000s
+{/usr/local/texlive/2011/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
+</usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
+/usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></
+usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></us
+r/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/
+local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/loc
+al/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/loca
+l/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/
+texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/te
+xlive/2011/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/loca
+l/texlive/2011/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/local/
+texlive/2011/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/te
+xlive/2011/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb></usr/local/texl
+ive/2011/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texliv
+e/2011/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb></usr/local/texlive/
+2011/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/20
+11/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2011
+/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2011/t
+exmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/local/texlive/2011/tex
+mf-dist/fonts/type1/public/cm-super/sfrm2074.pfb></usr/local/texlive/2011/texmf
+-dist/fonts/type1/public/cm-super/sfti1095.pfb></usr/local/texlive/2011/texmf-d
+ist/fonts/type1/public/cm-super/sftt1095.pfb>
+Output written on d4d_challenge.pdf (10 pages, 1153717 bytes).
 PDF statistics:
- 370 PDF objects out of 1000 (max. 8388607)
- 297 compressed objects within 3 object streams
- 42 named destinations out of 1000 (max. 500000)
- 64 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 861 PDF objects out of 1000 (max. 8388607)
+ 667 compressed objects within 7 object streams
+ 37 named destinations out of 1000 (max. 500000)
+ 94 words of extra memory for PDF output out of 10000 (max. 10000000)
 
