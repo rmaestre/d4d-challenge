@@ -1,29 +1,26 @@
 \newpage
-
 \section{Temporal and geographical components}
 
-Using the proposed model, the first step is to understand the main component of the commuting dynamic. The result of our approach will emerge from this main component as we can see in the next picture. This main component model the first logic result and shows the time segments that people have more activite, in call numbers terms. This picture shows static and dinamic users calling i.e.: nodes with self-edges are counted and transition edges together.
+According to the proposed model, a very important feature has been deduced for the Commuting Dynamic. As we can see in the picture below, there is a couple of time zones when people perform more phone calls from their handsets than usual. Static and dynamic users have not been distinguished, that is, both self-edges and transition edges are counted together.
 
 \begin{figure}[ht]
 \centering
-\subfigure[Total number of calls grouped by Week days]{
+\subfigure[Total amount of calls grouped by Week days]{
 	\includegraphics[scale =0.5] {results/images/calls_number.pdf}
 	\label{fig:subfig11}
 }
 \label{fig:fig1}
 \end{figure}
 
-As the above picture shows, we can see two peaks $p_1$ from 7 Am to 9 Am and another one $p_2$ from 6 Pm to 8 Pm. As we can see $p_1 < p_2$ in a number of call terms and $p_2$ start to grow at 6 PM and get its maximum value at 8 PM, after this hour, the number of calls dicrease linearly. Another main thing showed by the picture is that exists a central valley between $p_1$ and $p_2$, i.e.:  from 9 Am to 6 Pm, that people stop or "relax??" the number of calls. 
-This main component is common to the seven days of the week, therefore, we can assume that people have the same behavior on this sample dataset.
+There are two peaks, $p_1$, from 7:00 am to 9:00 am, and another one, $p_2$, from 6:00 pm to 8:00 pm. As we can see, the 'morning-peak' is lower than the 'evening-peak'. Moreover, both peaks reach their maximum value at the end of their corresponding time zone, i.e., $p_1$ at 9:30 am and $p_2$ at 7:30 pm. Note how the amount of calls increases linearly since 5 am and how it decreases linearly too since 8:00 pm. Another remarked feature is the existence of a central valley between $p_1$ and $p_2$, that is, from 9:00 am to 6:00 pm. This 'peak-valley-peak' pattern is shown for all days in the week, so that we can assume people have the same behaviour (at least, according to our target datasets).
 \\
 \\
+Let's extract some ideas from the previous chart, focusing on what commuters could be probably doing (as we will see shortly, most of the phone calls belong to 'dynamic users'): they get up early in the morning and start to perform more and more phone calls from their handsets until $p1_$; next, the amount of phone calls decreases a bit, keeping itself more or less balanced (workhours, lunch) until the beginning of $p2_$; later, they people leave the office and plan the rest of the day (errands, leisure...), what is reflected on a marked rise in the amount of phone calls.
 \\
 \\
-Several assumptions could be suggested at this point, for instance, in the $p_1$ range, people start to work on a regular daily activite, in the central valley, some people stop (but not entirely), perhaps to eat, and in the next peak $p_2$, people return to regular daily activite and perhaps start to return home.
-The question here is to figure out the commuting dynamic through the average displacement per person and where are located the time ranges or windows that people realize this action.  This last assumption, will be tested with the proposed model and the final GIS visualization as main core of the work showed by thw present work.  Geographical displacements are studied by means of GIS tool on the map in order to detect and understand the micro and long movements across the country. 
+Since it is really complicated to measure the displacements of the people (antenna locations instead of users locations, missing antena identifiers...), what will be analyzed is the amount of callers who are really commuters, that is, dynamic users. This one will be the essential magnitude of our research, leading us to figure out the Commuting Dynamics key-features for different regions and times. Eventually, all conclusions deduced from the G/T Model (charts, formulae...) will be ultimately tested with the final GIS visualization as the main core of the work. In this last phase, geographical displacements are estimated so thath thya can be plot in a dynamic & interactive map which makes easier to detect peaks, trends...
 \\
 \\
-A pattern model of commuting is showed as a start point to test the hypothesis. {\color{red} Poner algunas referencia or something del supuesto modelo teórico!!}. As we can see two peaks are defined corresponding with maximum displacement hours and a central valley corresponding to "eat hours"  {\color{red} queda poco científico, hay que poner algo mejor}
 
 \newpage
 
@@ -32,24 +29,21 @@ A pattern model of commuting is showed as a start point to test the hypothesis. 
 \begin{center}
 $\begin{array}{cc}
 \subfigure{
-	\includegraphics[scale =0.5] {results/images/common_commuting_model.pdf}
+	\includegraphics[scale =0.5] {results/images/monday_commuting_lenght.pdf}
 	\label{fig:subfig11}
 }
 \label{fig:fig1}
 \end{array}$
 \end{center}
-\caption{Theoretical Commuting Model}
+\caption{Theoretical Commuting Model (cambiar por la imagen de verdad)}
 \end{figure}
 
-The picture above, shows a first approach pattern model of commuting. Two peaks representing high displacement temporal events are modeled with a central valley. {\color{red} Escribir mas sobre el porque de este modelo teorico, porque la eleccion de los dos picos y del valle central.}
+With this new chart, it is the ratio between commuters and all users what it is being emphasized. During a particular day (24h), there is no need to know if a concrete displacement is or not longer than other, no, what it is being highlighted here is the movement detection itself, for 1h windows which groups all users calling within it. The colour of the chart shows how many users are really commuters.
 \\
 \\
-Datasets has been processed carried out by the mathematical model proposed, therefore, static users has been removed and dinamyc users, better its tracks, has been grouped into a temporal windows and grouped by the day of the week. Dataset $#2$ has been applied on the mathematical model to obtain the main results of our work. Dataset $#2$ provides a 8000000 {\color{red} revisar que sean ese numero} of user communication traces.
-\\
-Seven pictures representing the 24 hours of each day are shown below in and their respective data tables. The median normalized with the number of dynamic users, is showed in each temporal window of each picture corresponding with each day of the week. Also pictures shows a third dimension representing the total number of dynamic users analyzed, this third variable is showed like a heat degraded colors among the main line in the pictures.
+Datasets have been processed according to the proposed G/T Model, filtering non-commuters when commuters tracks have been calculated. Here below, 7 charts display Commuting Dynamics for each week-day.
 \\
 \\
-Pictures shows that emerge a new $p'_1$ and $p'_2$ where $p'_1 > p'_2$, in a displacements terms, we can see that people start to perform moves about 4 AM until to reach $p'_1$ at 7 Am. At this point, displacements are reduced. Also, another key point to stand out is in the first peak
 
 \setcounter{subfigure}{0}
 \begin{figure}[h]
@@ -102,9 +96,5 @@ $\begin{array}{ccc}
 
 \end{array}$
 \end{center}
-\caption{Dynamic users displacement}
+\caption{Dynamic users displacment}
 \end{figure}
-
-
-
-
