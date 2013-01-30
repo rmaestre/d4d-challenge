@@ -121,7 +121,7 @@ init_day = datetime(2011, 12, 1, 0, 0, 0)
 day_cont = 0
 max_distance_for_a_single_transition = 0
 while day_cont < 150: # Perform analysis for each day
-    if init_day.weekday() == 1:
+    if init_day.weekday() == 6:
         print ("Processing day %d of a total of 150 days" % day_cont)
         for h in range(0,24):
             start = datetime(init_day.year, init_day.month, init_day.day, h, 0, 0)

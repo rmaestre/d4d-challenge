@@ -35,10 +35,10 @@ def get_week_day_id(week_day):
         return 6
 
 
-data = pickle.load(open( "/tmp/dataset_lunes_matrix.tsv", "rb" ) )
+data = pickle.load(open( "/tmp/data/domingo/dataset2_matrix.tsv", "rb" ) )
 
-for week_day in ['Monday']: #, 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'
-    filename = "/tmp/dataset2_matrix_%s.tsv" % week_day
+for week_day in ['Sunday']: #, 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'
+    filename = "/tmp/data/domingo/results.tsv"
     f_out = open(filename, "w")
     f_out.write("HOURS\tDISTANCES\tMEDIAN_DISTANCES\tTRANSITIONS\tSTAYS\tCALLS\tLOCATED_EDGES\tUSERS\tDYNAMIC_USERS\tSTATIC_USERS\tRATIO_DISTANCE2DYNAMIC_USERS\tRATIO_MEDIAN_DISTANCE2DYNAMIC_USERS\tRATIO_DYNAMIC_USERS2USERS\tRATIO_STATIC_USERS2USERS\tRATIO_TRANSITIONS2LOCATED_ANTENNAS\tRATIO_STAYS2LOCATED_ANTENNAS\n")
     
