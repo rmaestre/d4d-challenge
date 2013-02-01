@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.9.15)  1 FEB 2013 07:53
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.9.15)  1 FEB 2013 09:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -827,7 +827,7 @@ File: results/images/calls_number.pdf Graphic file (type pdf)
 <use results/images/calls_number.pdf>
 Package pdftex.def Info: results/images/calls_number.pdf used on input line 11.
 
-(pdftex.def)             Requested size: 252.94437pt x 252.94437pt.
+(pdftex.def)             Requested size: 303.53633pt x 303.53633pt.
 
 ! Missing { inserted.
 <to be read again> 
@@ -938,13 +938,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 40--45
 
  []
 
-<results/images/commuting_results.pdf, id=169, 126.3997pt x 415.95813pt>
+<results/images/commuting_results.pdf, id=169, 367.3725pt x 645.41125pt>
 File: results/images/commuting_results.pdf Graphic file (type pdf)
 
 <use results/images/commuting_results.pdf>
 Package pdftex.def Info: results/images/commuting_results.pdf used on input lin
 e 54.
-(pdftex.def)             Requested size: 189.59908pt x 623.93565pt.
+(pdftex.def)             Requested size: 367.37158pt x 645.40968pt.
+
+
+LaTeX Warning: Float too large for page by 5.21367pt on input line 60.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -1054,10 +1057,10 @@ exmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/local/texlive/2011/tex
 mf-dist/fonts/type1/public/cm-super/sfrm2074.pfb></usr/local/texlive/2011/texmf
 -dist/fonts/type1/public/cm-super/sfti1095.pfb></usr/local/texlive/2011/texmf-d
 ist/fonts/type1/public/cm-super/sftt1095.pfb>
-Output written on d4d_challenge.pdf (10 pages, 521003 bytes).
+Output written on d4d_challenge.pdf (10 pages, 508194 bytes).
 PDF statistics:
- 443 PDF objects out of 1000 (max. 8388607)
- 328 compressed objects within 4 object streams
+ 361 PDF objects out of 1000 (max. 8388607)
+ 289 compressed objects within 3 object streams
  34 named destinations out of 1000 (max. 500000)
  69 words of extra memory for PDF output out of 10000 (max. 10000000)
 
