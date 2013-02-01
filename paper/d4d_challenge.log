@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.9.15)  31 JAN 2013 13:05
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.9.15)  1 FEB 2013 07:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -603,60 +603,6 @@ LaTeX Warning: Label `sub@fig:subfig11' multiply defined.
 
 LaTeX Warning: Label `fig:fig1' multiply defined.
 
-
-LaTeX Warning: Label `fig:subfig11' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:subfig11' multiply defined.
-
-
-LaTeX Warning: Label `fig:fig1' multiply defined.
-
-
-LaTeX Warning: Label `fig:subfig11' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:subfig11' multiply defined.
-
-
-LaTeX Warning: Label `fig:fig1' multiply defined.
-
-
-LaTeX Warning: Label `fig:subfig11' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:subfig11' multiply defined.
-
-
-LaTeX Warning: Label `fig:fig1' multiply defined.
-
-
-LaTeX Warning: Label `fig:subfig11' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:subfig11' multiply defined.
-
-
-LaTeX Warning: Label `fig:fig1' multiply defined.
-
-
-LaTeX Warning: Label `fig:subfig11' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:subfig11' multiply defined.
-
-
-LaTeX Warning: Label `fig:fig1' multiply defined.
-
-
-LaTeX Warning: Label `fig:subfig11' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:subfig11' multiply defined.
-
-
-LaTeX Warning: Label `fig:fig1' multiply defined.
-
 ) (./visualizations/section.aux) (./conclusions/section.aux))
 \openout1 = `d4d_challenge.aux'.
 
@@ -992,99 +938,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 40--45
 
  []
 
-<results/images/monday_commuting_lenght.pdf, id=169, 505.89pt x 505.89pt>
-File: results/images/monday_commuting_lenght.pdf Graphic file (type pdf)
+<results/images/commuting_results.pdf, id=169, 126.3997pt x 415.95813pt>
+File: results/images/commuting_results.pdf Graphic file (type pdf)
 
-<use results/images/monday_commuting_lenght.pdf>
-Package pdftex.def Info: results/images/monday_commuting_lenght.pdf used on inp
-ut line 54.
-(pdftex.def)             Requested size: 252.94437pt x 252.94437pt.
-
-<results/images/thuesday_commuting_lenght.pdf, id=170, 505.89pt x 505.89pt>
-File: results/images/thuesday_commuting_lenght.pdf Graphic file (type pdf)
-
-<use results/images/thuesday_commuting_lenght.pdf>
-Package pdftex.def Info: results/images/thuesday_commuting_lenght.pdf used on i
-nput line 60.
-(pdftex.def)             Requested size: 252.94437pt x 252.94437pt.
-
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.62  &
-       
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
-
-<results/images/wednesday_commuting_lenght.pdf, id=171, 505.89pt x 505.89pt>
-File: results/images/wednesday_commuting_lenght.pdf Graphic file (type pdf)
-
-<use results/images/wednesday_commuting_lenght.pdf>
-Package pdftex.def Info: results/images/wednesday_commuting_lenght.pdf used on 
-input line 66.
-(pdftex.def)             Requested size: 252.94437pt x 252.94437pt.
-
-<results/images/thursday_commuting_lenght.pdf, id=172, 505.89pt x 505.89pt>
-File: results/images/thursday_commuting_lenght.pdf Graphic file (type pdf)
-
-<use results/images/thursday_commuting_lenght.pdf>
-Package pdftex.def Info: results/images/thursday_commuting_lenght.pdf used on i
-nput line 72.
-(pdftex.def)             Requested size: 252.94437pt x 252.94437pt.
-
-<results/images/friday_commuting_lenght.pdf, id=173, 505.89pt x 505.89pt>
-File: results/images/friday_commuting_lenght.pdf Graphic file (type pdf)
-
-<use results/images/friday_commuting_lenght.pdf>
-Package pdftex.def Info: results/images/friday_commuting_lenght.pdf used on inp
-ut line 78.
-(pdftex.def)             Requested size: 252.94437pt x 252.94437pt.
-
-<results/images/saturday_commuting_lenght.pdf, id=174, 505.89pt x 505.89pt>
-File: results/images/saturday_commuting_lenght.pdf Graphic file (type pdf)
-
-<use results/images/saturday_commuting_lenght.pdf>
-Package pdftex.def Info: results/images/saturday_commuting_lenght.pdf used on i
-nput line 84.
-(pdftex.def)             Requested size: 151.76816pt x 151.76816pt.
-
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.86 &
-      
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
-
-<results/images/sunday_commuting_lenght.pdf, id=175, 505.89pt x 505.89pt>
-File: results/images/sunday_commuting_lenght.pdf Graphic file (type pdf)
-
-<use results/images/sunday_commuting_lenght.pdf>
-Package pdftex.def Info: results/images/sunday_commuting_lenght.pdf used on inp
-ut line 91.
-(pdftex.def)             Requested size: 151.76816pt x 151.76816pt.
-
-Overfull \hbox (56.71405pt too wide) in paragraph at lines 49--96
- []$ 
- []
-
-
-LaTeX Warning: Float too large for page by 337.39645pt on input line 98.
+<use results/images/commuting_results.pdf>
+Package pdftex.def Info: results/images/commuting_results.pdf used on input lin
+e 54.
+(pdftex.def)             Requested size: 189.59908pt x 623.93565pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) [6 <./results/images/common_commuting_model.pdf>] [7 <./results/images/monday
-_commuting_lenght.pdf> <./results/images/thuesday_commuting_lenght.pdf> <./resu
-lts/images/wednesday_commuting_lenght.pdf> <./results/images/thursday_commuting
-_lenght.pdf> <./results/images/friday_commuting_lenght.pdf> <./results/images/s
-aturday_commuting_lenght.pdf> <./results/images/sunday_commuting_lenght.pdf>]
+) [6 <./results/images/common_commuting_model.pdf>] [7 <./results/images/commut
+ing_results.pdf>]
 \openout2 = `visualizations/section.aux'.
 
-
-(./visualizations/section.tex)
+ (./visualizations/section.tex)
 Underfull \hbox (badness 10000) in paragraph at lines 5--66
 
  []
@@ -1156,10 +1025,10 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 78.
  ) 
 Here is how much of TeX's memory you used:
- 8017 strings out of 493633
- 114190 string characters out of 3143377
+ 7981 strings out of 493633
+ 112753 string characters out of 3143377
  207255 words of memory out of 3000000
- 11095 multiletter control sequences out of 15000+200000
+ 11071 multiletter control sequences out of 15000+200000
  21476 words of font info for 60 fonts, out of 3000000 for 9000
  831 hyphenation exceptions out of 8191
  37i,15n,39p,1066b,392s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1185,10 +1054,10 @@ exmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/local/texlive/2011/tex
 mf-dist/fonts/type1/public/cm-super/sfrm2074.pfb></usr/local/texlive/2011/texmf
 -dist/fonts/type1/public/cm-super/sfti1095.pfb></usr/local/texlive/2011/texmf-d
 ist/fonts/type1/public/cm-super/sftt1095.pfb>
-Output written on d4d_challenge.pdf (10 pages, 1248924 bytes).
+Output written on d4d_challenge.pdf (10 pages, 521003 bytes).
 PDF statistics:
- 932 PDF objects out of 1000 (max. 8388607)
- 722 compressed objects within 8 object streams
- 40 named destinations out of 1000 (max. 500000)
- 99 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 443 PDF objects out of 1000 (max. 8388607)
+ 328 compressed objects within 4 object streams
+ 34 named destinations out of 1000 (max. 500000)
+ 69 words of extra memory for PDF output out of 10000 (max. 10000000)
 
