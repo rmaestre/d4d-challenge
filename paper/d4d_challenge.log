@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.9.15)  1 FEB 2013 09:58
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.9.15)  1 FEB 2013 13:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -699,41 +699,45 @@ Try to go on, since this might almost work.
 [1
 
 {/usr/local/texlive/2011/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+(./d4d_challenge.lof)
+\tf@lof=\write4
+\openout4 = `d4d_challenge.lof'.
+
+ [2]
 \openout2 = `introduction/section.aux'.
 
-
-(./introduction/section.tex)
-Underfull \hbox (badness 10000) in paragraph at lines 4--60
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4--60
+ (./introduction/section.tex)
+Underfull \hbox (badness 10000) in paragraph at lines 4--67
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4--60
+Underfull \hbox (badness 10000) in paragraph at lines 4--67
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4--60
+Underfull \hbox (badness 10000) in paragraph at lines 4--67
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4--60
+Underfull \hbox (badness 10000) in paragraph at lines 4--67
 
  []
 
-[2
 
-] [3]
+Underfull \hbox (badness 10000) in paragraph at lines 4--67
+
+ []
+
+[3
+
+] [4]
 \openout2 = `mathematical_definition/section.aux'.
 
  (./mathematical_definition/section.tex
-<mathematical_definition/images/dynamic_users.pdf, id=75, 895.11305pt x 343.885
+<mathematical_definition/images/dynamic_users.pdf, id=86, 895.11305pt x 343.885
 24pt>
 File: mathematical_definition/images/dynamic_users.pdf Graphic file (type pdf)
  <use mathematical_definition/images/dynamic_users.pdf>
@@ -813,7 +817,7 @@ l.47 ...um_{i=0}^{n-1} S(\vec{T}_u_t^i, \vec{T}_u_
                                                   t^{i+1})$$
 I treat `x_1_2' essentially like `x_1{}_2'.
 
-) [4
+) [5
 
 
  <./mathematical_definition/images/dynamic_users.pdf>]
@@ -821,13 +825,13 @@ I treat `x_1_2' essentially like `x_1{}_2'.
 
 
 (./results/section.tex
-<results/images/calls_number.pdf, id=110, 505.89pt x 505.89pt>
+<results/images/calls_number.pdf, id=120, 410.53375pt x 122.4575pt>
 File: results/images/calls_number.pdf Graphic file (type pdf)
 
 <use results/images/calls_number.pdf>
 Package pdftex.def Info: results/images/calls_number.pdf used on input line 11.
 
-(pdftex.def)             Requested size: 303.53633pt x 303.53633pt.
+(pdftex.def)             Requested size: 451.58852pt x 134.70364pt.
 
 ! Missing { inserted.
 <to be read again> 
@@ -901,32 +905,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 15--24
 
  []
 
-[5
-
-
- <./results/images/calls_number.pdf>]pdfTeX warning (ext4): destination with th
-e same identifier (name{subfigure.2.1}) has been already used, duplicate ignore
-d
-<to be read again> 
-                   \relax 
-l.30 \subfigure
-               {pdfTeX warning (ext4): destination with the same identifier (na
-me{subfigure.2.1}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.30 \subfigure
-               {pdfTeX warning (ext4): destination with the same identifier (na
-me{subfigure.2.1}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.30 \subfigure
-               {pdfTeX warning (ext4): destination with the same identifier (na
-me{subfigure.2.1}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.30 \subfigure
-               {
-<results/images/common_commuting_model.pdf, id=168, 505.89pt x 505.89pt>
+<results/images/common_commuting_model.pdf, id=121, 505.89pt x 505.89pt>
 File: results/images/common_commuting_model.pdf Graphic file (type pdf)
 
 <use results/images/common_commuting_model.pdf>
@@ -934,11 +913,19 @@ Package pdftex.def Info: results/images/common_commuting_model.pdf used on inpu
 t line 33.
 (pdftex.def)             Requested size: 252.94437pt x 252.94437pt.
 
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 40--45
 
  []
 
-<results/images/commuting_results.pdf, id=169, 367.3725pt x 645.41125pt>
+[6
+
+
+ <./results/images/calls_number.pdf>]
+<results/images/commuting_results.pdf, id=145, 367.3725pt x 645.41125pt>
 File: results/images/commuting_results.pdf Graphic file (type pdf)
 
 <use results/images/commuting_results.pdf>
@@ -952,16 +939,22 @@ LaTeX Warning: Float too large for page by 5.21367pt on input line 60.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) [6 <./results/images/common_commuting_model.pdf>] [7 <./results/images/commut
-ing_results.pdf>]
+) [7pdfTeX warning (ext4): destination with the same identifier (name{subfigure
+.2.1}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.71 \include{results/section}
+                               <./results/images/common_commuting_model.pdf>]
+[8 <./results/images/commuting_results.pdf>]
 \openout2 = `visualizations/section.aux'.
 
  (./visualizations/section.tex)
-Underfull \hbox (badness 10000) in paragraph at lines 5--66
+Underfull \hbox (badness 10000) in paragraph at lines 5--73
 
  []
 
-[8
+[9
 
 
 ]
@@ -982,7 +975,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--14
 
  []
 
-) [9
+) [10
 
 
 ] (./d4d_challenge.bbl
@@ -1009,28 +1002,28 @@ Underfull \hbox (badness 10000) in paragraph at lines 34--40
  []
 
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 78.
- [10
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 85.
+ [11
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 78.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 85.
  (./d4d_challenge.aux (./introduction/section.aux)
 (./mathematical_definition/section.aux) (./results/section.aux)
 (./visualizations/section.aux) (./conclusions/section.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 78.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 78.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 85.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 85.
 Package rerunfilecheck Info: File `d4d_challenge.out' has not changed.
-(rerunfilecheck)             Checksum: F7C3443DF7DEBB65E6CAB15BA45E2D79;355.
+(rerunfilecheck)             Checksum: 6461F2097E88B76128FA8C19951B61DF;355.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 78.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 85.
  ) 
 Here is how much of TeX's memory you used:
- 7981 strings out of 493633
- 112753 string characters out of 3143377
- 207255 words of memory out of 3000000
+ 7986 strings out of 493633
+ 112810 string characters out of 3143377
+ 207256 words of memory out of 3000000
  11071 multiletter control sequences out of 15000+200000
  21476 words of font info for 60 fonts, out of 3000000 for 9000
  831 hyphenation exceptions out of 8191
@@ -1057,10 +1050,10 @@ exmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/local/texlive/2011/tex
 mf-dist/fonts/type1/public/cm-super/sfrm2074.pfb></usr/local/texlive/2011/texmf
 -dist/fonts/type1/public/cm-super/sfti1095.pfb></usr/local/texlive/2011/texmf-d
 ist/fonts/type1/public/cm-super/sftt1095.pfb>
-Output written on d4d_challenge.pdf (10 pages, 508194 bytes).
+Output written on d4d_challenge.pdf (11 pages, 461218 bytes).
 PDF statistics:
- 361 PDF objects out of 1000 (max. 8388607)
- 289 compressed objects within 3 object streams
- 34 named destinations out of 1000 (max. 500000)
+ 336 PDF objects out of 1000 (max. 8388607)
+ 271 compressed objects within 3 object streams
+ 36 named destinations out of 1000 (max. 500000)
  69 words of extra memory for PDF output out of 10000 (max. 10000000)
 
