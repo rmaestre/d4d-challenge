@@ -11,15 +11,15 @@
 \end{figure}
 
 
-The above figure shows two users ${u_0,u_1}$ repesented on the vertical axe, grouped by three time windows $t_o,t_1,t_2$. A time window is defined as $t_n$ where $n \in \{0,..,24\}$. Each $t_n$ groups the communications traces of the whole set of users in a 60 minutes range. 
+The above figure shows two commuters ${u_0,u_1}$ repesented on the vertical axe, grouped by three time windows $t_o,t_1,t_2$. A time window is defined as $t_n$ where $n \in \{0,..,24\}$. Each $t_n$ groups the communications traces of the whole set of commuters in a 60 minutes range. 
 \\
 \\
-Formally, an user trace during a particular time window is defined as follows:
+Formally, a commuter trace during a particular time window is defined as follows:
 $$ \vec{T}_u_t = (p_0,p_1,...,p_n)  $$ where, 
 $p_n \in \mathbb{R}^2$ , 
-$n \geq 2 $, 
+$n > 1 $, 
 $t$ is a temporal window range and,
-$u$ the unique user id.
+$u$ the unique commuter id.
 \\
 For instance, $ \vec{T}_0_0 = (p_1,p_2)  $, $ \vec{T}_1_0 = (p_1,p_1,p_2)  $ and so on.
 \\
