@@ -16,10 +16,7 @@
     <link href="http://twitter.github.com/bootstrap/assets/css/docs.css" rel="stylesheet">
     <link href="http://twitter.github.com/bootstrap/assets/js/google-code-prettify/prettify.css" rel="stylesheet">
     <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.0/themes/base/jquery-ui.css" />
-	<link rel="stylesheet" href="css/my.css" />
-	<link rel="stylesheet" href="css/leaflet.css" />
-	<link rel="stylesheet" href="css/my-grid.css" />
-	<!--[if lte IE 8]><link rel="stylesheet" href="css/leaflet.ie.css" /><![endif]-->
+
 
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
@@ -33,43 +30,16 @@
     <link rel="apple-touch-icon-precomposed" href="http://twitter.github.com/bootstrap/assets/ico/apple-touch-icon-57-precomposed.png">
     <link rel="shortcut icon" href="http://twitter.github.com/bootstrap/assets/ico/favicon.png">
 
-	<!-- Polymaps not used anymore -->
-    <!--script type="text/javascript" src="http://polymaps.org/modernizr.min.js?1.5"></script>
+    <script type="text/javascript" src="http://polymaps.org/modernizr.min.js?1.5"></script>
     <script type="text/javascript" src="http://polymaps.org/polymaps.min.js?2.5.1"></script>
-    <script type="text/javascript" src="http://polymaps.org/nns.min.js?1.1.0"></script-->
-
-	<script language="javascript" type="text/javascript" src="js/jquery.min.js"></script>
-	<script language="javascript" type="text/javascript" src="js/leaflet.js"></script>
-	<script language="javascript" type="text/javascript" src="js/Control.FullScreen.js"></script>
-	<script language="javascript" type="text/javascript" src="js/my.js"></script>
-
+    <script type="text/javascript" src="http://polymaps.org/nns.min.js?1.1.0"></script>
     <style type="text/css">
 
-/*@import url("http://polymaps.org/screen.css?0.9+1");*/
-/*@import url("http://polymaps.org/style.css?2.2.0");*/
-
-.container {width:80%;margin:0 auto;}
+@import url("http://polymaps.org/screen.css?0.9+1");
+@import url("http://polymaps.org/style.css?2.2.0");
 
 div#map {
   background: #E5E0D9;
-  position:relative;
-  border: solid 4px #ccc;
-  /*background: #eee;*/
-  min-height:500px;
-  width:100%;
-  min-width:80%;
-}
-
-.leaflet-control-zoom-fullscreen { background-image: url(images/icon-fullscreen.png); }
-
-/* on selector per rule as explained here : http://www.sitepoint.com/html5-full-screen-api/ */
-#map:-webkit-full-screen { width: 100% !important; height: 100% !important; }
-#map:-moz-full-screen { width: 100% !important; height: 100% !important; }
-#map:full-screen { width: 100% !important; height: 100% !important; }
-
-div#slider-range{
-	width:100%; 
-	min-width:80%; 
 }
 
 .menu{
@@ -144,33 +114,33 @@ color: #FF2C00;
 		<hr class="space"/>
 		<div>
 		<ul class="nav nav-pills menu" id="menu">
-			<li class="dropdown active">
+			<li class="active"><a href="#map_container" data-toggle="tab">El desafío</a></li>
+			<li><a href="#ivory" data-toggle="tab">Costa de Marfil</a></li>
+			<li class="dropdown">
     			<a class="dropdown-toggle" data-toggle="dropdown"	href="#">
         			Visualizaciones
         			<b class="caret"></b>
       			</a>
     			<ul class="dropdown-menu">
       				<!-- links -->
-					<li class="active"><a href="#" data-toggle="tab">Mapa general</a></li>
+					<li><a href="#" data-toggle="tab">Mapa general</a></li>
 					<li><a href="#" data-toggle="tab">Commuting</a></li>
     			</ul>
   			</li>
-			<li><a href="#map_container" data-toggle="tab">El desafío</a></li>
-			<li><a href="#ivory" data-toggle="tab">Costa de Marfil</a></li>
 			<li><a href="#" data-toggle="tab">Paper</a></li>
 			<li><a href="#" data-toggle="tab">El equipo</a></li>
 		</ul>
       </div>
 	
       <div id="content" class="tab-content">
-	  <div id="map_container" class="tab-pane active span10">
-      <div id="map" class="last"></div> <!-- The MAP is drawn here!! -->
+	  <div id="map_container" class="tab-pane active">
+      <div id="map" class="span-24 last" style="width:100%; margin:0; padding:-100;"></div> <!-- The MAP is drawn here!! -->
  	  <!-- slider thingy -->
 		 <hr class="space"/>
 		<div id="slider-range"></div>
 		<p>
   			<!--label for="dates">Date Range:</label-->
-  			<input type="text" id="dates" style="width:100%; border: 0; color: #f6931f; font-weight: bold;" />
+  			<input type="text" id="dates" style="border: 0; color: #f6931f; font-weight: bold;" />
 		</p>
 	  <!-- end of slider thingy -->
       <hr class="space"/>
@@ -208,7 +178,16 @@ color: #FF2C00;
 </div> <!-- content -->
 
 
+<script type="text/javascript">
 
+var po=org.polymaps,map=po.map().container(document.getElementById("map").appendChild(po.svg("svg"))).add(po.interact()).add(po.hash());map.add(po.image().url(po.url("http://twittertracker:7890/d4d/{Z}/{X}/{Y}.png").hosts(["a.","b.","c.",""])));
+
+(function(){function d(){if(b=!b){c.style("position","fixed").style("border-width",0).style("width","100%").style("height","100%").style("top",0).style("left",0);a.style("position","fixed").style("right","16px").style("top","16px");e.attr("transform","translate(16,16)rotate(135)scale(5)translate(-1.85,0)");f.style("visibility","hidden").style("overflow","hidden")}else{c.style("position",null).style("border-width",null).style("width",null).style("height",null).style("top",null).style("left",null);
+a.style("position","absolute").style("right","-16px").style("top","-16px");e.attr("transform","translate(16,16)rotate(-45)scale(5)translate(-1.85,0)");f.style("visibility",null).style("overflow",null)}map.resize()}var f=n$(document.body),c=n$("#map").style("visibility","visible"),b=false,a=c.add("svg:svg").attr("width",32).attr("height",32).style("position","absolute").style("right","-16px").style("top","-16px").style("visibility","visible").on("mousedown",d);a.add("svg:circle").attr("cx",16).attr("cy",
+16).attr("r",14).attr("fill","#fff").attr("stroke","#ccc").attr("stroke-width",4).add("svg:title").text("Toggle fullscreen. (ESC)");var e=a.add("svg:path").attr("transform","translate(16,16)rotate(-45)scale(5)translate(-1.85,0)").attr("d","M0,0L0,.5 2,.5 2,1.5 4,0 2,-1.5 2,-.5 0,-.5Z").attr("pointer-events","none").attr("fill","#aaa");window.addEventListener("keydown",function(g){g.keyCode==27&&b&&d()},false)})();
+
+
+      </script>
       
     </div>
 
@@ -247,38 +226,24 @@ color: #FF2C00;
 		})
   	})
 	</script>
-
-
+	
 	<!-- slider script -->
 	<script>
-  function transformDate(date, range){
-	var d = new Date(date+range);
-    var curr_date = d.getDate();
-    var curr_month = d.getMonth() + 1; //Months are zero based
-    var curr_year = d.getFullYear();
-   
- 	return (curr_date + "/" + curr_month + "/" + curr_year);
-  }
-
   $(function() {
 	var days = 7;
 	var hours_day = 24;
-	var step = 100;
-	var initDate = new Date('01/01/2013') 
-	
     $( "#slider-range" ).slider({
       range: true,
       min: 0,
       max: days*hours_day*10,
-	  step: step,
+	  step: 100,
 	  values: [0,500],
       slide: function( event, ui ) {
-        $( "#dates" ).val( "Initial date:" + transformDate(initDate, ui.values[ 0 ]/step)
- 			+ " - End date:" + transformDate(initDate, ui.values[ 1 ]/step) );
+        $( "#dates" ).val( "Initial date:" + ui.values[ 0 ] + " - End date:" + ui.values[ 1 ] );
       }
     });
-    $( "#dates" ).val( "Initial date:" + transformDate(initDate, $( "#slider-range" ).slider( "values", 0 )) +
-      " - End date" + transformDate(initDate, $( "#slider-range" ).slider( "values", 1 ) ) );
+    $( "#dates" ).val( "Inital date:" + $( "#slider-range" ).slider( "values", 0 ) +
+      " - End date" + $( "#slider-range" ).slider( "values", 1 ) );
   });
   </script>
   </body>
