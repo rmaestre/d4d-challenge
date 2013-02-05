@@ -26,14 +26,12 @@ class MapService(tornado.web.RequestHandler):
             end time
         """
         try:
-            day = self.get_argument('day')
+            start_day = self.get_argument('start_day')
+            end_day = self.get_argument('end_day')
             start_time = int(self.get_argument('start_time'))
             end_time = int(self.get_argument('end_time'))
             hour_range = range(start_time, end_time + 1)
-            result = {}
-            for hour in hour_range:
-                logging.info('Retrieving data for hour %s' % hour)
-                result[str(hour)] = get_data(day, str(hour))
+            result = get_data(start_day, end_day, start_time, end_time)
             logging.info(result)
             self.write(result)
             logging.info("Done")

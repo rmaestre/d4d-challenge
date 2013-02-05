@@ -38,7 +38,37 @@ for day in days:
             raise e
             logging.error("The file %s_hour_%s.tsv does not exist" % (day, hour))
 
-def get_data(day, hour):
-    print(data.keys())
-    return data.get(day, {}).get(hour, {})
+def get_data(start_day, end_day, start_hour, end_hour):
+    result = defaultdict(dict)
+    if start_day == end_day:
+        for hour in range(start_hour, end_hour + 1):
+            result[start_day][hour] = data.get(start_day, {}).get(str(hour), {})
+    else:
+        days = __build_day_range(start_day, end_day)
+        print(days)
+        for day in days:
+            if day == start_day:
+                for hour in range(start_hour, 24):
+                    result[day][hour] = data.get(day, {}).get(str(hour), {})
+            elif day == end_day:
+                for hour in range(0, end_hour + 1):
+                    result[day][hour] = data.get(day, {}).get(str(hour), {})
+            else:
+                for hour in range(0, 24):
+                    result[day][hour] = data.get(day, {}).get(str(hour), {})
+    return result
+
+def __build_day_range(start_day, end_day):
+    result = []
+    for day in days:
+        if day == start_day and not result:
+            result.append(day)
+        if day == end_day and result:
+            if not day in result:
+                result.append(day)
+            break
+        elif result and not day in result:
+            result.append(day)
+    return result
+
 
