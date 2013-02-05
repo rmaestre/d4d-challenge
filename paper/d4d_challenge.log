@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.9.15)  4 FEB 2013 11:14
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.9.15)  5 FEB 2013 16:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -574,9 +574,10 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 (/usr/local/texlive/2011/texmf-dist/tex/latex/doublestroke/dsfont.sty
 Package: dsfont 1995/08/01 v0.1 Double stroke roman fonts
 )
-(./d4d_challenge.aux (./introduction/section.aux)
-(./mathematical_definition/section.aux) (./results/section.aux)
-(./visualizations/section.aux) (./conclusions/section.aux))
+(./d4d_challenge.aux (./about_us/section.aux) (./state-of-the-art/section.aux)
+(./problem_and_hypothesis/section.aux) (./mathematical_definition/section.aux)
+(./methodology/section.aux) (./results/section.aux) (./conclusions/section.aux)
+)
 \openout1 = `d4d_challenge.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
@@ -593,8 +594,7 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
 LaTeX Font Info:    ... okay on input line 24.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 24.
 LaTeX Font Info:    ... okay on input line 24.
-
-(/usr/local/texlive/2011/texmf-dist/tex/context/base/supp-pdf.mkii
+ (/usr/local/texlive/2011/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count119
 \scratchdimen=\dimen121
@@ -677,41 +677,76 @@ Try to go on, since this might almost work.
 \openout4 = `d4d_challenge.lof'.
 
  [2]
-\openout2 = `introduction/section.aux'.
+\openout2 = `about_us/section.aux'.
 
- (./introduction/section.tex)
-Underfull \hbox (badness 10000) in paragraph at lines 4--67
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4--67
+ (./about_us/section.tex)
+Underfull \hbox (badness 10000) in paragraph at lines 4--69
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4--67
+Underfull \hbox (badness 10000) in paragraph at lines 4--69
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4--67
+Underfull \hbox (badness 10000) in paragraph at lines 4--69
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4--67
+Underfull \hbox (badness 10000) in paragraph at lines 4--69
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--69
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--69
 
  []
 
 [3
 
 ] [4]
+\openout2 = `state-of-the-art/section.aux'.
+
+ (./state-of-the-art/section.tex) [5
+
+
+]
+\openout2 = `problem_and_hypothesis/section.aux'.
+
+
+(./problem_and_hypothesis/section.tex
+! Misplaced alignment tab character &.
+<argument> Problem description &
+                                 Hypothesis
+l.3 \section{Problem description & Hypothesis}
+                                              
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `alignment tab' on input line 3.
+
+) [6
+
+
+]
 \openout2 = `mathematical_definition/section.aux'.
 
  (./mathematical_definition/section.tex
-<mathematical_definition/images/dynamic_users.pdf, id=88, 895.11305pt x 343.885
-24pt>
+<mathematical_definition/images/dynamic_users.pdf, id=104, 895.11305pt x 343.88
+524pt>
 File: mathematical_definition/images/dynamic_users.pdf Graphic file (type pdf)
  <use mathematical_definition/images/dynamic_users.pdf>
 Package pdftex.def Info: mathematical_definition/images/dynamic_users.pdf used 
@@ -790,15 +825,21 @@ l.45 ...um_{i=0}^{n-1} S(\vec{T}_u_t^i, \vec{T}_u_
                                                   t^{i+1})$$
 I treat `x_1_2' essentially like `x_1{}_2'.
 
-) [5
+) [7
 
 
- <./mathematical_definition/images/dynamic_users.pdf>] [6]
+ <./mathematical_definition/images/dynamic_users.pdf>] [8]
+\openout2 = `methodology/section.aux'.
+
+
+(./methodology/section.tex) [9
+
+
+]
 \openout2 = `results/section.aux'.
 
-
-(./results/section.tex
-<results/images/calls_number.pdf, id=125, 409.53pt x 120.45pt>
+ (./results/section.tex
+<results/images/calls_number.pdf, id=146, 409.53pt x 120.45pt>
 File: results/images/calls_number.pdf Graphic file (type pdf)
 
 <use results/images/calls_number.pdf>
@@ -847,16 +888,6 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-! Misplaced alignment tab character &.
-l.22 ...d so thath thya can be plot in a dynamic &
-                                                   interactive map which mak...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
 
 Underfull \hbox (badness 10000) in paragraph at lines 16--25
 
@@ -877,7 +908,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 16--25
 
  []
 
-<results/images/common_commuting_model.pdf, id=126, 421.575pt x 419.5675pt>
+<results/images/common_commuting_model.pdf, id=147, 421.575pt x 419.5675pt>
 File: results/images/common_commuting_model.pdf Graphic file (type pdf)
 
 <use results/images/common_commuting_model.pdf>
@@ -903,11 +934,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 35--46
 
  []
 
-[7
+[10
 
 
  <./results/images/calls_number.pdf>]
-<results/images/commuting_results.pdf, id=147, 330.23375pt x 613.29124pt>
+<results/images/commuting_results.pdf, id=168, 330.23375pt x 613.29124pt>
 File: results/images/commuting_results.pdf Graphic file (type pdf)
 
 <use results/images/commuting_results.pdf>
@@ -918,19 +949,8 @@ e 50.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) [8 <./results/images/common_commuting_model.pdf>] [9 <./results/images/commut
-ing_results.pdf>]
-\openout2 = `visualizations/section.aux'.
-
- (./visualizations/section.tex)
-Underfull \hbox (badness 10000) in paragraph at lines 5--73
-
- []
-
-[10
-
-
-]
+) [11 <./results/images/common_commuting_model.pdf>] [12 <./results/images/comm
+uting_results.pdf>]
 \openout2 = `conclusions/section.aux'.
 
  (./conclusions/section.tex
@@ -948,7 +968,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--14
 
  []
 
-) [11
+) [13
 
 
 ] (./d4d_challenge.bbl
@@ -975,28 +995,29 @@ Underfull \hbox (badness 10000) in paragraph at lines 34--40
  []
 
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 85.
- [12
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 84.
+ [14
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 85.
- (./d4d_challenge.aux (./introduction/section.aux)
-(./mathematical_definition/section.aux) (./results/section.aux)
-(./visualizations/section.aux) (./conclusions/section.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 85.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 85.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 84.
+ (./d4d_challenge.aux (./about_us/section.aux)
+(./state-of-the-art/section.aux) (./problem_and_hypothesis/section.aux)
+(./mathematical_definition/section.aux) (./methodology/section.aux)
+(./results/section.aux) (./conclusions/section.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 84.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 84.
 Package rerunfilecheck Info: File `d4d_challenge.out' has not changed.
-(rerunfilecheck)             Checksum: 6461F2097E88B76128FA8C19951B61DF;355.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 85.
+(rerunfilecheck)             Checksum: 87779280401948657F9779E5EB77AE2F;438.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 84.
  ) 
 Here is how much of TeX's memory you used:
- 7985 strings out of 493633
- 112818 string characters out of 3143377
- 207286 words of memory out of 3000000
- 11071 multiletter control sequences out of 15000+200000
+ 8007 strings out of 493633
+ 113305 string characters out of 3143377
+ 208129 words of memory out of 3000000
+ 11075 multiletter control sequences out of 15000+200000
  21476 words of font info for 60 fonts, out of 3000000 for 9000
  831 hyphenation exceptions out of 8191
- 37i,13n,39p,1066b,323s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 37i,13n,39p,1047b,323s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/local/texlive/2011/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
 </usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
 /usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></
@@ -1019,10 +1040,10 @@ exmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/local/texlive/2011/tex
 mf-dist/fonts/type1/public/cm-super/sfrm2074.pfb></usr/local/texlive/2011/texmf
 -dist/fonts/type1/public/cm-super/sfti1095.pfb></usr/local/texlive/2011/texmf-d
 ist/fonts/type1/public/cm-super/sftt1095.pfb>
-Output written on d4d_challenge.pdf (12 pages, 380424 bytes).
+Output written on d4d_challenge.pdf (14 pages, 379248 bytes).
 PDF statistics:
- 287 PDF objects out of 1000 (max. 8388607)
- 234 compressed objects within 3 object streams
- 35 named destinations out of 1000 (max. 500000)
- 69 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 307 PDF objects out of 1000 (max. 8388607)
+ 252 compressed objects within 3 object streams
+ 39 named destinations out of 1000 (max. 500000)
+ 85 words of extra memory for PDF output out of 10000 (max. 10000000)
 
