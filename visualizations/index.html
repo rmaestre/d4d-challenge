@@ -252,11 +252,11 @@ color: #FF2C00;
 	<!-- slider script -->
 	<script>
   function transformDate(date, range){
-	var d = new Date(date+range);
-    var curr_date = d.getDate();
+  	console.log(range)
+	var d = new Date(date);
+    var curr_date = d.getDate() + range;
     var curr_month = d.getMonth() + 1; //Months are zero based
     var curr_year = d.getFullYear();
-   
  	return (curr_date + "/" + curr_month + "/" + curr_year);
   }
 
@@ -273,12 +273,12 @@ color: #FF2C00;
 	  step: step,
 	  values: [0,500],
       slide: function( event, ui ) {
-        $( "#dates" ).val( "Initial date:" + transformDate(initDate, ui.values[ 0 ]/step)
- 			+ " - End date:" + transformDate(initDate, ui.values[ 1 ]/step) );
+        $( "#dates" ).val( "Initial date: " + transformDate(initDate, ui.values[ 0 ]/step)
+ 			+ " - End date: " + transformDate(initDate, ui.values[ 1 ]/step) );
       }
     });
-    $( "#dates" ).val( "Initial date:" + transformDate(initDate, $( "#slider-range" ).slider( "values", 0 )) +
-      " - End date" + transformDate(initDate, $( "#slider-range" ).slider( "values", 1 ) ) );
+    $( "#dates" ).val( "Initial date: " + transformDate(initDate, $( "#slider-range" ).slider( "values", 0 ) / step) +
+      " - End date: " + transformDate(initDate, $( "#slider-range" ).slider( "values", 1 ) / step ) );
   });
   </script>
   </body>
