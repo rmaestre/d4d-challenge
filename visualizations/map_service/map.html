@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html;charset=utf-8">
+    <title>Polymaps - Pale Dawn</title>
+    <script type="text/javascript" src="http://polymaps.org/modernizr.min.js?1.5"></script>
+    <script type="text/javascript" src="http://polymaps.org/polymaps.min.js?2.5.1"></script>
+    <script type="text/javascript" src="http://polymaps.org/nns.min.js?1.1.0"></script>
+    <style type="text/css">
+
+@import url("http://polymaps.org/screen.css?0.9+1");
+@import url("http://polymaps.org/style.css?2.2.0");
+
+div#map {
+  background: #E5E0D9;
+}
+
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <hr class="space"/>
+      <div class="span-18 last top">
+		<a href="http://labs.paradigmatecnologico.com">
+        	<img src="http://labs.paradigmatecnologico.com/wordpress/wp-content/uploads/2011/03/paradigmaLabV31.png"/ height="45" width="260">
+		</a>
+      </div>
+      <hr class="space"/>
+      <div id="map" class="span-24 last"></div>
+      <hr class="space"/>
+      <div class="span-25 last" style="text-align:justify">
+
+        <h2>D4D</h2>
+
+        <p>Orange “Data for Development” – D4D – is an open data challenge, encouraging research teams around the world to use four datasets of anonymous call patterns of Orange’s Ivory Coast subsidiary, to help address society development questions in novel ways. The data sets are based on anonymized Call Detail Records extracted from Orange’s customer base, covering the months of December 2011 to April 2012.</p>
+
+        <h3>Short abstract</h3>
+<p></p>
+<p>Our idea is to use the geolocation data from the antennas processing the mobile phones calls in order to know which sub-prefectures the customers have been getting around. The main goal of our project is developing spatio-temporal models to detect patterns for the different sub-prefectures, including some other factors related to the region and/or time: wealth, development, infrastructure, investment, grants…</p>
+<p>By means of GIS technology, we will be able to apply our generated models to the gathered data and to analyze their correlations over the Côte d’Ivoire surface, working with geographical layers: landcover, roads map, railways lines, water sources… Consequently, the reached conclusions from our study will be properly visualized, allowing a better explanation of the facts.</p>
+<p>In the near future, some other measures could be included. For instance, hospitals and police stations locations, their calls rate… Thus, we could know its real use, being able to improve their service to the citizens: dangerous areas, crowded hospitals…</p>
+<br/>
+      </div>
+
+      <script type="text/javascript">
+
+var po=org.polymaps,map=po.map().container(document.getElementById("map").appendChild(po.svg("svg"))).add(po.interact()).add(po.hash());map.add(po.image().url(po.url("http://twittertracker:7890/example/{Z}/{X}/{Y}.png").hosts(["a.","b.","c.",""])));
+
+(function(){function d(){if(b=!b){c.style("position","fixed").style("border-width",0).style("width","100%").style("height","100%").style("top",0).style("left",0);a.style("position","fixed").style("right","16px").style("top","16px");e.attr("transform","translate(16,16)rotate(135)scale(5)translate(-1.85,0)");f.style("visibility","hidden").style("overflow","hidden")}else{c.style("position",null).style("border-width",null).style("width",null).style("height",null).style("top",null).style("left",null);
+a.style("position","absolute").style("right","-16px").style("top","-16px");e.attr("transform","translate(16,16)rotate(-45)scale(5)translate(-1.85,0)");f.style("visibility",null).style("overflow",null)}map.resize()}var f=n$(document.body),c=n$("#map").style("visibility","visible"),b=false,a=c.add("svg:svg").attr("width",32).attr("height",32).style("position","absolute").style("right","-16px").style("top","-16px").style("visibility","visible").on("mousedown",d);a.add("svg:circle").attr("cx",16).attr("cy",
+16).attr("r",14).attr("fill","#fff").attr("stroke","#ccc").attr("stroke-width",4).add("svg:title").text("Toggle fullscreen. (ESC)");var e=a.add("svg:path").attr("transform","translate(16,16)rotate(-45)scale(5)translate(-1.85,0)").attr("d","M0,0L0,.5 2,.5 2,1.5 4,0 2,-1.5 2,-.5 0,-.5Z").attr("pointer-events","none").attr("fill","#aaa");window.addEventListener("keydown",function(g){g.keyCode==27&&b&&d()},false)})();
+
+
+      </script>
+      
+    </div>
+  </body>
+</html>

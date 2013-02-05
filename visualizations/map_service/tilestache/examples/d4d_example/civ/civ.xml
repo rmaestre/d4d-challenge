@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Map[]>
+<Map srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over" background-color="#ffffff" maximum-extent="-20037508.34,-20037508.34,20037508.34,20037508.34">
+
+<Parameters>
+  <Parameter name="bounds">-180,-85.05112877980659,180,85.05112877980659</Parameter>
+  <Parameter name="center">0,0,2</Parameter>
+  <Parameter name="format">png</Parameter>
+  <Parameter name="minzoom">0</Parameter>
+  <Parameter name="maxzoom">22</Parameter>
+  <Parameter name="name"><![CDATA[Cote d'Ivoire]]></Parameter>
+</Parameters>
+
+
+<Style name="adm" filter-mode="first" >
+</Style>
+<Style name="adm-polygon" filter-mode="first" >
+  <Rule>
+    <PolygonSymbolizer fill="#ffe112" fill-opacity="0.2" />
+  </Rule>
+</Style>
+<Style name="adm-line" filter-mode="first" >
+  <Rule>
+    <MaxScaleDenominator>1500000</MaxScaleDenominator>
+    <Filter>([ENGTYPE_3] = 'Sub-prefecture')</Filter>
+    <LineSymbolizer stroke-width="2" stroke="#000000" stroke-opacity="0.75" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>3000000</MaxScaleDenominator>
+    <MinScaleDenominator>1500000</MinScaleDenominator>
+    <Filter>([ENGTYPE_3] = 'Sub-prefecture')</Filter>
+    <LineSymbolizer stroke-width="1" stroke="#000000" stroke-opacity="0.75" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>6500000</MaxScaleDenominator>
+    <MinScaleDenominator>3000000</MinScaleDenominator>
+    <Filter>([ENGTYPE_3] = 'Sub-prefecture')</Filter>
+    <LineSymbolizer stroke-width="1" stroke="#000000" stroke-opacity="0.75" />
+  </Rule>
+  <Rule>
+    <MinScaleDenominator>6500000</MinScaleDenominator>
+    <Filter>([ENGTYPE_3] = 'Sub-prefecture')</Filter>
+    <LineSymbolizer stroke="#000000" stroke-opacity="0.75" />
+  </Rule>
+  <Rule>
+    <LineSymbolizer stroke="#000000" stroke-opacity="0.75" />
+  </Rule>
+</Style>
+<Layer name="adm"
+  srs="+proj=longlat +ellps=WGS84 +no_defs">
+    <StyleName>adm-line</StyleName>
+    <StyleName>adm-polygon</StyleName>
+    <StyleName>adm</StyleName>
+    <Datasource>
+       <Parameter name="file"><![CDATA[/Users/julen/development/workspace/martes/D4D/d4d-challenge/visualizations/map_service/TileStache/examples/d4d_example/civ/layers/adm/CIV_adm.shp]]></Parameter>
+       <Parameter name="id"><![CDATA[adm]]></Parameter>
+       <Parameter name="project"><![CDATA[civ]]></Parameter>
+       <Parameter name="srs"><![CDATA[]]></Parameter>
+       <Parameter name="type"><![CDATA[shape]]></Parameter>
+    </Datasource>
+  </Layer>
+
+<Style name="natural" filter-mode="first" >
+</Style>
+<Style name="natural-line" filter-mode="first" >
+  <Rule>
+    <LineSymbolizer stroke-width="0" />
+  </Rule>
+</Style>
+<Style name="natural-polygon" filter-mode="first" >
+  <Rule>
+    <PolygonSymbolizer fill="#73d553" fill-opacity="0.35" smooth="1" />
+  </Rule>
+</Style>
+<Layer name="natural"
+  srs="+proj=longlat +ellps=WGS84 +towgs84=0,0,0,0,0,0,0 +no_defs">
+    <StyleName>natural-polygon</StyleName>
+    <StyleName>natural-line</StyleName>
+    <StyleName>natural</StyleName>
+    <Datasource>
+       <Parameter name="file"><![CDATA[/Users/julen/development/workspace/martes/D4D/d4d-challenge/visualizations/map_service/TileStache/examples/d4d_example/civ/layers/natural/cote_d_ivoire_natural.shp]]></Parameter>
+       <Parameter name="id"><![CDATA[natural]]></Parameter>
+       <Parameter name="project"><![CDATA[civ]]></Parameter>
+       <Parameter name="srs"><![CDATA[]]></Parameter>
+       <Parameter name="type"><![CDATA[shape]]></Parameter>
+    </Datasource>
+  </Layer>
+
+<Style name="water" filter-mode="first" >
+</Style>
+<Style name="water-line" filter-mode="first" >
+  <Rule>
+    <LineSymbolizer stroke-width="0" />
+  </Rule>
+</Style>
+<Style name="water-polygon" filter-mode="first" >
+  <Rule>
+    <PolygonSymbolizer fill="#68bcdb" fill-opacity="0.35" smooth="1" />
+  </Rule>
+</Style>
+<Layer name="water"
+  srs="+proj=longlat +ellps=WGS84 +towgs84=0,0,0,0,0,0,0 +no_defs">
+    <StyleName>water-polygon</StyleName>
+    <StyleName>water-line</StyleName>
+    <StyleName>water</StyleName>
+    <Datasource>
+       <Parameter name="file"><![CDATA[/Users/julen/development/workspace/martes/D4D/d4d-challenge/visualizations/map_service/TileStache/examples/d4d_example/civ/layers/water/cote_d_ivoire_water.shp]]></Parameter>
+       <Parameter name="id"><![CDATA[water]]></Parameter>
+       <Parameter name="project"><![CDATA[civ]]></Parameter>
+       <Parameter name="srs"><![CDATA[]]></Parameter>
+       <Parameter name="type"><![CDATA[shape]]></Parameter>
+    </Datasource>
+  </Layer>
+
+<Style name="coastline" filter-mode="first" >
+</Style>
+<Style name="coastline-glow" filter-mode="first" >
+  <Rule>
+    <MaxScaleDenominator>6500000</MaxScaleDenominator>
+    <LineSymbolizer stroke-width="1.5" stroke="#68bcdb" stroke-opacity="0.15" />
+  </Rule>
+</Style>
+<Style name="coastline-line" filter-mode="first" >
+  <Rule>
+    <MaxScaleDenominator>6500000</MaxScaleDenominator>
+    <LineSymbolizer stroke="#68bcdb" stroke-width="0.5" stroke-opacity="0.1" />
+  </Rule>
+</Style>
+<Layer name="coastline"
+  srs="+proj=longlat +ellps=WGS84 +towgs84=0,0,0,0,0,0,0 +no_defs">
+    <StyleName>coastline-line</StyleName>
+    <StyleName>coastline-glow</StyleName>
+    <StyleName>coastline</StyleName>
+    <Datasource>
+       <Parameter name="file"><![CDATA[/Users/julen/development/workspace/martes/D4D/d4d-challenge/visualizations/map_service/TileStache/examples/d4d_example/civ/layers/coastline/cote_d_ivoire_coastline.shp]]></Parameter>
+       <Parameter name="id"><![CDATA[coastline]]></Parameter>
+       <Parameter name="project"><![CDATA[civ]]></Parameter>
+       <Parameter name="srs"><![CDATA[]]></Parameter>
+       <Parameter name="type"><![CDATA[shape]]></Parameter>
+    </Datasource>
+  </Layer>
+
+<Style name="highway" filter-mode="first" >
+</Style>
+<Style name="highway-glow" filter-mode="first" >
+  <Rule>
+    <MaxScaleDenominator>6500000</MaxScaleDenominator>
+    <LineSymbolizer stroke-width="1.5" stroke="#555250" stroke-opacity="0.15" />
+  </Rule>
+</Style>
+<Style name="highway-line" filter-mode="first" >
+  <Rule>
+    <MaxScaleDenominator>6500000</MaxScaleDenominator>
+    <LineSymbolizer stroke-width="0.5" stroke="#282625" stroke-opacity="0.1" />
+  </Rule>
+</Style>
+<Layer name="highway"
+  srs="+proj=longlat +ellps=WGS84 +towgs84=0,0,0,0,0,0,0 +no_defs">
+    <StyleName>highway-line</StyleName>
+    <StyleName>highway-glow</StyleName>
+    <StyleName>highway</StyleName>
+    <Datasource>
+       <Parameter name="file"><![CDATA[/Users/julen/development/workspace/martes/D4D/d4d-challenge/visualizations/map_service/TileStache/examples/d4d_example/civ/layers/highway/cote_d_ivoire_highway.shp]]></Parameter>
+       <Parameter name="id"><![CDATA[highway]]></Parameter>
+       <Parameter name="project"><![CDATA[civ]]></Parameter>
+       <Parameter name="srs"><![CDATA[]]></Parameter>
+       <Parameter name="type"><![CDATA[shape]]></Parameter>
+    </Datasource>
+  </Layer>
+
+<Style name="location" filter-mode="first" >
+  <Rule>
+    <MaxScaleDenominator>6500000</MaxScaleDenominator>
+    <Filter>([NAME] != 'unknown')</Filter>
+    <MarkersSymbolizer width="0" stroke-width="0" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>6500000</MaxScaleDenominator>
+    <MarkersSymbolizer width="0" stroke-width="0" />
+  </Rule>
+</Style>
+<Layer name="location"
+  srs="+proj=longlat +ellps=WGS84 +towgs84=0,0,0,0,0,0,0 +no_defs">
+    <StyleName>location</StyleName>
+    <Datasource>
+       <Parameter name="file"><![CDATA[/Users/julen/development/workspace/martes/D4D/d4d-challenge/visualizations/map_service/TileStache/examples/d4d_example/civ/layers/location/cote_d_ivoire_location.shp]]></Parameter>
+       <Parameter name="id"><![CDATA[location]]></Parameter>
+       <Parameter name="project"><![CDATA[civ]]></Parameter>
+       <Parameter name="srs"><![CDATA[]]></Parameter>
+       <Parameter name="type"><![CDATA[shape]]></Parameter>
+    </Datasource>
+  </Layer>
+
+</Map>
