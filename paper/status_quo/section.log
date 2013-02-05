@@ -1,0 +1,396 @@
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/W32TeX) (format=pdflatex 2013.1.31)  5 FEB 2013 10:56
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**section.tex
+(./section.tex
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, dumylang, nohyphenation, ge
+rman-x-2012-05-30, ngerman-x-2012-05-30, afrikaans, ancientgreek, ibycus, arabi
+c, armenian, basque, bulgarian, catalan, pinyin, coptic, croatian, czech, danis
+h, dutch, ukenglish, usenglishmax, esperanto, estonian, ethiopic, farsi, finnis
+h, french, friulan, galician, german, ngerman, swissgerman, monogreek, greek, h
+ungarian, icelandic, assamese, bengali, gujarati, hindi, kannada, malayalam, ma
+rathi, oriya, panjabi, tamil, telugu, indonesian, interlingua, irish, italian, 
+kurmanji, latin, latvian, lithuanian, mongolian, mongolianlmc, bokmal, nynorsk,
+ polish, portuguese, romanian, romansh, russian, sanskrit, serbian, serbianc, s
+lovak, slovenian, spanish, swedish, turkish, turkmen, ukrainian, uppersorbian, 
+welsh, loaded.
+! Undefined control sequence.
+l.3 \section
+            {BEHAVIOURAL DATA & COMMUTING 'STATUS QUO'}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 \section{B
+              EHAVIOURAL DATA & COMMUTING 'STATUS QUO'}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no B in font nullfont!
+Missing character: There is no E in font nullfont!
+Missing character: There is no H in font nullfont!
+Missing character: There is no A in font nullfont!
+Missing character: There is no V in font nullfont!
+Missing character: There is no I in font nullfont!
+Missing character: There is no O in font nullfont!
+Missing character: There is no U in font nullfont!
+Missing character: There is no R in font nullfont!
+Missing character: There is no A in font nullfont!
+Missing character: There is no L in font nullfont!
+Missing character: There is no D in font nullfont!
+Missing character: There is no A in font nullfont!
+Missing character: There is no T in font nullfont!
+Missing character: There is no A in font nullfont!
+! Misplaced alignment tab character &.
+l.3 \section{BEHAVIOURAL DATA &
+                                COMMUTING 'STATUS QUO'}
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+Missing character: There is no C in font nullfont!
+Missing character: There is no O in font nullfont!
+Missing character: There is no M in font nullfont!
+Missing character: There is no M in font nullfont!
+Missing character: There is no U in font nullfont!
+Missing character: There is no T in font nullfont!
+Missing character: There is no I in font nullfont!
+Missing character: There is no N in font nullfont!
+Missing character: There is no G in font nullfont!
+Missing character: There is no ' in font nullfont!
+Missing character: There is no S in font nullfont!
+Missing character: There is no T in font nullfont!
+Missing character: There is no A in font nullfont!
+Missing character: There is no T in font nullfont!
+Missing character: There is no U in font nullfont!
+Missing character: There is no S in font nullfont!
+Missing character: There is no Q in font nullfont!
+Missing character: There is no U in font nullfont!
+Missing character: There is no O in font nullfont!
+Missing character: There is no ' in font nullfont!
+Missing character: There is no N in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no w in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no y in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no w in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no y in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no y in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no s in font nullfont!
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 4.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 4.
+! Undefined control sequence.
+\@footnotetext ...tins {\reset@font \footnotesize 
+                                                  \interlinepenalty \interfo...
+l.4 ...rld-subscribers-six-billion_n_1957173.html}
+                                                  . For the first time, the ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\@footnotetext ...}\color@begingroup \@makefntext 
+                                                  {\rule \z@ \footnotesep \i...
+l.4 ...rld-subscribers-six-billion_n_1957173.html}
+                                                  . For the first time, the ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.4 ...rld-subscribers-six-billion_n_1957173.html}
+                                                  . For the first time, the ...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Double subscript.
+<argument> ...nes-world-subscribers-six-billion_n_
+                                                  1957173.html
+l.4 ...rld-subscribers-six-billion_n_1957173.html}
+                                                  . For the first time, the ...
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+! Extra }, or forgotten $.
+<recently read> }
+                 
+l.4 ...rld-subscribers-six-billion_n_1957173.html}
+                                                  . For the first time, the ...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten $.
+\@footnotetext ...rut \strutbox }\color@endgroup }
+                                                  
+l.4 ...rld-subscribers-six-billion_n_1957173.html}
+                                                  . For the first time, the ...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Undefined control sequence.
+\@footnotetext ...tins {\reset@font \footnotesize 
+                                                  \interlinepenalty \interfo...
+l.7 ...tr/wef/main/fullreport/files/Chap1/1.6.pdf}
+                                                  : transportation, urban pl...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\@footnotetext ...}\color@begingroup \@makefntext 
+                                                  {\rule \z@ \footnotesep \i...
+l.7 ...tr/wef/main/fullreport/files/Chap1/1.6.pdf}
+                                                  : transportation, urban pl...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (319.6397pt too wide) in paragraph at lines 7--7
+[][]\OT1/cmr/m/n/10 http://www.insead.edu/v1/gitr/wef/main/fullreport/files/Cha
+p1/1.6.pdf| 
+ []
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.11 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+
+Overfull \hbox (217.00053pt too wide) in paragraph at lines 4--11
+[][]\OT1/cmr/m/n/10 http://www.huffingtonpost.com/2012/10/11/cell-
+ []
+
+
+Overfull \hbox (33.38895pt too wide) in paragraph at lines 4--11
+\OT1/cmr/m/n/10 phones-
+ []
+
+
+Overfull \hbox (27.52782pt too wide) in paragraph at lines 4--11
+\OT1/cmr/m/n/10 world-
+ []
+
+
+Overfull \hbox (51.61118pt too wide) in paragraph at lines 4--11
+\OT1/cmr/m/n/10 subscribers-
+ []
+
+
+Overfull \hbox (15.33336pt too wide) in paragraph at lines 4--11
+\OT1/cmr/m/n/10 six-
+ []
+
+
+Overfull \hbox (994.82472pt too wide) in paragraph at lines 4--11
+\OT1/cmr/m/n/10 billion$[][]957173\OML/cmm/m/it/10 :html|:Forthefirsttime; them
+ajorityofhumanityislinkedandhasavoice:Consequently; plentyofphonecommunications
+arebeinggeneratedcontinuouslyeverywhere; and; whatismorerelevant; theyarebeingt
+racked \OT1/cmr/m/n/10 :
+ []
+
+
+Overfull \hbox (587.52538pt too wide) in paragraph at lines 4--11
+\OML/cmm/m/it/10 geolocation; start=endtimes:::Thisisthekey; mobilephonecompani
+esrecorddatawhichareverycloselyassociatedwithbehaviourofpeople:[] 
+ []
+
+
+Overfull \hbox (850.65147pt too wide) in paragraph at lines 4--11
+\OML/cmm/m/it/10 Analyzingthesedatainaproperwaydisclosesagreatdealofsocialknowl
+edge\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 behaviourmodeling; mobilitypatternsandtre
+nds; outliersdiscovery\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 whichcanbeappliedincoun
+tlessanddifferentareas[] \OT1/cmr/m/n/10 :
+ []
+
+
+Overfull \hbox (770.08565pt too wide) in paragraph at lines 4--11
+\OML/cmm/m/it/10 transportation; urbanplanning; commuting; tourism; trafficcong
+estion; demography; economy; advertisingandcommerce; publichealth:::Evenwithout
+Internetconnections\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 e \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (231.04874pt too wide) in paragraph at lines 4--11
+\OML/cmm/m/it/10 mail; IMSandsoon\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 ; thatis; fo
+cusingonlyonspeech \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (1297.86258pt too wide) in paragraph at lines 4--11
+\OML/cmm/m/it/10 callsandtextmessages; thereisavastamountofinformationwhichcanb
+e[]read[]toreachfurtherconclusions:Theabilitytounderstandthepatternsofhumanlife
+byanalyzingthedigitaltracesthatweleavebehindwilltransformtheworld; speciallypoo
+rnations:Realityminingofbehaviordataisjustbeginning:[] 
+ []
+
+
+Overfull \hbox (331.87947pt too wide) in paragraph at lines 4--11
+\OML/cmm/m/it/10 Letsenumerateafewexamplesofcurrentprojectsrelatedtobehavioural
+data \OT1/cmr/m/n/10 :$ 
+ []
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.13 \\
+       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.14 A
+      s can be seen, communication data are everywhere (\it{we are social an...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Undefined control sequence.
+l.14 ...en, communication data are everywhere (\it
+                                                  {we are social animals!!})...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.14 ...hnology Review has recently identified \bf
+                                                  {reality mining on mobile ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.27 ...h/Publications/RefConferences/Yuan-Raubal_
+                                                  Extracting%20urban%20mobil...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+)
+! Emergency stop.
+<*> section.tex
+               
+*** (job aborted, no legal \end found)
+
+ 
+Here is how much of TeX's memory you used:
+ 8 strings out of 493488
+ 165 string characters out of 3132370
+ 54432 words of memory out of 3000000
+ 3415 multiletter control sequences out of 15000+200000
+ 3640 words of font info for 14 fonts, out of 3000000 for 9000
+ 957 hyphenation exceptions out of 8191
+ 24i,8n,14p,862b,169s stack positions out of 5000i,500n,10000p,200000b,50000s
+!  ==> Fatal error occurred, no output PDF file produced!
