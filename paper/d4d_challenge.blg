@@ -1,16 +1,18 @@
 This is BibTeX, Version 0.99d (TeX Live 2011)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: d4d_challenge.aux
-A level-1 auxiliary file: introduction/section.aux
+A level-1 auxiliary file: about_us/section.aux
+A level-1 auxiliary file: state-of-the-art/section.aux
+A level-1 auxiliary file: problem_and_hypothesis/section.aux
 A level-1 auxiliary file: mathematical_definition/section.aux
+A level-1 auxiliary file: methodology/section.aux
 A level-1 auxiliary file: results/section.aux
-A level-1 auxiliary file: visualizations/section.aux
 A level-1 auxiliary file: conclusions/section.aux
 The style file: plainnat.bst
 Database file #1: biblio.bib
 You've used 6 entries,
             2773 wiz_defined-function locations,
-            641 strings with 6442 characters,
+            643 strings with 6497 characters,
 and the built_in function-call counts, 2910 in all, are:
 = -- 273
 > -- 147
