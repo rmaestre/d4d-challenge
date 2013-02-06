@@ -1,10 +1,22 @@
 \newpage
 
 \section{Problem description \& Hypothesis}
-We belive that we can better manage  the country resouces through the knowldge extracted from data comunications, in this paper the solution is built on the hypotesis of mobility patterns to forecast and manage the resources in a correlated way with the results showns in this paper.
+We belive that we can better manage  the country resouces through the knowldge extracted from data comunications, in this paper the solution is built on the hypotesis of mobility patterns to predict common and well-know, geographical and time based patterns to manage roads and infrastructures in a correlated way with the results figured out.
 \\
 \\
-The figure below shows a theoretical commuting model proposed like a main pattern. Two peaks are pointed between 
+The figure below shows a theoretical commuting model proposed like a main pattern. 
+\\
+Two peaks are modeled, $p_1$ in the range $[07:00,8:00]$ and $p_2$ in $[17:00,18:00]$. This first approach to modelize this dynamic set up the two peaks $p_1, p_2$ with the same weight, however, numerical results will show that the weight of each peak depends of the day of the week. A central valley is defined between $[09:00, 16:00]$, with a uniform displacement distribution.
+\\
+An ad-hoc mathematical model is defined in the next section in order to confirm this hypothesis; focusing, filtering and processing the main data to contrast the hypothesis.
+\\
+\\
+The main idea behind the two main peaks in the model, $p_1, p_2$ and a central valley, is that people perform great displacement distances early in the morning i.e.: $p_1$ related with the common business activity. After the first peak $p_1$, people resides in this target destinations, working, eating, etc ... . The last point in the hypothesis approach showed by Figure~\ref{fig:commuting}  is in the second peak $p_2$
+\\
+\\
+The geographical behaviur of the dynamic, always mixed with the temporal component, will by contrasted by means of GIS tools in order to visualize the expansion and contraction in the main points that hypothesys shows: $p_1, p_2$ and the central valley.
+
+
  
  \begin{figure}[h]
 \begin{center}
