@@ -11,28 +11,28 @@
 \end{figure}
 
 
-The above figure shows two commuters ${u_0,u_1}$ repesented on the vertical axe, grouped by three time windows $t_o,t_1,t_2$. A time window is defined as $t_n$ where $n \in \{0,..,24\}$. Each $t_n$ groups the communications traces of the whole set of commuters in a 60 minutes range. 
+The figure above shows two commuters ${u_0,u_1}$ represented on the vertical axis, grouped by three time windows $t_o,t_1,t_2$. A time window is defined as $t_n$, where $n \in \{0,..,24\}$. Each $t_n$ groups the communications traces of the whole set of commuters in a 60 minutes lapse. 
 \\
 \\
 Formally, a commuter trace during a particular time window is defined as follows:
 $$ \vec{T}_u_t = (p_0,p_1,...,p_n)  $$ where, 
 $p_n \in \mathbb{R}^2$ , 
 $n > 1 $, 
-$t$ is a temporal window range and,
+$t$ is a temporal window lapse and,
 $u$ the unique commuter id.
 \\
 For instance, $ \vec{T}_0_0 = (p_1,p_2)  $, $ \vec{T}_1_0 = (p_1,p_1,p_2)  $ and so on.
 \\
 \\
-Also, two functions are defined in order to measure the distance \citep{distance}, given a set of points in spherical coordinates (i.e.: $\text{user}_u_t$):
+Also, two functions are defined in order to measure the distance \citep{distance}, given a set of points expressed as spherical coordinates (i.e.: $\text{user}_u_t$):
 $$D(p_0, p_1) = \text{acos}( \sin(\phi(p_0^0)) * \sin(\phi(p_1^0)) * \cos(\theta(p_0^1) - \theta(p_1^1)) + \cos(\phi(p_0^0)) * \cos(\phi(p_1^0)))  $$
 where:
 $$ \phi(x) = (90 - x) * \frac{\pi}{180}$$
 $$ \theta(x) = x  * \frac{\pi}{180}$$
-therefore the function related to the distance is defined as follow [result in Km]:
+therefore the function related to the distance is defined as follows [result in Km]:
 $$U(u,t) = \dysplaystyle 6373 * \sum_{i=0}^{n-1} D(\vec{T}_u_t^i, \vec{T}_u_t^{i+1}) $$
 \\
-The second function is related to the number of antenna connections into a trace, the key point is to count only the dynamic transitions, i.e.: remove the self edges over a given trace as follows:
+The second function is related to the number of antenna connections into a trace. The key point is to count only the dynamic transitions, i.e.: remove the self edges over a given trace as follows:
 \\
 \begin{equation*}
 \text{S}(p_0, p_1) = \left \{
