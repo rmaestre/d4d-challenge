@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.9.15)  11 FEB 2013 17:25
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.9.15)  11 FEB 2013 17:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1202,30 +1202,57 @@ Package pdftex.def Info: results/images/kernel/l_hour8_kd_detail.pdf used on in
 put line 98.
 (pdftex.def)             Requested size: 103.2814pt x 160.34213pt.
 
-<results/images/kernel/l_hour16_kd_detail.pdf, id=280, 696.6025pt x 1071.00125p
-t>
-File: results/images/kernel/l_hour16_kd_detail.pdf Graphic file (type pdf)
- <use results/images/kernel/l_hour16_kd_detail.pdf>
-Package pdftex.def Info: results/images/kernel/l_hour16_kd_detail.pdf used on i
-nput line 111.
-(pdftex.def)             Requested size: 104.48586pt x 160.64325pt.
 
-<results/images/kernel/l_hour19_kd_detail.pdf, id=281, 695.59875pt x 1082.0425p
-t>
-File: results/images/kernel/l_hour19_kd_detail.pdf Graphic file (type pdf)
- <use results/images/kernel/l_hour19_kd_detail.pdf>
-Package pdftex.def Info: results/images/kernel/l_hour19_kd_detail.pdf used on i
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.105 
+      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.109 
+      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+<results/images/kernel/x_hour17_kd_detail.pdf, id=280, 703.62875pt x 1083.04625
+pt>
+File: results/images/kernel/x_hour17_kd_detail.pdf Graphic file (type pdf)
+ <use results/images/kernel/x_hour17_kd_detail.pdf>
+Package pdftex.def Info: results/images/kernel/x_hour17_kd_detail.pdf used on i
 nput line 115.
-(pdftex.def)             Requested size: 104.33531pt x 162.29936pt.
+(pdftex.def)             Requested size: 105.53975pt x 162.44992pt.
+
+<results/images/kernel/x_hour20_kd_detail.pdf, id=281, 706.64pt x 1086.0575pt>
+File: results/images/kernel/x_hour20_kd_detail.pdf Graphic file (type pdf)
+
+<use results/images/kernel/x_hour20_kd_detail.pdf>
+Package pdftex.def Info: results/images/kernel/x_hour20_kd_detail.pdf used on i
+nput line 119.
+(pdftex.def)             Requested size: 105.99142pt x 162.9016pt.
  [15 <./results/images/kernel/l_hour6_kd_detail.pdf> <./results/images/kernel/l
-_hour8_kd_detail.pdf> <./results/images/kernel/l_hour16_kd_detail.pdf> <./resul
-ts/images/kernel/l_hour19_kd_detail.pdf>]
+_hour8_kd_detail.pdf> <./results/images/kernel/x_hour17_kd_detail.pdf> <./resul
+ts/images/kernel/x_hour20_kd_detail.pdf>]
 <results/images/kernel/l_hour16_kd.pdf, id=331, 709.95598pt x 641.29718pt>
 File: results/images/kernel/l_hour16_kd.pdf Graphic file (type pdf)
 
 <use results/images/kernel/l_hour16_kd.pdf>
 Package pdftex.def Info: results/images/kernel/l_hour16_kd.pdf used on input li
-ne 130.
+ne 134.
 (pdftex.def)             Requested size: 212.98843pt x 192.39064pt.
 
 <results/images/kernel/l_hour17_kd.pdf, id=332, 709.95598pt x 641.29718pt>
@@ -1233,7 +1260,7 @@ File: results/images/kernel/l_hour17_kd.pdf Graphic file (type pdf)
 
 <use results/images/kernel/l_hour17_kd.pdf>
 Package pdftex.def Info: results/images/kernel/l_hour17_kd.pdf used on input li
-ne 134.
+ne 138.
 (pdftex.def)             Requested size: 212.98843pt x 192.39064pt.
 
 <results/images/kernel/l_hour18_kd.pdf, id=333, 709.95598pt x 641.29718pt>
@@ -1241,7 +1268,7 @@ File: results/images/kernel/l_hour18_kd.pdf Graphic file (type pdf)
 
 <use results/images/kernel/l_hour18_kd.pdf>
 Package pdftex.def Info: results/images/kernel/l_hour18_kd.pdf used on input li
-ne 139.
+ne 143.
 (pdftex.def)             Requested size: 212.98843pt x 192.39064pt.
 
 <results/images/kernel/l_hour19_kd.pdf, id=334, 709.95598pt x 641.29718pt>
@@ -1249,7 +1276,7 @@ File: results/images/kernel/l_hour19_kd.pdf Graphic file (type pdf)
 
 <use results/images/kernel/l_hour19_kd.pdf>
 Package pdftex.def Info: results/images/kernel/l_hour19_kd.pdf used on input li
-ne 143.
+ne 147.
 (pdftex.def)             Requested size: 212.98843pt x 192.39064pt.
 ) [16 <./results/images/kernel/l_hour16_kd.pdf> <./results/images/kernel/l_hour
 17_kd.pdf> <./results/images/kernel/l_hour18_kd.pdf> <./results/images/kernel/l
@@ -1506,7 +1533,7 @@ ist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/local/texlive/2011/texmf-dis
 t/fonts/type1/public/cm-super/sfrm2074.pfb></usr/local/texlive/2011/texmf-dist/
 fonts/type1/public/cm-super/sfti1095.pfb></usr/local/texlive/2011/texmf-dist/fo
 nts/type1/public/cm-super/sftt1095.pfb>
-Output written on d4d_challenge.pdf (20 pages, 5273084 bytes).
+Output written on d4d_challenge.pdf (20 pages, 5276160 bytes).
 PDF statistics:
  510 PDF objects out of 1000 (max. 8388607)
  397 compressed objects within 4 object streams
