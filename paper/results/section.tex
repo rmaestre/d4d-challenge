@@ -57,23 +57,24 @@ These seven charts below show a fitter correlation with the theoretical commutin
 
 A visualization of the displacement with a Kernel Density estimation using GIS with the antennas positions and users displacements like a directed graph has shown the contraction and the expansion of the commuting dynamics across the 24 hours of the day. The firsts expansion visualization through the kernel density estimation is clearly showed when peak $p_1$ starts to grown between $[5,9]$.
 
+\newpage
 
-\begin{figure}[ht]
+\begin{figure}
 \centering
-\subfigure[Monday, 5 AM]{
+\subfigure[Monday, 05:00]{
     \includegraphics[scale = 0.3]{results/images/kernel/l_hour5_kd.pdf}
 	\label{fig:subfig1}
 }
-\subfigure[Monday, 6 AM]{
+\subfigure[Monday, 06:00]{
     \includegraphics[scale = 0.3]{results/images/kernel/l_hour6_kd.pdf}
 	\label{fig:subfig2}
 }
 \\
-\subfigure[Monday, 7 AM]{
+\subfigure[Monday, 07:00]{
     \includegraphics[scale = 0.3]{results/images/kernel/l_hour7_kd.pdf}
 	\label{fig:subfig1}
 }
-\subfigure[Monday, 8 AM]{
+\subfigure[Monday, 08:00]{
     \includegraphics[scale = 0.3]{results/images/kernel/l_hour8_kd.pdf}
 	\label{fig:subfig2}
 }
@@ -81,9 +82,68 @@ A visualization of the displacement with a Kernel Density estimation using GIS w
 \label{fig:subfigureExample}
 \end{figure}
 
+Also, while a normalize displacement meassure is distributed across the country in the valley hours, a reduction of the displacement of the dynamics users can be appreciated especially on roads where KDE had a high intensity.
 
-We can observe when the central valley of displacement between $[12,13]$
+\newpage
 
+\begin{figure}
+\centering
+\subfigure[Monday, 06:00]{
+    \includegraphics[scale = 0.15]{results/images/kernel/l_hour6_kd_detail.pdf}
+	\label{fig:subfig1_detail}
+}
+\subfigure[Monday, 08:00]{
+    \includegraphics[scale = 0.15]{results/images/kernel/l_hour8_kd_detail.pdf}
+	\label{fig:subfig2_detail}
+}
+\caption[KDE intensity smoothy when $p_1$ is reached]{KDE intensity smoothy when when  $p_1$ is reached}
+\label{fig:subfigureExample}
+\end{figure}
+
+
+At the same time, we can observe in the next picture how the intensity increaseswhen peak $p_2$ is reaching.
+
+\begin{figure}
+\centering
+\subfigure[Monday, 06:00]{
+    \includegraphics[scale = 0.15]{results/images/kernel/l_hour16_kd_detail.pdf}
+	\label{fig:subfig1_detail}
+}
+\subfigure[Monday, 08:00]{
+    \includegraphics[scale = 0.15]{results/images/kernel/l_hour19_kd_detail.pdf}
+	\label{fig:subfig2_detail}
+}
+\caption[KDE intensity smoothy when $p_1$ is reached]{KDE intensity smoothy when when  $p_1$ is reached}
+\label{fig:subfigureExample}
+\end{figure}
+
+
+
+
+\newpage
+
+\begin{figure}
+\centering
+\subfigure[Monday, 16:00]{
+    \includegraphics[scale = 0.3]{results/images/kernel/l_hour16_kd.pdf}
+	\label{fig:subfig1}
+}
+\subfigure[Monday, 17:00]{
+    \includegraphics[scale = 0.3]{results/images/kernel/l_hour17_kd.pdf}
+	\label{fig:subfig2}
+}
+\\
+\subfigure[Monday, 18:00]{
+    \includegraphics[scale = 0.3]{results/images/kernel/l_hour18_kd.pdf}
+	\label{fig:subfig1}
+}
+\subfigure[Monday, 19:00]{
+    \includegraphics[scale = 0.3]{results/images/kernel/l_hour19_kd.pdf}
+	\label{fig:subfig2}
+}
+\caption[KDE evolution while peak $p_1$ is reached]{Evolution of KDE while peak $p_1$ is reached}
+\label{fig:subfigureExample}
+\end{figure}
 
 
 
