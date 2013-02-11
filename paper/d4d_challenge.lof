@@ -2,3 +2,8 @@
 \contentsline {figure}{\numberline {2}{\ignorespaces Dynamic and static user patterns}}{8}{figure.2}
 \contentsline {figure}{\numberline {3}{\ignorespaces Total amount of calls grouped by Week days}}{11}{figure.3}
 \contentsline {figure}{\numberline {4}{\ignorespaces Dynamic users displacements}}{13}{figure.4}
+\contentsline {figure}{\numberline {5}{\ignorespaces Evolution of KDE while peak $p_1$ is reached}}{14}{figure.5}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Monday, 5 AM}}}{14}{figure.5}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Monday, 6 AM}}}{14}{figure.5}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Monday, 7 AM}}}{14}{figure.5}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Monday, 8 AM}}}{14}{figure.5}

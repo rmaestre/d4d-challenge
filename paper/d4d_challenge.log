@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.9.15)  6 FEB 2013 16:05
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.9.15)  11 FEB 2013 15:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -574,10 +574,22 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 (/usr/local/texlive/2011/texmf-dist/tex/latex/doublestroke/dsfont.sty
 Package: dsfont 1995/08/01 v0.1 Double stroke roman fonts
 )
-(./d4d_challenge.aux (./about_us/section.aux) (./state-of-the-art/section.aux)
+(./d4d_challenge.aux (./about_us/section.aux) (./state_of_the_art/section.aux)
 (./problem_and_hypothesis/section.aux) (./mathematical_definition/section.aux)
-(./methodology/section.aux) (./results/section.aux) (./conclusions/section.aux)
-)
+(./methodology/section.aux) (./results/section.aux
+
+LaTeX Warning: Label `fig:subfig1' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:subfig1' multiply defined.
+
+
+LaTeX Warning: Label `fig:subfig2' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:subfig2' multiply defined.
+
+) (./conclusions/section.aux) (./future_work/section.aux))
 \openout1 = `d4d_challenge.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
@@ -594,7 +606,8 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
 LaTeX Font Info:    ... okay on input line 24.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 24.
 LaTeX Font Info:    ... okay on input line 24.
- (/usr/local/texlive/2011/texmf-dist/tex/context/base/supp-pdf.mkii
+
+(/usr/local/texlive/2011/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count119
 \scratchdimen=\dimen121
@@ -669,6 +682,16 @@ I've put in what seems to be necessary to fix
 the current column of the current alignment.
 Try to go on, since this might almost work.
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 47--55
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 47--55
+
+ []
+
 [1
 
 {/usr/local/texlive/2011/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
@@ -680,41 +703,51 @@ Try to go on, since this might almost work.
 \openout2 = `about_us/section.aux'.
 
  (./about_us/section.tex)
-Underfull \hbox (badness 10000) in paragraph at lines 4--69
+Underfull \hbox (badness 10000) in paragraph at lines 5--67
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4--69
+Underfull \hbox (badness 10000) in paragraph at lines 5--67
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4--69
+Underfull \hbox (badness 10000) in paragraph at lines 5--67
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4--69
+Underfull \hbox (badness 10000) in paragraph at lines 5--67
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4--69
+Underfull \hbox (badness 10000) in paragraph at lines 5--67
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4--69
+Underfull \hbox (badness 10000) in paragraph at lines 5--67
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--67
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--67
 
  []
 
 [3
 
 ] [4]
-\openout2 = `state-of-the-art/section.aux'.
+\openout2 = `state_of_the_art/section.aux'.
 
- (./state-of-the-art/section.tex
+ (./state_of_the_art/section.tex
 ! Missing $ inserted.
 <inserted text> 
                 $
@@ -739,62 +772,62 @@ I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 )
-Underfull \hbox (badness 10000) in paragraph at lines 5--70
+Underfull \hbox (badness 10000) in paragraph at lines 5--68
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5--70
+Underfull \hbox (badness 10000) in paragraph at lines 5--68
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5--70
+Underfull \hbox (badness 10000) in paragraph at lines 5--68
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5--70
+Underfull \hbox (badness 10000) in paragraph at lines 5--68
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5--70
+Underfull \hbox (badness 10000) in paragraph at lines 5--68
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5--70
+Underfull \hbox (badness 10000) in paragraph at lines 5--68
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5--70
+Underfull \hbox (badness 10000) in paragraph at lines 5--68
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5--70
+Underfull \hbox (badness 10000) in paragraph at lines 5--68
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5--70
+Underfull \hbox (badness 10000) in paragraph at lines 5--68
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5--70
+Underfull \hbox (badness 10000) in paragraph at lines 5--68
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5--70
+Underfull \hbox (badness 10000) in paragraph at lines 5--68
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5--70
+Underfull \hbox (badness 10000) in paragraph at lines 5--68
 
  []
 
@@ -819,7 +852,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--18
 
  []
 
-<results/images/common_commuting_model.pdf, id=114, 421.575pt x 419.5675pt>
+<results/images/common_commuting_model.pdf, id=118, 421.575pt x 419.5675pt>
 File: results/images/common_commuting_model.pdf Graphic file (type pdf)
 
 <use results/images/common_commuting_model.pdf>
@@ -833,7 +866,7 @@ t line 23.
 \openout2 = `mathematical_definition/section.aux'.
 
  (./mathematical_definition/section.tex
-<mathematical_definition/images/dynamic_users.pdf, id=137, 895.11305pt x 343.88
+<mathematical_definition/images/dynamic_users.pdf, id=139, 895.11305pt x 343.88
 524pt>
 File: mathematical_definition/images/dynamic_users.pdf Graphic file (type pdf)
  <use mathematical_definition/images/dynamic_users.pdf>
@@ -920,24 +953,109 @@ I treat `x_1_2' essentially like `x_1{}_2'.
 \openout2 = `methodology/section.aux'.
 
 
-(./methodology/section.tex) [10
+(./methodology/section.tex)
+Underfull \hbox (badness 10000) in paragraph at lines 5--71
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--71
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--71
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--71
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--71
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--71
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--71
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--71
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--71
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--71
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--71
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--71
+
+ []
+
+[10
 
 
 ]
 \openout2 = `results/section.aux'.
 
  (./results/section.tex
-<results/images/calls_number.pdf, id=176, 409.53pt x 120.45pt>
+Underfull \hbox (badness 10000) in paragraph at lines 4--20
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--20
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--20
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--20
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--20
+
+ []
+
+<results/images/calls_number.pdf, id=179, 409.53pt x 120.45pt>
 File: results/images/calls_number.pdf Graphic file (type pdf)
 
 <use results/images/calls_number.pdf>
-Package pdftex.def Info: results/images/calls_number.pdf used on input line 8.
+Package pdftex.def Info: results/images/calls_number.pdf used on input line 23.
+
 (pdftex.def)             Requested size: 450.48439pt x 132.49539pt.
 
 ! Missing { inserted.
 <to be read again> 
                    $
-l.18 ...hone calls from their handsets until $p1_$
+l.33 ...hone calls from their handsets until $p1_$
                                                   ; next, the amount of phon...
 A left brace was mandatory here, so I've put one in.
 You might want to delete and/or insert some corrections
@@ -947,7 +1065,7 @@ so that I will find a matching right brace soon.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.18 ...hone calls from their handsets until $p1_$
+l.33 ...hone calls from their handsets until $p1_$
                                                   ; next, the amount of phon...
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -958,8 +1076,8 @@ my insertion and my current dilemma will both disappear.
 ! Missing { inserted.
 <to be read again> 
                    $
-l.18 ...hours, lunch) until the beginning of $p2_$
-                                                  ; later, they people leave...
+l.33 ...hours, lunch) until the beginning of $p2_$
+                                                  ; later, people leave the ...
 A left brace was mandatory here, so I've put one in.
 You might want to delete and/or insert some corrections
 so that I will find a matching right brace soon.
@@ -968,8 +1086,8 @@ so that I will find a matching right brace soon.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.18 ...hours, lunch) until the beginning of $p2_$
-                                                  ; later, they people leave...
+l.33 ...hours, lunch) until the beginning of $p2_$
+                                                  ; later, people leave the ...
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
 With luck, this will get me unwedged. But if you
@@ -977,77 +1095,251 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 15--24
+Underfull \hbox (badness 10000) in paragraph at lines 30--47
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 15--24
+Underfull \hbox (badness 10000) in paragraph at lines 30--47
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 15--24
+Underfull \hbox (badness 10000) in paragraph at lines 30--47
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 15--24
+Underfull \hbox (badness 10000) in paragraph at lines 30--47
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 25--36
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 25--36
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 25--36
+Underfull \hbox (badness 10000) in paragraph at lines 30--47
 
  []
 
 [11
 
 
- <./results/images/calls_number.pdf>]
-<results/images/commuting_results.pdf, id=196, 330.23375pt x 613.29124pt>
+ <./results/images/calls_number.pdf>] [12]
+<results/images/commuting_results.pdf, id=204, 330.23375pt x 613.29124pt>
 File: results/images/commuting_results.pdf Graphic file (type pdf)
 
 <use results/images/commuting_results.pdf>
 Package pdftex.def Info: results/images/commuting_results.pdf used on input lin
-e 40.
-(pdftex.def)             Requested size: 330.23293pt x 613.28973pt.
+e 52.
+(pdftex.def)             Requested size: 264.18735pt x 490.63365pt.
 
+<results/images/kernel/l_hour5_kd.pdf, id=205, 709.95598pt x 641.29718pt>
+File: results/images/kernel/l_hour5_kd.pdf Graphic file (type pdf)
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+<use results/images/kernel/l_hour5_kd.pdf>
+Package pdftex.def Info: results/images/kernel/l_hour5_kd.pdf used on input lin
+e 66.
+(pdftex.def)             Requested size: 212.98843pt x 192.39064pt.
 
-) [12] [13 <./results/images/commuting_results.pdf>]
+<results/images/kernel/l_hour6_kd.pdf, id=206, 709.95598pt x 641.29718pt>
+File: results/images/kernel/l_hour6_kd.pdf Graphic file (type pdf)
+
+<use results/images/kernel/l_hour6_kd.pdf>
+Package pdftex.def Info: results/images/kernel/l_hour6_kd.pdf used on input lin
+e 70.
+(pdftex.def)             Requested size: 212.98843pt x 192.39064pt.
+
+<results/images/kernel/l_hour7_kd.pdf, id=207, 709.95598pt x 641.29718pt>
+File: results/images/kernel/l_hour7_kd.pdf Graphic file (type pdf)
+
+<use results/images/kernel/l_hour7_kd.pdf>
+Package pdftex.def Info: results/images/kernel/l_hour7_kd.pdf used on input lin
+e 75.
+(pdftex.def)             Requested size: 212.98843pt x 192.39064pt.
+
+<results/images/kernel/l_hour8_kd.pdf, id=208, 709.95598pt x 641.29718pt>
+File: results/images/kernel/l_hour8_kd.pdf Graphic file (type pdf)
+
+<use results/images/kernel/l_hour8_kd.pdf>
+Package pdftex.def Info: results/images/kernel/l_hour8_kd.pdf used on input lin
+e 79.
+(pdftex.def)             Requested size: 212.98843pt x 192.39064pt.
+) [13 <./results/images/commuting_results.pdf>] [14 <./results/images/kernel/l_
+hour5_kd.pdf> <./results/images/kernel/l_hour6_kd.pdf> <./results/images/kernel
+/l_hour7_kd.pdf> <./results/images/kernel/l_hour8_kd.pdf>]
 \openout2 = `conclusions/section.aux'.
 
- (./conclusions/section.tex
-Underfull \hbox (badness 10000) in paragraph at lines 4--14
+ (./conclusions/section.tex)
+Underfull \hbox (badness 10000) in paragraph at lines 4--73
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4--14
+Underfull \hbox (badness 10000) in paragraph at lines 4--73
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4--14
+Underfull \hbox (badness 10000) in paragraph at lines 4--73
 
  []
 
-) [14
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--73
+
+ []
 
 
-] (./d4d_challenge.bbl
+Underfull \hbox (badness 10000) in paragraph at lines 4--73
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--73
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--73
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--73
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--73
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--73
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--73
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--73
+
+ []
+
+[15
+
+
+]
+\openout2 = `future_work/section.aux'.
+
+ (./future_work/section.tex
+! Missing $ inserted.
+<inserted text> 
+                $
+l.31 ...n.wikipedia.org/wiki/Dynamic_time_warping}
+                                                   or LCS\footnote{http://en...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.31 ...n.wikipedia.org/wiki/Dynamic_time_warping}
+                                                   or LCS\footnote{http://en...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.31 ...g/wiki/Longest_common_subsequence_problem}
+                                                   algorithms to discover si...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.31 ...g/wiki/Longest_common_subsequence_problem}
+                                                   algorithms to discover si...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+)
+Underfull \hbox (badness 10000) in paragraph at lines 4--74
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--74
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--74
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--74
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--74
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--74
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--74
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--74
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--74
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--74
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--74
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--74
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--74
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--74
+
+ []
+
+[16
+
+
+] [17] (./d4d_challenge.bbl
 LaTeX Font Info:    Try loading font information for T1+cmtt on input line 23.
 
 (/usr/local/texlive/2011/texmf-dist/tex/latex/base/t1cmtt.fd
@@ -1071,29 +1363,34 @@ Underfull \hbox (badness 10000) in paragraph at lines 34--40
  []
 
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 84.
- [15
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 82.
+ [18
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 84.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 82.
  (./d4d_challenge.aux (./about_us/section.aux)
-(./state-of-the-art/section.aux) (./problem_and_hypothesis/section.aux)
+(./state_of_the_art/section.aux) (./problem_and_hypothesis/section.aux)
 (./mathematical_definition/section.aux) (./methodology/section.aux)
-(./results/section.aux) (./conclusions/section.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 84.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 84.
+(./results/section.aux) (./conclusions/section.aux) (./future_work/section.aux)
+)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 82.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 82.
 Package rerunfilecheck Info: File `d4d_challenge.out' has not changed.
-(rerunfilecheck)             Checksum: B48374A2A2308E938312656C4FF7A318;439.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 84.
+(rerunfilecheck)             Checksum: 7D3344C09D67C1AFD846C85F03114C8F;454.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 82.
  ) 
 Here is how much of TeX's memory you used:
- 8012 strings out of 493633
- 113359 string characters out of 3143377
- 208129 words of memory out of 3000000
- 11076 multiletter control sequences out of 15000+200000
+ 8057 strings out of 493633
+ 114462 string characters out of 3143377
+ 208839 words of memory out of 3000000
+ 11099 multiletter control sequences out of 15000+200000
  22259 words of font info for 61 fonts, out of 3000000 for 9000
  831 hyphenation exceptions out of 8191
- 37i,13n,39p,1047b,321s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 37i,13n,39p,1044b,321s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/local/texlive/2011/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
 </usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
 /usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></
@@ -1121,10 +1418,10 @@ nts/type1/public/cm-super/sfrm1728.pfb></usr/local/texlive/2011/texmf-dist/font
 s/type1/public/cm-super/sfrm2074.pfb></usr/local/texlive/2011/texmf-dist/fonts/
 type1/public/cm-super/sfti1095.pfb></usr/local/texlive/2011/texmf-dist/fonts/ty
 pe1/public/cm-super/sftt1095.pfb>
-Output written on d4d_challenge.pdf (15 pages, 443640 bytes).
+Output written on d4d_challenge.pdf (18 pages, 2679918 bytes).
 PDF statistics:
- 336 PDF objects out of 1000 (max. 8388607)
- 275 compressed objects within 3 object streams
- 42 named destinations out of 1000 (max. 500000)
- 85 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 405 PDF objects out of 1000 (max. 8388607)
+ 324 compressed objects within 4 object streams
+ 52 named destinations out of 1000 (max. 500000)
+ 105 words of extra memory for PDF output out of 10000 (max. 10000000)
 
