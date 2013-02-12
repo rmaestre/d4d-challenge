@@ -56,26 +56,26 @@ These seven charts below show a fitter correlation with the theoretical commutin
 \end{center}
 \end{figure}
 
-A visualization of the displacement with a Kernel Density estimation using GIS with the antennas positions and users displacements like a directed graph has shown the contraction and the expansion of the commuting dynamics across the 24 hours of the day. The firsts expansion visualization through the kernel density estimation is clearly showed when peak $p_1$ starts to grown between $[5,9]$.
+A visualization of the displacement with a Kernel Density estimation using GIS with the antennas positions and users displacements like a directed graph has shown the contraction and the expansion of the commuting dynamics across the 24 hours of the day. The firsts expansion visualization through the kernel density estimation is clearly showed when peak $p_1$ starts to grown between $[5,7]$ reaching the central valley at $8$.
 
 \newpage
 
 \begin{figure}
 \centering
-\subfigure[Monday, 06:00]{
+\subfigure[Monday, 05:00]{
     \includegraphics[scale = 0.3]{results/images/kernel/l_hour5_kd.pdf}
 	\label{fig:subfig1}
 }
-\subfigure[Monday, 07:00]{
+\subfigure[Monday, 06:00]{
     \includegraphics[scale = 0.3]{results/images/kernel/l_hour6_kd.pdf}
 	\label{fig:subfig2}
 }
 \\
-\subfigure[Monday, 08:00]{
+\subfigure[Monday, 07:00]{
     \includegraphics[scale = 0.3]{results/images/kernel/l_hour7_kd.pdf}
 	\label{fig:subfig1}
 }
-\subfigure[Monday, 09:00]{
+\subfigure[Monday, 08:00]{
     \includegraphics[scale = 0.3]{results/images/kernel/l_hour8_kd.pdf}
 	\label{fig:subfig2}
 }
@@ -84,20 +84,29 @@ A visualization of the displacement with a Kernel Density estimation using GIS w
 \end{figure}
 
 Also, while a normalize displacement meassure is distributed across the country in the valley hours, a reduction of the displacement of the dynamics users can be appreciated especially on roads where KDE had a high intensity.
-
+\\
+Next pictures shows in a more detailed form the reduction on the KDE on the roads between main cities. We have selected a sample zone to shows the correlation between the numeric distance calculated by means of the proposed mathematical model in Setion~\ref{sec:math_model} and the KDE calculated by means of GIS technology, to test the final aim proposed in this study.
 \newpage
 
 \begin{figure}
 \centering
-\subfigure[Monday, 07:00]{
-    \includegraphics[scale = 0.15]{results/images/kernel/l_hour6_kd_detail.pdf}
+\subfigure[Monday, 05:00]{
+    \includegraphics[scale = 0.15]{results/images/kernel/l_hour5_kd_detail.pdf}
 	\label{fig:subfig1_detail}
 }
-\subfigure[Monday, 09:00]{
+\subfigure[Monday, 06:00]{
+    \includegraphics[scale = 0.15]{results/images/kernel/l_hour6_kd_detail.pdf}
+	\label{fig:subfig2_detail}
+}
+\subfigure[Monday, 07:00]{
+    \includegraphics[scale = 0.15]{results/images/kernel/l_hour7_kd_detail.pdf}
+	\label{fig:subfig2_detail}
+}
+\subfigure[Monday, 08:00]{
     \includegraphics[scale = 0.15]{results/images/kernel/l_hour8_kd_detail.pdf}
 	\label{fig:subfig2_detail}
 }
-\caption[KDE intensity smoothy when $p_1$ is reached]{KDE intensity smoothy when when  $p_1$ is reached}
+\caption[KDE intensity dynamic when $p_1$ is reached and central valley starts]{KDE intensity smoothy when when  $p_1$ is reached}
 \label{fig:subfigureExample}
 \end{figure}
 
@@ -106,7 +115,7 @@ Also, while a normalize displacement meassure is distributed across the country 
 
 At the same time, we can observe in the next picture how the intensity increaseswhen peak $p_2$ is reached.
 
-\\
+\newpage
 
 \begin{figure}
 \centering
