@@ -12,9 +12,11 @@
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Monday, 06:00}}}{15}{figure.6}
 \contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Monday, 07:00}}}{15}{figure.6}
 \contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Monday, 08:00}}}{15}{figure.6}
-\contentsline {figure}{\numberline {7}{\ignorespaces KDE intensity smoothy when $p_2$ is reached}}{16}{figure.7}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Wednesday, 18:00}}}{16}{figure.7}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Wednesday, 21:00}}}{16}{figure.7}
+\contentsline {figure}{\numberline {7}{\ignorespaces KDE intensity smoothy when $p_2$ is reached}}{15}{figure.7}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Wednesday, 17:00}}}{15}{figure.7}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Wednesday, 18:00}}}{15}{figure.7}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Wednesday, 19:00}}}{15}{figure.7}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Wednesday, 10:00}}}{15}{figure.7}
 \contentsline {figure}{\numberline {8}{\ignorespaces KDE evolution while peak $p_1$ is reached}}{16}{figure.8}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Monday, 16:00}}}{16}{figure.8}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Monday, 17:00}}}{16}{figure.8}
