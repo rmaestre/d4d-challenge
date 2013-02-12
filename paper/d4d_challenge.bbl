@@ -1,4 +1,4 @@
-\begin{thebibliography}{6}
+\begin{thebibliography}{8}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -22,12 +22,25 @@ J.~F. Bithell.
 \newblock \doi{10.1002/sim.4780090616}.
 \newblock URL \url{http://dx.doi.org/10.1002/sim.4780090616}.
 
+\bibitem[Blondel et~al.(2012)Blondel, Esch, Chan, Cl{\'e}rot, Deville, Huens,
+  Morlot, Smoreda, and Ziemlicki]{DBLP:journals/corr/abs-1210-0137}
+Vincent~D. Blondel, Markus Esch, Connie Chan, Fabrice Cl{\'e}rot, Pierre
+  Deville, Etienne Huens, Fr{\'e}d{\'e}ric Morlot, Zbigniew Smoreda, and Cezary
+  Ziemlicki.
+\newblock Data for development: the d4d challenge on mobile phone data.
+\newblock \emph{CoRR}, abs/1210.0137, 2012.
+
 \bibitem[Cook(2012)]{distance}
 John~D. Cook.
 \newblock Computing the distance between two locations on earth from
   coordinates, 2012.
 \newblock URL \url{http://www.johndcook.com/python_longitude_latitude.html}.
 \newblock [Online; accessed 4-January-2013].
+
+\bibitem[Eagle et~al.(2009)Eagle, Pentland, and Lazer]{eage09}
+Nathan Eagle, Alex Pentland, and David Lazer.
+\newblock {Inferring Friendship Network Structure by Using Mobile Phone Data}.
+\newblock \emph{PNAS}, 106\penalty0 (36), 2009.
 
 \bibitem[Marin et~al.(2012)Marin, Gonzalez, Maestre, Gonzalez, Martinez, Abad,
   and Menezes]{labselecciones}
