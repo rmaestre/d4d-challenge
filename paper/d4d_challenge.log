@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.9.15)  13 FEB 2013 09:02
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.9.15)  13 FEB 2013 09:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1249,15 +1249,20 @@ Package pdftex.def Info: results/images/kernel/l_hour8_kd_detail.pdf used on in
 put line 109.
 (pdftex.def)             Requested size: 68.45975pt x 107.6083pt.
 
+Underfull \hbox (badness 10000) in paragraph at lines 115--119
+
+ []
+
+
 <results/images/kernel/l_hour17_kd_detail.pdf, id=291, 679.53876pt x 1069.9975p
 t>
 File: results/images/kernel/l_hour17_kd_detail.pdf Graphic file (type pdf)
  <use results/images/kernel/l_hour17_kd_detail.pdf>
 Package pdftex.def Info: results/images/kernel/l_hour17_kd_detail.pdf used on i
-nput line 125.
+nput line 127.
 (pdftex.def)             Requested size: 67.95786pt x 107.00601pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 125--125
+Underfull \hbox (badness 10000) in paragraph at lines 127--127
 []\T1/cmr/m/n/9 (a) Wednes-day,
  []
 
@@ -1267,10 +1272,10 @@ pt>
 File: results/images/kernel/l_hour18_kd_detail.pdf Graphic file (type pdf)
  <use results/images/kernel/l_hour18_kd_detail.pdf>
 Package pdftex.def Info: results/images/kernel/l_hour18_kd_detail.pdf used on i
-nput line 129.
+nput line 131.
 (pdftex.def)             Requested size: 67.35556pt x 107.90944pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 129--129
+Underfull \hbox (badness 10000) in paragraph at lines 131--131
 []\T1/cmr/m/n/9 (b) Wednes-day,
  []
 
@@ -1280,10 +1285,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 129--129
 File: results/images/kernel/l_hour19_kd_detail.pdf Graphic file (type pdf)
  <use results/images/kernel/l_hour19_kd_detail.pdf>
 Package pdftex.def Info: results/images/kernel/l_hour19_kd_detail.pdf used on i
-nput line 133.
+nput line 135.
 (pdftex.def)             Requested size: 70.06584pt x 107.80907pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
+Underfull \hbox (badness 10000) in paragraph at lines 135--135
 []\T1/cmr/m/n/9 (c) Wednes-day,
  []
 
@@ -1292,10 +1297,10 @@ File: results/images/kernel/l_hour20_kd_detail.pdf Graphic file (type pdf)
 
 <use results/images/kernel/l_hour20_kd_detail.pdf>
 Package pdftex.def Info: results/images/kernel/l_hour20_kd_detail.pdf used on i
-nput line 137.
+nput line 139.
 (pdftex.def)             Requested size: 66.25137pt x 108.41135pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 137--137
+Underfull \hbox (badness 10000) in paragraph at lines 139--139
 []\T1/cmr/m/n/9 (d) Wednes-day,
  []
 
@@ -1309,7 +1314,7 @@ File: results/images/kernel/l_hour17_kd.pdf Graphic file (type pdf)
 
 <use results/images/kernel/l_hour17_kd.pdf>
 Package pdftex.def Info: results/images/kernel/l_hour17_kd.pdf used on input li
-ne 152.
+ne 154.
 (pdftex.def)             Requested size: 212.98843pt x 192.39064pt.
 
 <results/images/kernel/l_hour18_kd.pdf, id=389, 709.95598pt x 641.29718pt>
@@ -1317,7 +1322,7 @@ File: results/images/kernel/l_hour18_kd.pdf Graphic file (type pdf)
 
 <use results/images/kernel/l_hour18_kd.pdf>
 Package pdftex.def Info: results/images/kernel/l_hour18_kd.pdf used on input li
-ne 156.
+ne 158.
 (pdftex.def)             Requested size: 212.98843pt x 192.39064pt.
 
 <results/images/kernel/l_hour19_kd.pdf, id=390, 709.95598pt x 641.29718pt>
@@ -1325,7 +1330,7 @@ File: results/images/kernel/l_hour19_kd.pdf Graphic file (type pdf)
 
 <use results/images/kernel/l_hour19_kd.pdf>
 Package pdftex.def Info: results/images/kernel/l_hour19_kd.pdf used on input li
-ne 161.
+ne 163.
 (pdftex.def)             Requested size: 212.98843pt x 192.39064pt.
 
 <results/images/kernel/l_hour20_kd.pdf, id=391, 709.95598pt x 641.29718pt>
@@ -1333,7 +1338,7 @@ File: results/images/kernel/l_hour20_kd.pdf Graphic file (type pdf)
 
 <use results/images/kernel/l_hour20_kd.pdf>
 Package pdftex.def Info: results/images/kernel/l_hour20_kd.pdf used on input li
-ne 165.
+ne 167.
 (pdftex.def)             Requested size: 212.98843pt x 192.39064pt.
 ) [16 <./results/images/kernel/l_hour17_kd.pdf> <./results/images/kernel/l_hour
 18_kd.pdf> <./results/images/kernel/l_hour19_kd.pdf> <./results/images/kernel/l
@@ -1558,7 +1563,7 @@ mf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/local/texlive/2011/texmf
 -dist/fonts/type1/public/cm-super/sfrm2074.pfb></usr/local/texlive/2011/texmf-d
 ist/fonts/type1/public/cm-super/sfti1095.pfb></usr/local/texlive/2011/texmf-dis
 t/fonts/type1/public/cm-super/sftt1095.pfb>
-Output written on d4d_challenge.pdf (20 pages, 5587233 bytes).
+Output written on d4d_challenge.pdf (20 pages, 5587842 bytes).
 PDF statistics:
  561 PDF objects out of 1000 (max. 8388607)
  433 compressed objects within 5 object streams
