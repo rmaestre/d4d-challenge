@@ -18,7 +18,7 @@ The figure above shows two commuters ${u_0,u_1}$ represented on the vertical axi
 Let $\vec{P_i} = (p_{ix}, p_{iy})$ be the position vector where $p_{ix}$ is related with the geographic latitud and $p_{iy}$ is related with the geographic longitud of each position.
 \\
 \\
-Formally, a commuter trace during a particular time window is defined as follows:
+Formally, a commuter trace during a particular time window and related with a specific user is defined as follows:
 $$ T = (\vec{p}_0, \vec{p}_1, ..., \vec{p}_n)  $$ where, 
 $\vec{p}_n \in \mathbb{R}^2$ and $n > 1 $.
 \\
@@ -26,8 +26,8 @@ $\vec{p}_n \in \mathbb{R}^2$ and $n > 1 $.
 For instance, regarding with user $0$ and time window $0$ we have the next user trace $ T = (\vec{p}_1, \vec{p}_2)  $. Regarding with user $1$ and time window $0$ we have the next user trace $ T = (\vec{p}_1, \vec{p}_1, \vec{p}_2)  $ and so on.
 \\
 \\
-Also, two functions are defined in order to measure the distance \citep{distance}, given a set of points expressed as spherical coordinates (i.e.: $\text{user}_u_t$):
-$$D(p_0, p_1) = \text{acos}( \sin(\phi(p_{0x})) * \sin(\phi(p_{1x})) * \cos(\theta(p_{0y}) - \theta(p_{1y})) + \cos(\phi(p_{0x})) * \cos(\phi(p_{1x})))  $$
+Also, two functions are defined in order to measure the distance \citep{distance}, given a set of points expressed as spherical coordinates:
+$$D(\vec{p}_0, \vec{p}_1) = \text{acos}( \sin(\phi(p_{0x})) * \sin(\phi(p_{1x})) * \cos(\theta(p_{0y}) - \theta(p_{1y})) + \cos(\phi(p_{0x})) * \cos(\phi(p_{1x})))  $$
 where:
 $$ \phi(x) = (90 - x) * \frac{\pi}{180}$$
 $$ \theta(x) = x  * \frac{\pi}{180}$$

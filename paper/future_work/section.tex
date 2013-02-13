@@ -44,3 +44,16 @@ Eventually, we strongly believe that working with more detailed data (both Inter
 \\
 \\
 GIS tools are themselves a fantastic way to research on geolocated data. Applying different GIS algorithms and methods could obtain new dynamics patterns, providing profitable new results to be taken into account when better development policies are decided in order to improve the people quality of life.
+\\
+\\
+For instance, a traffic density estimation through user dynamics antennas comunications are proposed. The next picture shows an agregated value, however, a flow intensity related with the direction of each user trace can be applied too. A correlation of segment creation from each two antenna positions and the iflow intensity between antennas taking into account the direcction, could be directly applied to the real time traffic manager.
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[scale = 0.5] {future_work/images/L_hour5_Map.pdf}
+\caption{Traffic between antennas}
+\label{fig:antennas_traffic}
+\end{center}
+\end{figure}
+
+Starting from a file generated from the dataset that contains the geographic coordinates (longitude, latitude) of an antenna origin and those of another target antenna, together with a field that measures the traffic of information between one and the other one (‘weight’ field), we have generated the corresponding linear entities that join both positions, and the value of the calculated weight has been assigned to them. The visualization is achieved classifying the numeric field (weight) for graduated symbology using an equal interval classification method that divides the range of attribute values into five equal-sized subranges.
