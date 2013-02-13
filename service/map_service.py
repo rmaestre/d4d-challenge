@@ -11,6 +11,7 @@
 from map_data_provider import get_data
 from tornado.ioloop import IOLoop
 from tornado.web import Application, RequestHandler, asynchronous
+from tornado.httputil import HTTPHeaders
 import logging
 import tornado.ioloop
 
@@ -33,6 +34,8 @@ class MapService(tornado.web.RequestHandler):
             hour_range = range(start_time, end_time + 1)
             result = get_data(start_day, end_day, start_time, end_time)
             logging.info(result)
+#            h = HTTPHeaders({"Access-Control-Allow-Origin":"*"})
+            self.set_header("Access-Control-Allow-Origin", "*")
             self.write(result)
             logging.info("Done")
         except Exception as e:
