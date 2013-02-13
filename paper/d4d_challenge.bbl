@@ -1,4 +1,4 @@
-\begin{thebibliography}{6}
+\begin{thebibliography}{13}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -22,12 +22,40 @@ J.~F. Bithell.
 \newblock \doi{10.1002/sim.4780090616}.
 \newblock URL \url{http://dx.doi.org/10.1002/sim.4780090616}.
 
+\bibitem[Blondel et~al.(2012)Blondel, Esch, Chan, Cl{\'e}rot, Deville, Huens,
+  Morlot, Smoreda, and Ziemlicki]{DBLP:journals/corr/abs-1210-0137}
+Vincent~D. Blondel, Markus Esch, Connie Chan, Fabrice Cl{\'e}rot, Pierre
+  Deville, Etienne Huens, Fr{\'e}d{\'e}ric Morlot, Zbigniew Smoreda, and Cezary
+  Ziemlicki.
+\newblock Data for development: the d4d challenge on mobile phone data.
+\newblock \emph{CoRR}, abs/1210.0137, 2012.
+
+\bibitem[Chrest and Wheaton(2009)]{chrest2009using}
+David~P Chrest and William~D Wheaton.
+\newblock Using geographic information systems to define and map commuting
+  patterns as inputs to agent-based models.
+\newblock \emph{Methods report (RTI Press)}, 2009\penalty0 (12):\penalty0 906,
+  2009.
+
 \bibitem[Cook(2012)]{distance}
 John~D. Cook.
 \newblock Computing the distance between two locations on earth from
   coordinates, 2012.
 \newblock URL \url{http://www.johndcook.com/python_longitude_latitude.html}.
 \newblock [Online; accessed 4-January-2013].
+
+\bibitem[Eagle et~al.(2009)Eagle, Pentland, and Lazer]{eage09}
+Nathan Eagle, Alex Pentland, and David Lazer.
+\newblock {Inferring Friendship Network Structure by Using Mobile Phone Data}.
+\newblock \emph{PNAS}, 106\penalty0 (36), 2009.
+
+\bibitem[Llano~Verduras(2006)]{llano2006localizacion}
+Carlos Llano~Verduras.
+\newblock Localizaci{\'o}n residencial y movilidad laboral: un an{\'a}lisis
+  del" commuting" de trabajadores nacionales e inmigrantes en la comunidad de
+  madrid.
+\newblock \emph{Cuadernos de econom{\'\i}a: Spanish Journal of Economics and
+  Finance}, 29\penalty0 (81):\penalty0 69--100, 2006.
 
 \bibitem[Marin et~al.(2012)Marin, Gonzalez, Maestre, Gonzalez, Martinez, Abad,
   and Menezes]{labselecciones}
@@ -47,11 +75,34 @@ Ana Solana and David Alonso.
 \newblock ISSN 2069-5934.
 \newblock URL \url{http://www.scientificpapers.org/special-issue-june-2012/}.
 
+\bibitem[Th{\'e}riault et~al.(1999)Th{\'e}riault, Vandersmissen, Lee-Gosselin,
+  and Leroux]{theriault1999modelling}
+Marius Th{\'e}riault, Marie-H{\'e}l{\`e}ne Vandersmissen, Martin Lee-Gosselin,
+  and Denis Leroux.
+\newblock Modelling commuter trip length and duration within gis: Application
+  to an od survey.
+\newblock \emph{Journal for Geographic Information and Decision Analysis},
+  3\penalty0 (1):\penalty0 41--55, 1999.
+
+\bibitem[Wang(2000)]{wang2000modeling}
+Fahui Wang.
+\newblock Modeling commuting patterns in chicago in a gis environment: A job
+  accessibility perspective.
+\newblock \emph{The Professional Geographer}, 52\penalty0 (1):\penalty0
+  120--133, 2000.
+
 \bibitem[Wikipedia(2012)]{wiki:commuting}
 Wikipedia.
 \newblock Commuting --- wikipedia{,} the free encyclopedia, 2012.
 \newblock URL
   \url{http://en.wikipedia.org/w/index.php?title=Commuting&oldid=525136196}.
 \newblock [Online; accessed 4-January-2013].
+
+\bibitem[Zhan et~al.(2008)Zhan, Chen, Lewis, Higgins, and Perkins]{zhan2008gis}
+F~Benjamin Zhan, Xuwei Chen, Carol Lewis, Laura~L Higgins, and Judy Perkins.
+\newblock Gis models for analyzing intercity commute patterns: A case study of
+  the austin-san antonio corridor in texas.
+\newblock Technical report, Center for Transportation Research, University of
+  Texas at Austin; Springfield, Va., 2008.
 
 \end{thebibliography}

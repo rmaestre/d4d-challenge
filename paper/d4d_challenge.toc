@@ -1,0 +1,9 @@
+\contentsline {section}{About us and why face this challenge}{3}{section*.3}
+\contentsline {section}{State of the art}{5}{section*.4}
+\contentsline {section}{Problem description \& Hypothesis}{7}{section*.5}
+\contentsline {section}{Mathematical model}{8}{section*.6}
+\contentsline {section}{Methodology}{10}{section*.7}
+\contentsline {section}{Results}{11}{section*.8}
+\contentsline {section}{Conclusions}{18}{section*.9}
+\contentsline {section}{Recommendations for further work}{19}{section*.10}
+\contentsline {section}{Acknowledgement}{21}{section*.11}

@@ -14,8 +14,8 @@ L.Control.FullScreen = L.Control.extend({
 			className = '-fullscreen';
 		}
 		
-		this._createButton('Full Screen', containerClass + className, container, this.toogleFullScreen, map);
-
+		this._createButton('Full Screen', containerClass + className + ' leaflet-bar-part leaflet-bar-part-bottom', container, this.toogleFullScreen, map);
+		
 		return container;
 	},
 	
