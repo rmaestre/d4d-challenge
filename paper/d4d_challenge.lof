@@ -2,23 +2,25 @@
 \contentsline {figure}{\numberline {2}{\ignorespaces Dynamic and static user patterns}}{8}{figure.2}
 \contentsline {figure}{\numberline {3}{\ignorespaces Total amount of calls grouped by Week days}}{11}{figure.3}
 \contentsline {figure}{\numberline {4}{\ignorespaces Dynamic users displacements}}{13}{figure.4}
-\contentsline {figure}{\numberline {5}{\ignorespaces KDE evolution while peak $p_1$ is reached}}{14}{figure.5}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Monday, 05:00}}}{14}{figure.5}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Monday, 06:00}}}{14}{figure.5}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Monday, 07:00}}}{14}{figure.5}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Monday, 08:00}}}{14}{figure.5}
-\contentsline {figure}{\numberline {6}{\ignorespaces KDE intensity dynamic when $p_1$ is reached and central valley starts}}{15}{figure.6}
+\contentsline {figure}{\numberline {5}{\ignorespaces Kernel Density sample}}{14}{figure.5}
+\contentsline {figure}{\numberline {6}{\ignorespaces KDE evolution while peak $p_1$ is reached}}{15}{figure.6}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Monday, 05:00}}}{15}{figure.6}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Monday, 06:00}}}{15}{figure.6}
 \contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Monday, 07:00}}}{15}{figure.6}
 \contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Monday, 08:00}}}{15}{figure.6}
-\contentsline {figure}{\numberline {7}{\ignorespaces KDE intensity smoothy when $p_2$ is reached}}{15}{figure.7}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Wednesday, 17:00}}}{15}{figure.7}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Wednesday, 18:00}}}{15}{figure.7}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Wednesday, 19:00}}}{15}{figure.7}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Wednesday, 10:00}}}{15}{figure.7}
-\contentsline {figure}{\numberline {8}{\ignorespaces KDE evolution while peak $p_1$ is reached}}{16}{figure.8}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Monday, 16:00}}}{16}{figure.8}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Monday, 17:00}}}{16}{figure.8}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Monday, 18:00}}}{16}{figure.8}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Monday, 19:00}}}{16}{figure.8}
+\contentsline {figure}{\numberline {7}{\ignorespaces KDE intensity dynamic when $p_1$ is reached and central valley starts}}{16}{figure.7}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Monday, 05:00}}}{16}{figure.7}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Monday, 06:00}}}{16}{figure.7}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Monday, 07:00}}}{16}{figure.7}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Monday, 08:00}}}{16}{figure.7}
+\contentsline {figure}{\numberline {8}{\ignorespaces KDE intensity smoothy when $p_2$ is reached}}{16}{figure.8}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Wednesday, 17:00}}}{16}{figure.8}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Wednesday, 18:00}}}{16}{figure.8}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Wednesday, 19:00}}}{16}{figure.8}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Wednesday, 10:00}}}{16}{figure.8}
+\contentsline {figure}{\numberline {9}{\ignorespaces KDE evolution while peak $p_2$ is reached}}{17}{figure.9}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Monday, 16:00}}}{17}{figure.9}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Monday, 17:00}}}{17}{figure.9}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Monday, 18:00}}}{17}{figure.9}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Monday, 19:00}}}{17}{figure.9}
+\contentsline {figure}{\numberline {10}{\ignorespaces Traffic between antennas}}{20}{figure.10}
