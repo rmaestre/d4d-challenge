@@ -1,4 +1,4 @@
-\contentsline {section}{About us and why face this challenge}{4}{section*.3}
+\contentsline {section}{About us and why we face this challenge}{4}{section*.3}
 \contentsline {section}{State of the art}{6}{section*.4}
 \contentsline {section}{Problem description \& Hypothesis}{8}{section*.5}
 \contentsline {section}{Mathematical model}{9}{section*.6}
