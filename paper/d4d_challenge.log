@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.9.15)  15 FEB 2013 10:36
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.9.15)  15 FEB 2013 12:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -646,9 +646,10 @@ Adding the global options:
 to your \documentclass declaration may fix this.
 Try typing  <return>  to proceed.
 
-(./d4d_challenge.aux (./about_us/section.aux) (./state_of_the_art/section.aux)
-(./problem_and_hypothesis/section.aux) (./mathematical_definition/section.aux)
-(./methodology/section.aux) (./results/section.aux
+(./d4d_challenge.aux (./preface/section.aux) (./about_us/section.aux)
+(./state_of_the_art/section.aux) (./problem_and_hypothesis/section.aux)
+(./mathematical_definition/section.aux) (./methodology/section.aux)
+(./results/section.aux
 
 LaTeX Warning: Label `fig:subfig1' multiply defined.
 
@@ -796,32 +797,32 @@ LaTeX Info: Redefining \nameref on input line 26.
  [1
 
 {/usr/local/texlive/2011/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    Try loading font information for U+msa on input line 52.
+LaTeX Font Info:    Try loading font information for U+msa on input line 51.
 
 (/usr/local/texlive/2011/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 52.
+LaTeX Font Info:    Try loading font information for U+msb on input line 51.
 
 (/usr/local/texlive/2011/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 52.
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 51.
 
 (/usr/local/texlive/2011/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-Underfull \hbox (badness 10000) in paragraph at lines 55--63
+Underfull \hbox (badness 10000) in paragraph at lines 54--62
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 55--63
+Underfull \hbox (badness 10000) in paragraph at lines 54--62
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 55--63
+Underfull \hbox (badness 10000) in paragraph at lines 54--62
 
  []
 
@@ -834,6 +835,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 55--63
 \openout5 = `d4d_challenge.lof'.
 
  [3]
+\openout2 = `preface/section.aux'.
+
+ (./preface/section.tex)
+[4
+
+]
 \openout2 = `about_us/section.aux'.
 
  (./about_us/section.tex)
@@ -876,9 +883,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--77
 
  []
 
-[4
+[5
 
-] [5]
+
+] [6]
 \openout2 = `state_of_the_art/section.aux'.
 
  (./state_of_the_art/section.tex)
@@ -941,10 +949,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--78
 
  []
 
-[6
+[7
 
 
-] [7]
+] [8]
 \openout2 = `problem_and_hypothesis/section.aux'.
 
  (./problem_and_hypothesis/section.tex
@@ -962,21 +970,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--18
 
  []
 
-<results/images/common_commuting_model.pdf, id=163, 421.575pt x 419.5675pt>
+<results/images/common_commuting_model.pdf, id=173, 421.575pt x 419.5675pt>
 File: results/images/common_commuting_model.pdf Graphic file (type pdf)
 
 <use results/images/common_commuting_model.pdf>
 Package pdftex.def Info: results/images/common_commuting_model.pdf used on inpu
 t line 23.
 (pdftex.def)             Requested size: 252.94695pt x 251.74243pt.
-) [8
+) [9
 
 
  <./results/images/common_commuting_model.pdf>]
 \openout2 = `mathematical_definition/section.aux'.
 
  (./mathematical_definition/section.tex
-<mathematical_definition/images/dynamic_users.pdf, id=183, 436.02899pt x 245.71
+<mathematical_definition/images/dynamic_users.pdf, id=192, 436.02899pt x 245.71
 8pt>
 File: mathematical_definition/images/dynamic_users.pdf Graphic file (type pdf)
  <use mathematical_definition/images/dynamic_users.pdf>
@@ -1012,7 +1020,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[9
+[10
 
 
  <./mathematical_definition/images/dynamic_users.pdf>]
@@ -1029,15 +1037,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-) [10]
+) [11]
 \openout2 = `methodology/section.aux'.
 
- (./methodology/section.tex
-
-LaTeX Warning: Reference `kde_first_peak' on page 11 undefined on input line 23
-.
-
-)
+ (./methodology/section.tex)
 Underfull \hbox (badness 10000) in paragraph at lines 5--81
 
  []
@@ -1097,7 +1100,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--81
 
  []
 
-[11
+[12
 
 
 ]
@@ -1128,7 +1131,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--21
 
  []
 
-<results/images/calls_number.pdf, id=231, 577.15625pt x 163.61125pt>
+<results/images/calls_number.pdf, id=239, 577.15625pt x 163.61125pt>
 File: results/images/calls_number.pdf Graphic file (type pdf)
 
 <use results/images/calls_number.pdf>
@@ -1225,205 +1228,180 @@ Underfull \hbox (badness 10000) in paragraph at lines 34--48
 
  []
 
-[12
+[13
 
 
  <./results/images/calls_number.pdf>]
-<results/images/commuting_results.pdf, id=253, 591.20876pt x 399.4925pt>
+<results/images/commuting_results.pdf, id=262, 591.20876pt x 399.4925pt>
 File: results/images/commuting_results.pdf Graphic file (type pdf)
 
 <use results/images/commuting_results.pdf>
 Package pdftex.def Info: results/images/commuting_results.pdf used on input lin
 e 52.
 (pdftex.def)             Requested size: 443.40547pt x 299.61864pt.
- [13 <./results/images/commuting_results.pdf>]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 62.
+ [14 <./results/images/commuting_results.pdf>]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 59.
  (/usr/local/texlive/2011/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 62.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 59.
 
-<results/images/kernel/L_hour6_kd_Map.pdf, id=274, 844.62352pt x 597.693pt>
+<results/images/kernel/L_hour6_kd_Map.pdf, id=282, 844.62352pt x 597.693pt>
 File: results/images/kernel/L_hour6_kd_Map.pdf Graphic file (type pdf)
 
 <use results/images/kernel/L_hour6_kd_Map.pdf>
 Package pdftex.def Info: results/images/kernel/L_hour6_kd_Map.pdf used on input
- line 67.
+ line 64.
 (pdftex.def)             Requested size: 363.18103pt x 257.00298pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 59--72
+Underfull \hbox (badness 10000) in paragraph at lines 59--69
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 59--72
-
- []
-
-[14 <./results/images/kernel/L_hour6_kd_Map.pdf>] [15]
-<results/images/kernel/l_hour5_kd.pdf, id=296, 709.9564pt x 641.29688pt>
+[15 <./results/images/kernel/L_hour6_kd_Map.pdf>]
+<results/images/kernel/l_hour5_kd.pdf, id=300, 709.9564pt x 641.29688pt>
 File: results/images/kernel/l_hour5_kd.pdf Graphic file (type pdf)
 
 <use results/images/kernel/l_hour5_kd.pdf>
 Package pdftex.def Info: results/images/kernel/l_hour5_kd.pdf used on input lin
-e 84.
+e 80.
 (pdftex.def)             Requested size: 212.98856pt x 192.39053pt.
 
-<results/images/kernel/l_hour6_kd.pdf, id=297, 709.9564pt x 641.29688pt>
+<results/images/kernel/l_hour6_kd.pdf, id=301, 709.9564pt x 641.29688pt>
 File: results/images/kernel/l_hour6_kd.pdf Graphic file (type pdf)
 
 <use results/images/kernel/l_hour6_kd.pdf>
 Package pdftex.def Info: results/images/kernel/l_hour6_kd.pdf used on input lin
-e 88.
+e 84.
 (pdftex.def)             Requested size: 212.98856pt x 192.39053pt.
 
-<results/images/kernel/l_hour7_kd.pdf, id=298, 709.9564pt x 641.29688pt>
+<results/images/kernel/l_hour7_kd.pdf, id=302, 709.9564pt x 641.29688pt>
 File: results/images/kernel/l_hour7_kd.pdf Graphic file (type pdf)
 
 <use results/images/kernel/l_hour7_kd.pdf>
 Package pdftex.def Info: results/images/kernel/l_hour7_kd.pdf used on input lin
-e 93.
+e 89.
 (pdftex.def)             Requested size: 212.98856pt x 192.39053pt.
 
-<results/images/kernel/l_hour8_kd.pdf, id=299, 709.9564pt x 641.29688pt>
+<results/images/kernel/l_hour8_kd.pdf, id=303, 709.9564pt x 641.29688pt>
 File: results/images/kernel/l_hour8_kd.pdf Graphic file (type pdf)
 
 <use results/images/kernel/l_hour8_kd.pdf>
 Package pdftex.def Info: results/images/kernel/l_hour8_kd.pdf used on input lin
-e 97.
+e 93.
 (pdftex.def)             Requested size: 212.98856pt x 192.39053pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 102--106
+Underfull \hbox (badness 10000) in paragraph at lines 98--102
 
  []
 
 [16 <./results/images/kernel/l_hour5_kd.pdf> <./results/images/kernel/l_hour6_k
 d.pdf> <./results/images/kernel/l_hour7_kd.pdf> <./results/images/kernel/l_hour
 8_kd.pdf>]
-<results/images/kernel/l_hour5_kd_detail.pdf, id=360, 716.6775pt x 1100.11pt>
+<results/images/kernel/l_hour5_kd_detail.pdf, id=364, 716.6775pt x 1100.11pt>
 File: results/images/kernel/l_hour5_kd_detail.pdf Graphic file (type pdf)
 
 <use results/images/kernel/l_hour5_kd_detail.pdf>
 Package pdftex.def Info: results/images/kernel/l_hour5_kd_detail.pdf used on in
-put line 113.
+put line 109.
 (pdftex.def)             Requested size: 71.67194pt x 110.01744pt.
 
-<results/images/kernel/l_hour6_kd_detail.pdf, id=361, 713.66624pt x 1074.0125pt
+<results/images/kernel/l_hour6_kd_detail.pdf, id=365, 713.66624pt x 1074.0125pt
 >
 File: results/images/kernel/l_hour6_kd_detail.pdf Graphic file (type pdf)
  <use results/images/kernel/l_hour6_kd_detail.pdf>
 Package pdftex.def Info: results/images/kernel/l_hour6_kd_detail.pdf used on in
-put line 117.
+put line 113.
 (pdftex.def)             Requested size: 71.3708pt x 107.40753pt.
 
-<results/images/kernel/l_hour7_kd_detail.pdf, id=362, 675.52374pt x 1076.02pt>
+<results/images/kernel/l_hour7_kd_detail.pdf, id=366, 675.52374pt x 1076.02pt>
 File: results/images/kernel/l_hour7_kd_detail.pdf Graphic file (type pdf)
 
 <use results/images/kernel/l_hour7_kd_detail.pdf>
 Package pdftex.def Info: results/images/kernel/l_hour7_kd_detail.pdf used on in
-put line 121.
+put line 117.
 (pdftex.def)             Requested size: 67.55632pt x 107.6083pt.
 
-<results/images/kernel/l_hour8_kd_detail.pdf, id=363, 688.5725pt x 1068.99374pt
+<results/images/kernel/l_hour8_kd_detail.pdf, id=367, 688.5725pt x 1068.99374pt
 >
 File: results/images/kernel/l_hour8_kd_detail.pdf Graphic file (type pdf)
  <use results/images/kernel/l_hour8_kd_detail.pdf>
 Package pdftex.def Info: results/images/kernel/l_hour8_kd_detail.pdf used on in
-put line 125.
+put line 121.
 (pdftex.def)             Requested size: 68.86128pt x 106.90562pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 131--135
+Underfull \hbox (badness 10000) in paragraph at lines 127--131
 
  []
 
+<results/images/kernel/18_detail_p2.pdf, id=368, 702.625pt x 1083.04625pt>
+File: results/images/kernel/18_detail_p2.pdf Graphic file (type pdf)
 
-<results/images/kernel/l_hour17_kd_detail.pdf, id=364, 679.53876pt x 1069.9975p
-t>
-File: results/images/kernel/l_hour17_kd_detail.pdf Graphic file (type pdf)
- <use results/images/kernel/l_hour17_kd_detail.pdf>
-Package pdftex.def Info: results/images/kernel/l_hour17_kd_detail.pdf used on i
-nput line 143.
-(pdftex.def)             Requested size: 67.95786pt x 107.00601pt.
+<use results/images/kernel/18_detail_p2.pdf>
+Package pdftex.def Info: results/images/kernel/18_detail_p2.pdf used on input l
+ine 139.
+(pdftex.def)             Requested size: 70.2666pt x 108.31096pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 143--143
-[]\T1/cmr/m/n/9 (a) Wednes-day,
- []
+<results/images/kernel/19_detail_p2.pdf, id=369, 703.62875pt x 1069.9975pt>
+File: results/images/kernel/19_detail_p2.pdf Graphic file (type pdf)
 
+<use results/images/kernel/19_detail_p2.pdf>
+Package pdftex.def Info: results/images/kernel/19_detail_p2.pdf used on input l
+ine 143.
+(pdftex.def)             Requested size: 70.36699pt x 107.00601pt.
 
-<results/images/kernel/l_hour18_kd_detail.pdf, id=365, 673.51625pt x 1079.03125
-pt>
-File: results/images/kernel/l_hour18_kd_detail.pdf Graphic file (type pdf)
- <use results/images/kernel/l_hour18_kd_detail.pdf>
-Package pdftex.def Info: results/images/kernel/l_hour18_kd_detail.pdf used on i
-nput line 147.
-(pdftex.def)             Requested size: 67.35556pt x 107.90944pt.
+<results/images/kernel/20_detail_p2.pdf, id=370, 702.625pt x 1068.99374pt>
+File: results/images/kernel/20_detail_p2.pdf Graphic file (type pdf)
 
-Underfull \hbox (badness 10000) in paragraph at lines 147--147
-[]\T1/cmr/m/n/9 (b) Wednes-day,
- []
+<use results/images/kernel/20_detail_p2.pdf>
+Package pdftex.def Info: results/images/kernel/20_detail_p2.pdf used on input l
+ine 147.
+(pdftex.def)             Requested size: 70.2666pt x 106.90562pt.
 
+<results/images/kernel/21_detail_p2.pdf, id=371, 708.6475pt x 1076.02pt>
+File: results/images/kernel/21_detail_p2.pdf Graphic file (type pdf)
 
-<results/images/kernel/l_hour19_kd_detail.pdf, id=366, 695.59875pt x 1082.0425p
-t>
-File: results/images/kernel/l_hour19_kd_detail.pdf Graphic file (type pdf)
- <use results/images/kernel/l_hour19_kd_detail.pdf>
-Package pdftex.def Info: results/images/kernel/l_hour19_kd_detail.pdf used on i
-nput line 151.
-(pdftex.def)             Requested size: 69.56395pt x 108.21059pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 151--151
-[]\T1/cmr/m/n/9 (c) Wednes-day,
- []
-
-<results/images/kernel/l_hour20_kd_detail.pdf, id=367, 662.475pt x 1084.05pt>
-File: results/images/kernel/l_hour20_kd_detail.pdf Graphic file (type pdf)
-
-<use results/images/kernel/l_hour20_kd_detail.pdf>
-Package pdftex.def Info: results/images/kernel/l_hour20_kd_detail.pdf used on i
-nput line 155.
-(pdftex.def)             Requested size: 66.25137pt x 108.41135pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 155--155
-[]\T1/cmr/m/n/9 (d) Wednes-day,
- []
-
-[17 <./results/images/kernel/l_hour5_kd_detail.pdf> <./results/images/kernel/l_
-hour6_kd_detail.pdf> <./results/images/kernel/l_hour7_kd_detail.pdf> <./results
-/images/kernel/l_hour8_kd_detail.pdf> <./results/images/kernel/l_hour17_kd_deta
-il.pdf> <./results/images/kernel/l_hour18_kd_detail.pdf> <./results/images/kern
-el/l_hour19_kd_detail.pdf> <./results/images/kernel/l_hour20_kd_detail.pdf>]
-<results/images/kernel/l_hour17_kd.pdf, id=477, 709.9564pt x 641.29688pt>
+<use results/images/kernel/21_detail_p2.pdf>
+Package pdftex.def Info: results/images/kernel/21_detail_p2.pdf used on input l
+ine 151.
+(pdftex.def)             Requested size: 70.8689pt x 107.6083pt.
+ [17 <./results/images/kernel/l_hour5_kd_detail.pdf> <./results/images/kernel/l
+_hour6_kd_detail.pdf> <./results/images/kernel/l_hour7_kd_detail.pdf> <./result
+s/images/kernel/l_hour8_kd_detail.pdf> <./results/images/kernel/18_detail_p2.pd
+f> <./results/images/kernel/19_detail_p2.pdf> <./results/images/kernel/20_detai
+l_p2.pdf> <./results/images/kernel/21_detail_p2.pdf>]
+<results/images/kernel/l_hour17_kd.pdf, id=481, 709.9564pt x 641.29688pt>
 File: results/images/kernel/l_hour17_kd.pdf Graphic file (type pdf)
 
 <use results/images/kernel/l_hour17_kd.pdf>
 Package pdftex.def Info: results/images/kernel/l_hour17_kd.pdf used on input li
-ne 170.
+ne 166.
 (pdftex.def)             Requested size: 212.98856pt x 192.39053pt.
 
-<results/images/kernel/l_hour18_kd.pdf, id=478, 709.9564pt x 641.29688pt>
+<results/images/kernel/l_hour18_kd.pdf, id=482, 709.9333pt x 641.27678pt>
 File: results/images/kernel/l_hour18_kd.pdf Graphic file (type pdf)
 
 <use results/images/kernel/l_hour18_kd.pdf>
 Package pdftex.def Info: results/images/kernel/l_hour18_kd.pdf used on input li
-ne 174.
-(pdftex.def)             Requested size: 212.98856pt x 192.39053pt.
+ne 170.
+(pdftex.def)             Requested size: 212.98163pt x 192.38452pt.
 
-<results/images/kernel/l_hour19_kd.pdf, id=479, 709.9564pt x 641.29688pt>
+<results/images/kernel/l_hour19_kd.pdf, id=483, 709.9333pt x 641.27678pt>
 File: results/images/kernel/l_hour19_kd.pdf Graphic file (type pdf)
 
 <use results/images/kernel/l_hour19_kd.pdf>
 Package pdftex.def Info: results/images/kernel/l_hour19_kd.pdf used on input li
-ne 179.
-(pdftex.def)             Requested size: 212.98856pt x 192.39053pt.
+ne 175.
+(pdftex.def)             Requested size: 212.98163pt x 192.38452pt.
 
-<results/images/kernel/l_hour20_kd.pdf, id=480, 709.9564pt x 641.29688pt>
+<results/images/kernel/l_hour20_kd.pdf, id=484, 709.9333pt x 641.27678pt>
 File: results/images/kernel/l_hour20_kd.pdf Graphic file (type pdf)
 
 <use results/images/kernel/l_hour20_kd.pdf>
 Package pdftex.def Info: results/images/kernel/l_hour20_kd.pdf used on input li
-ne 183.
-(pdftex.def)             Requested size: 212.98856pt x 192.39053pt.
+ne 179.
+(pdftex.def)             Requested size: 212.98163pt x 192.38452pt.
 ) [18 <./results/images/kernel/l_hour17_kd.pdf> <./results/images/kernel/l_hour
 18_kd.pdf> <./results/images/kernel/l_hour19_kd.pdf> <./results/images/kernel/l
 _hour20_kd.pdf>]
@@ -1574,7 +1552,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--50
 [20
 
 
-] <future_work/images/L_hour5_Map.pdf, id=552, 844.62358pt x 597.69287pt>
+] <future_work/images/L_hour5_Map.pdf, id=531, 844.62358pt x 597.69287pt>
 File: future_work/images/L_hour5_Map.pdf Graphic file (type pdf)
 
 <use future_work/images/L_hour5_Map.pdf>
@@ -1616,7 +1594,7 @@ Package atveryend Info: Empty hook `BeforeClearDocument' on input line 93.
 
 ]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 93.
- (./d4d_challenge.aux (./about_us/section.aux)
+ (./d4d_challenge.aux (./preface/section.aux) (./about_us/section.aux)
 (./state_of_the_art/section.aux) (./problem_and_hypothesis/section.aux)
 (./mathematical_definition/section.aux) (./methodology/section.aux)
 (./results/section.aux) (./conclusions/section.aux) (./future_work/section.aux)
@@ -1624,10 +1602,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 93.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 93.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 93.
 Package rerunfilecheck Info: File `d4d_challenge.out' has not changed.
-(rerunfilecheck)             Checksum: C0C5AF12D8D4034AA5F74B7E377EA061;510.
-
-
-LaTeX Warning: There were undefined references.
+(rerunfilecheck)             Checksum: 3779055E61BC9074A4B80643AA8C09F5;555.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -1635,13 +1610,13 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 93.
  ) 
 Here is how much of TeX's memory you used:
- 8302 strings out of 493633
- 119908 string characters out of 3143377
- 213213 words of memory out of 3000000
- 11279 multiletter control sequences out of 15000+200000
+ 8311 strings out of 493633
+ 119942 string characters out of 3143377
+ 213678 words of memory out of 3000000
+ 11280 multiletter control sequences out of 15000+200000
  22572 words of font info for 62 fonts, out of 3000000 for 9000
  831 hyphenation exceptions out of 8191
- 37i,9n,39p,1068b,366s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 37i,9n,39p,2005b,366s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/local/texlive/2011/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
 </usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
 /usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></
@@ -1665,10 +1640,10 @@ mf-dist/fonts/type1/public/cm-super/sfrm2074.pfb></usr/local/texlive/2011/texmf
 -dist/fonts/type1/public/cm-super/sfti1095.pfb></usr/local/texlive/2011/texmf-d
 ist/fonts/type1/public/cm-super/sftt1095.pfb></usr/local/texlive/2011/texmf-dis
 t/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on d4d_challenge.pdf (23 pages, 47248955 bytes).
+Output written on d4d_challenge.pdf (23 pages, 43714586 bytes).
 PDF statistics:
- 680 PDF objects out of 1000 (max. 8388607)
- 446 compressed objects within 5 object streams
- 84 named destinations out of 1000 (max. 500000)
- 183 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 661 PDF objects out of 1000 (max. 8388607)
+ 445 compressed objects within 5 object streams
+ 85 named destinations out of 1000 (max. 500000)
+ 191 words of extra memory for PDF output out of 10000 (max. 10000000)
 
