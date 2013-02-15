@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.9.15)  13 FEB 2013 17:08
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.9.15)  15 FEB 2013 08:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -574,6 +574,78 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 (/usr/local/texlive/2011/texmf-dist/tex/latex/doublestroke/dsfont.sty
 Package: dsfont 1995/08/01 v0.1 Double stroke roman fonts
 )
+(/usr/local/texlive/2011/texmf-dist/tex/latex/preprint/authblk.sty
+Package: authblk 2009/11/18 1.3 (PWD)
+\affilsep=\skip58
+\@affilsep=\skip59
+\c@Maxaffil=\count119
+\c@authors=\count120
+\c@affil=\count121
+)
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 
+     
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! You can't use `macro parameter character #' in horizontal mode.
+\in@ #1#2->\def \in@@ ##1#1##
+                             2##3\in@@ {\ifx \in@ ##2\in@false \else \in@tru...
+l.17 
+     
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `macro parameter character #' in horizontal mode.
+\in@ #1#2->\def \in@@ ##1#1##2##
+                                3\in@@ {\ifx \in@ ##2\in@false \else \in@tru...
+l.17 
+     
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! Extra \else.
+<argument> ...ter ,\reserved@b ,}{,,}\ifin@ \else 
+                                                  \let \reserved@a \@secondo...
+l.17 
+     
+I'm ignoring this; it doesn't match any \if.
+
+! Extra \fi.
+\@for ... \@forloop #2,\@nil ,\@nil \@@ #1{#3}\fi 
+                                                  
+l.17 
+     
+I'm ignoring this; it doesn't match any \if.
+
+
+! LaTeX Error: Option clash for package hyperref.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 
+     
+The package hyperref has already been loaded with options:
+  []
+There has now been an attempt to load it with options
+  [pdfborder={0 0 0}]
+Adding the global options:
+  ,pdfborder={0 0 0}
+to your \documentclass declaration may fix this.
+Try typing  <return>  to proceed.
+
 (./d4d_challenge.aux (./about_us/section.aux) (./state_of_the_art/section.aux)
 (./problem_and_hypothesis/section.aux) (./mathematical_definition/section.aux)
 (./methodology/section.aux) (./results/section.aux
@@ -659,33 +731,33 @@ LaTeX Warning: Label `fig:subfigureExample' multiply defined.
 (./acknowledgement/section.aux))
 \openout1 = `d4d_challenge.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
 
 (/usr/local/texlive/2011/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count119
+\scratchcounter=\count122
 \scratchdimen=\dimen121
 \scratchbox=\box30
-\nofMPsegments=\count120
-\nofMParguments=\count121
+\nofMPsegments=\count123
+\nofMParguments=\count124
 \everyMPshowfont=\toks25
-\MPscratchCnt=\count122
+\MPscratchCnt=\count125
 \MPscratchDim=\dimen122
-\MPnumerator=\count123
-\makeMPintoPDFobject=\count124
+\MPnumerator=\count126
+\makeMPintoPDFobject=\count127
 \everyMPtoPDFconversion=\toks26
 ) (/usr/local/texlive/2011/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
@@ -703,7 +775,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 \AtBeginShipoutBox=\box31
-Package hyperref Info: Link coloring OFF on input line 24.
+Package hyperref Info: Link coloring OFF on input line 26.
 
 (/usr/local/texlive/2011/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2010/04/30 v2.40 Cross-referencing by name of section
@@ -711,63 +783,49 @@ Package: nameref 2010/04/30 v2.40 Cross-referencing by name of section
 (/usr/local/texlive/2011/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count125
+\c@section@level=\count128
 )
-LaTeX Info: Redefining \ref on input line 24.
-LaTeX Info: Redefining \pageref on input line 24.
-LaTeX Info: Redefining \nameref on input line 24.
+LaTeX Info: Redefining \ref on input line 26.
+LaTeX Info: Redefining \pageref on input line 26.
+LaTeX Info: Redefining \nameref on input line 26.
 
 (./d4d_challenge.out) (./d4d_challenge.out)
 \@outlinefile=\write3
 \openout3 = `d4d_challenge.out'.
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 46.
+ [1
+
+{/usr/local/texlive/2011/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+LaTeX Font Info:    Try loading font information for U+msa on input line 51.
 
 (/usr/local/texlive/2011/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 46.
+LaTeX Font Info:    Try loading font information for U+msb on input line 51.
 
 (/usr/local/texlive/2011/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 )
-! Missing } inserted.
-<inserted text> 
-                }
-l.46 
-     
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 51.
 
-! Missing { inserted.
-<inserted text> 
-                {
-l.46 
-     
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 48--56
+(/usr/local/texlive/2011/texmf-dist/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+Underfull \hbox (badness 10000) in paragraph at lines 54--62
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 48--56
+Underfull \hbox (badness 10000) in paragraph at lines 54--62
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 48--56
+Underfull \hbox (badness 10000) in paragraph at lines 54--62
 
  []
 
-[1
-
-{/usr/local/texlive/2011/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-(./d4d_challenge.toc)
+[2] (./d4d_challenge.toc)
 \tf@toc=\write4
 \openout4 = `d4d_challenge.toc'.
 
@@ -775,118 +833,118 @@ Underfull \hbox (badness 10000) in paragraph at lines 48--56
 \tf@lof=\write5
 \openout5 = `d4d_challenge.lof'.
 
- [2]
+ [3]
 \openout2 = `about_us/section.aux'.
 
  (./about_us/section.tex)
-Underfull \hbox (badness 10000) in paragraph at lines 5--70
+Underfull \hbox (badness 10000) in paragraph at lines 5--76
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5--70
+Underfull \hbox (badness 10000) in paragraph at lines 5--76
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5--70
+Underfull \hbox (badness 10000) in paragraph at lines 5--76
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5--70
+Underfull \hbox (badness 10000) in paragraph at lines 5--76
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5--70
+Underfull \hbox (badness 10000) in paragraph at lines 5--76
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5--70
+Underfull \hbox (badness 10000) in paragraph at lines 5--76
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5--70
+Underfull \hbox (badness 10000) in paragraph at lines 5--76
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5--70
+Underfull \hbox (badness 10000) in paragraph at lines 5--76
 
  []
 
-[3
+[4
 
-] [4]
+] [5]
 \openout2 = `state_of_the_art/section.aux'.
 
  (./state_of_the_art/section.tex)
-Underfull \hbox (badness 10000) in paragraph at lines 5--71
+Underfull \hbox (badness 10000) in paragraph at lines 5--77
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5--71
+Underfull \hbox (badness 10000) in paragraph at lines 5--77
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5--71
+Underfull \hbox (badness 10000) in paragraph at lines 5--77
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5--71
+Underfull \hbox (badness 10000) in paragraph at lines 5--77
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5--71
+Underfull \hbox (badness 10000) in paragraph at lines 5--77
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5--71
+Underfull \hbox (badness 10000) in paragraph at lines 5--77
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5--71
+Underfull \hbox (badness 10000) in paragraph at lines 5--77
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5--71
+Underfull \hbox (badness 10000) in paragraph at lines 5--77
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5--71
+Underfull \hbox (badness 10000) in paragraph at lines 5--77
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5--71
+Underfull \hbox (badness 10000) in paragraph at lines 5--77
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5--71
+Underfull \hbox (badness 10000) in paragraph at lines 5--77
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5--71
+Underfull \hbox (badness 10000) in paragraph at lines 5--77
 
  []
 
-[5
+[6
 
 
-] [6]
+] [7]
 \openout2 = `problem_and_hypothesis/section.aux'.
 
  (./problem_and_hypothesis/section.tex
@@ -904,27 +962,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--18
 
  []
 
-<results/images/common_commuting_model.pdf, id=157, 421.575pt x 419.5675pt>
+<results/images/common_commuting_model.pdf, id=164, 421.575pt x 419.5675pt>
 File: results/images/common_commuting_model.pdf Graphic file (type pdf)
 
 <use results/images/common_commuting_model.pdf>
 Package pdftex.def Info: results/images/common_commuting_model.pdf used on inpu
 t line 23.
 (pdftex.def)             Requested size: 252.94695pt x 251.74243pt.
-) [7
+) [8
 
 
  <./results/images/common_commuting_model.pdf>]
 \openout2 = `mathematical_definition/section.aux'.
 
  (./mathematical_definition/section.tex
-<mathematical_definition/images/dynamic_users.pdf, id=178, 895.11305pt x 343.88
-524pt>
+<mathematical_definition/images/dynamic_users.pdf, id=184, 436.02899pt x 245.71
+8pt>
 File: mathematical_definition/images/dynamic_users.pdf Graphic file (type pdf)
  <use mathematical_definition/images/dynamic_users.pdf>
 Package pdftex.def Info: mathematical_definition/images/dynamic_users.pdf used 
 on input line 8.
-(pdftex.def)             Requested size: 447.55544pt x 171.9422pt.
+(pdftex.def)             Requested size: 436.02791pt x 245.71739pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 15--22
 
@@ -954,15 +1012,14 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+[9
 
+
+ <./mathematical_definition/images/dynamic_users.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 35--39
 
  []
 
-[8
-
-
- <./mathematical_definition/images/dynamic_users.pdf>]
 ! Undefined control sequence.
 l.47 $$N = \dysplaystyle
                          \sum_{i=0}^{n-1} S(\vec{p}_i, \vec{p}_{i+1})$$
@@ -972,75 +1029,75 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-) [9]
+) [10]
 \openout2 = `methodology/section.aux'.
 
  (./methodology/section.tex
 
-LaTeX Warning: Reference `kde_first_peak' on page 10 undefined on input line 23
+LaTeX Warning: Reference `kde_first_peak' on page 11 undefined on input line 23
 .
 
 )
-Underfull \hbox (badness 10000) in paragraph at lines 5--74
+Underfull \hbox (badness 10000) in paragraph at lines 5--80
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5--74
+Underfull \hbox (badness 10000) in paragraph at lines 5--80
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5--74
+Underfull \hbox (badness 10000) in paragraph at lines 5--80
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5--74
+Underfull \hbox (badness 10000) in paragraph at lines 5--80
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5--74
+Underfull \hbox (badness 10000) in paragraph at lines 5--80
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5--74
+Underfull \hbox (badness 10000) in paragraph at lines 5--80
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5--74
+Underfull \hbox (badness 10000) in paragraph at lines 5--80
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5--74
+Underfull \hbox (badness 10000) in paragraph at lines 5--80
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5--74
+Underfull \hbox (badness 10000) in paragraph at lines 5--80
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5--74
+Underfull \hbox (badness 10000) in paragraph at lines 5--80
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5--74
+Underfull \hbox (badness 10000) in paragraph at lines 5--80
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5--74
+Underfull \hbox (badness 10000) in paragraph at lines 5--80
 
  []
 
-[10
+[11
 
 
 ]
@@ -1071,13 +1128,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--21
 
  []
 
-<results/images/calls_number.pdf, id=222, 409.53pt x 120.45pt>
+<results/images/calls_number.pdf, id=232, 577.15625pt x 163.61125pt>
 File: results/images/calls_number.pdf Graphic file (type pdf)
 
 <use results/images/calls_number.pdf>
 Package pdftex.def Info: results/images/calls_number.pdf used on input line 24.
 
-(pdftex.def)             Requested size: 450.48439pt x 132.49539pt.
+(pdftex.def)             Requested size: 461.72562pt x 130.88916pt.
 
 
 ! LaTeX Error: There's no line here to end.
@@ -1168,272 +1225,272 @@ Underfull \hbox (badness 10000) in paragraph at lines 34--48
 
  []
 
-[11
+[12
 
 
- <./results/images/calls_number.pdf>] [12]
-<results/images/commuting_results.pdf, id=247, 330.23375pt x 613.29124pt>
+ <./results/images/calls_number.pdf>]
+<results/images/commuting_results.pdf, id=254, 591.20876pt x 399.4925pt>
 File: results/images/commuting_results.pdf Graphic file (type pdf)
 
 <use results/images/commuting_results.pdf>
 Package pdftex.def Info: results/images/commuting_results.pdf used on input lin
-e 53.
-(pdftex.def)             Requested size: 264.18735pt x 490.63365pt.
+e 52.
+(pdftex.def)             Requested size: 443.40547pt x 299.61864pt.
  [13 <./results/images/commuting_results.pdf>]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 63.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 62.
  (/usr/local/texlive/2011/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 63.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 62.
 
-<results/images/kernel/L_hour6_kd_Map.pdf, id=267, 844.62358pt x 597.69287pt>
+<results/images/kernel/L_hour6_kd_Map.pdf, id=275, 844.62358pt x 597.69287pt>
 File: results/images/kernel/L_hour6_kd_Map.pdf Graphic file (type pdf)
 
 <use results/images/kernel/L_hour6_kd_Map.pdf>
 Package pdftex.def Info: results/images/kernel/L_hour6_kd_Map.pdf used on input
- line 68.
-(pdftex.def)             Requested size: 253.38902pt x 179.30923pt.
+ line 67.
+(pdftex.def)             Requested size: 363.18106pt x 257.00291pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 60--73
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 60--73
+Underfull \hbox (badness 10000) in paragraph at lines 59--72
 
  []
 
-[14 <./results/images/kernel/L_hour6_kd_Map.pdf>]
-<results/images/kernel/l_hour5_kd.pdf, id=282, 709.9564pt x 641.29688pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 59--72
+
+ []
+
+[14 <./results/images/kernel/L_hour6_kd_Map.pdf>] [15]
+<results/images/kernel/l_hour5_kd.pdf, id=295, 709.9564pt x 641.29688pt>
 File: results/images/kernel/l_hour5_kd.pdf Graphic file (type pdf)
 
 <use results/images/kernel/l_hour5_kd.pdf>
 Package pdftex.def Info: results/images/kernel/l_hour5_kd.pdf used on input lin
-e 85.
+e 84.
 (pdftex.def)             Requested size: 212.98856pt x 192.39053pt.
 
-<results/images/kernel/l_hour6_kd.pdf, id=283, 709.9564pt x 641.29688pt>
+<results/images/kernel/l_hour6_kd.pdf, id=296, 709.9564pt x 641.29688pt>
 File: results/images/kernel/l_hour6_kd.pdf Graphic file (type pdf)
 
 <use results/images/kernel/l_hour6_kd.pdf>
 Package pdftex.def Info: results/images/kernel/l_hour6_kd.pdf used on input lin
-e 89.
+e 88.
 (pdftex.def)             Requested size: 212.98856pt x 192.39053pt.
 
-<results/images/kernel/l_hour7_kd.pdf, id=284, 709.9564pt x 641.29688pt>
+<results/images/kernel/l_hour7_kd.pdf, id=297, 709.9564pt x 641.29688pt>
 File: results/images/kernel/l_hour7_kd.pdf Graphic file (type pdf)
 
 <use results/images/kernel/l_hour7_kd.pdf>
 Package pdftex.def Info: results/images/kernel/l_hour7_kd.pdf used on input lin
-e 94.
+e 93.
 (pdftex.def)             Requested size: 212.98856pt x 192.39053pt.
 
-<results/images/kernel/l_hour8_kd.pdf, id=285, 709.9564pt x 641.29688pt>
+<results/images/kernel/l_hour8_kd.pdf, id=298, 709.9564pt x 641.29688pt>
 File: results/images/kernel/l_hour8_kd.pdf Graphic file (type pdf)
 
 <use results/images/kernel/l_hour8_kd.pdf>
 Package pdftex.def Info: results/images/kernel/l_hour8_kd.pdf used on input lin
-e 98.
+e 97.
 (pdftex.def)             Requested size: 212.98856pt x 192.39053pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 103--107
+Underfull \hbox (badness 10000) in paragraph at lines 102--106
 
  []
 
-[15 <./results/images/kernel/l_hour5_kd.pdf> <./results/images/kernel/l_hour6_k
+[16 <./results/images/kernel/l_hour5_kd.pdf> <./results/images/kernel/l_hour6_k
 d.pdf> <./results/images/kernel/l_hour7_kd.pdf> <./results/images/kernel/l_hour
 8_kd.pdf>]
-<results/images/kernel/l_hour5_kd_detail.pdf, id=345, 716.6775pt x 1100.11pt>
+<results/images/kernel/l_hour5_kd_detail.pdf, id=359, 716.6775pt x 1100.11pt>
 File: results/images/kernel/l_hour5_kd_detail.pdf Graphic file (type pdf)
 
 <use results/images/kernel/l_hour5_kd_detail.pdf>
 Package pdftex.def Info: results/images/kernel/l_hour5_kd_detail.pdf used on in
-put line 114.
+put line 113.
 (pdftex.def)             Requested size: 71.67194pt x 110.01744pt.
 
-<results/images/kernel/l_hour6_kd_detail.pdf, id=346, 665.48625pt x 1074.0125pt
+<results/images/kernel/l_hour6_kd_detail.pdf, id=360, 665.48625pt x 1074.0125pt
 >
 File: results/images/kernel/l_hour6_kd_detail.pdf Graphic file (type pdf)
  <use results/images/kernel/l_hour6_kd_detail.pdf>
 Package pdftex.def Info: results/images/kernel/l_hour6_kd_detail.pdf used on in
-put line 118.
+put line 117.
 (pdftex.def)             Requested size: 66.55252pt x 107.40753pt.
 
-<results/images/kernel/l_hour7_kd_detail.pdf, id=347, 675.52374pt x 1076.02pt>
+<results/images/kernel/l_hour7_kd_detail.pdf, id=361, 675.52374pt x 1076.02pt>
 File: results/images/kernel/l_hour7_kd_detail.pdf Graphic file (type pdf)
 
 <use results/images/kernel/l_hour7_kd_detail.pdf>
 Package pdftex.def Info: results/images/kernel/l_hour7_kd_detail.pdf used on in
-put line 122.
+put line 121.
 (pdftex.def)             Requested size: 67.55632pt x 107.6083pt.
 
-<results/images/kernel/l_hour8_kd_detail.pdf, id=348, 684.5575pt x 1076.02pt>
+<results/images/kernel/l_hour8_kd_detail.pdf, id=362, 684.5575pt x 1076.02pt>
 File: results/images/kernel/l_hour8_kd_detail.pdf Graphic file (type pdf)
 
 <use results/images/kernel/l_hour8_kd_detail.pdf>
 Package pdftex.def Info: results/images/kernel/l_hour8_kd_detail.pdf used on in
-put line 126.
+put line 125.
 (pdftex.def)             Requested size: 68.45975pt x 107.6083pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 132--136
+Underfull \hbox (badness 10000) in paragraph at lines 131--135
 
  []
 
 
-<results/images/kernel/l_hour17_kd_detail.pdf, id=349, 679.53876pt x 1069.9975p
+<results/images/kernel/l_hour17_kd_detail.pdf, id=363, 679.53876pt x 1069.9975p
 t>
 File: results/images/kernel/l_hour17_kd_detail.pdf Graphic file (type pdf)
  <use results/images/kernel/l_hour17_kd_detail.pdf>
 Package pdftex.def Info: results/images/kernel/l_hour17_kd_detail.pdf used on i
-nput line 144.
+nput line 143.
 (pdftex.def)             Requested size: 67.95786pt x 107.00601pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 144--144
+Underfull \hbox (badness 10000) in paragraph at lines 143--143
 []\T1/cmr/m/n/9 (a) Wednes-day,
  []
 
 
-<results/images/kernel/l_hour18_kd_detail.pdf, id=350, 673.51625pt x 1079.03125
+<results/images/kernel/l_hour18_kd_detail.pdf, id=364, 673.51625pt x 1079.03125
 pt>
 File: results/images/kernel/l_hour18_kd_detail.pdf Graphic file (type pdf)
  <use results/images/kernel/l_hour18_kd_detail.pdf>
 Package pdftex.def Info: results/images/kernel/l_hour18_kd_detail.pdf used on i
-nput line 148.
+nput line 147.
 (pdftex.def)             Requested size: 67.35556pt x 107.90944pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 148--148
+Underfull \hbox (badness 10000) in paragraph at lines 147--147
 []\T1/cmr/m/n/9 (b) Wednes-day,
  []
 
 
-<results/images/kernel/l_hour19_kd_detail.pdf, id=351, 700.6175pt x 1078.0275pt
+<results/images/kernel/l_hour19_kd_detail.pdf, id=365, 700.6175pt x 1078.0275pt
 >
 File: results/images/kernel/l_hour19_kd_detail.pdf Graphic file (type pdf)
  <use results/images/kernel/l_hour19_kd_detail.pdf>
 Package pdftex.def Info: results/images/kernel/l_hour19_kd_detail.pdf used on i
-nput line 152.
+nput line 151.
 (pdftex.def)             Requested size: 70.06584pt x 107.80907pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 152--152
+Underfull \hbox (badness 10000) in paragraph at lines 151--151
 []\T1/cmr/m/n/9 (c) Wednes-day,
  []
 
-<results/images/kernel/l_hour20_kd_detail.pdf, id=352, 662.475pt x 1084.05pt>
+<results/images/kernel/l_hour20_kd_detail.pdf, id=366, 662.475pt x 1084.05pt>
 File: results/images/kernel/l_hour20_kd_detail.pdf Graphic file (type pdf)
 
 <use results/images/kernel/l_hour20_kd_detail.pdf>
 Package pdftex.def Info: results/images/kernel/l_hour20_kd_detail.pdf used on i
-nput line 156.
+nput line 155.
 (pdftex.def)             Requested size: 66.25137pt x 108.41135pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 156--156
+Underfull \hbox (badness 10000) in paragraph at lines 155--155
 []\T1/cmr/m/n/9 (d) Wednes-day,
  []
 
-[16 <./results/images/kernel/l_hour5_kd_detail.pdf> <./results/images/kernel/l_
+[17 <./results/images/kernel/l_hour5_kd_detail.pdf> <./results/images/kernel/l_
 hour6_kd_detail.pdf> <./results/images/kernel/l_hour7_kd_detail.pdf> <./results
 /images/kernel/l_hour8_kd_detail.pdf> <./results/images/kernel/l_hour17_kd_deta
 il.pdf> <./results/images/kernel/l_hour18_kd_detail.pdf> <./results/images/kern
 el/l_hour19_kd_detail.pdf> <./results/images/kernel/l_hour20_kd_detail.pdf>]
-<results/images/kernel/l_hour17_kd.pdf, id=461, 709.9564pt x 641.29688pt>
+<results/images/kernel/l_hour17_kd.pdf, id=476, 709.9564pt x 641.29688pt>
 File: results/images/kernel/l_hour17_kd.pdf Graphic file (type pdf)
 
 <use results/images/kernel/l_hour17_kd.pdf>
 Package pdftex.def Info: results/images/kernel/l_hour17_kd.pdf used on input li
-ne 171.
+ne 170.
 (pdftex.def)             Requested size: 212.98856pt x 192.39053pt.
 
-<results/images/kernel/l_hour18_kd.pdf, id=462, 709.9564pt x 641.29688pt>
+<results/images/kernel/l_hour18_kd.pdf, id=477, 709.9564pt x 641.29688pt>
 File: results/images/kernel/l_hour18_kd.pdf Graphic file (type pdf)
 
 <use results/images/kernel/l_hour18_kd.pdf>
 Package pdftex.def Info: results/images/kernel/l_hour18_kd.pdf used on input li
-ne 175.
+ne 174.
 (pdftex.def)             Requested size: 212.98856pt x 192.39053pt.
 
-<results/images/kernel/l_hour19_kd.pdf, id=463, 709.9564pt x 641.29688pt>
+<results/images/kernel/l_hour19_kd.pdf, id=478, 709.9564pt x 641.29688pt>
 File: results/images/kernel/l_hour19_kd.pdf Graphic file (type pdf)
 
 <use results/images/kernel/l_hour19_kd.pdf>
 Package pdftex.def Info: results/images/kernel/l_hour19_kd.pdf used on input li
-ne 180.
+ne 179.
 (pdftex.def)             Requested size: 212.98856pt x 192.39053pt.
 
-<results/images/kernel/l_hour20_kd.pdf, id=464, 709.9564pt x 641.29688pt>
+<results/images/kernel/l_hour20_kd.pdf, id=479, 709.9564pt x 641.29688pt>
 File: results/images/kernel/l_hour20_kd.pdf Graphic file (type pdf)
 
 <use results/images/kernel/l_hour20_kd.pdf>
 Package pdftex.def Info: results/images/kernel/l_hour20_kd.pdf used on input li
-ne 184.
+ne 183.
 (pdftex.def)             Requested size: 212.98856pt x 192.39053pt.
-) [17 <./results/images/kernel/l_hour17_kd.pdf> <./results/images/kernel/l_hour
+) [18 <./results/images/kernel/l_hour17_kd.pdf> <./results/images/kernel/l_hour
 18_kd.pdf> <./results/images/kernel/l_hour19_kd.pdf> <./results/images/kernel/l
 _hour20_kd.pdf>]
 \openout2 = `conclusions/section.aux'.
 
 
 (./conclusions/section.tex)
-Underfull \hbox (badness 10000) in paragraph at lines 4--76
+Underfull \hbox (badness 10000) in paragraph at lines 4--82
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4--76
+Underfull \hbox (badness 10000) in paragraph at lines 4--82
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4--76
+Underfull \hbox (badness 10000) in paragraph at lines 4--82
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4--76
+Underfull \hbox (badness 10000) in paragraph at lines 4--82
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4--76
+Underfull \hbox (badness 10000) in paragraph at lines 4--82
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4--76
+Underfull \hbox (badness 10000) in paragraph at lines 4--82
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4--76
+Underfull \hbox (badness 10000) in paragraph at lines 4--82
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4--76
+Underfull \hbox (badness 10000) in paragraph at lines 4--82
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4--76
+Underfull \hbox (badness 10000) in paragraph at lines 4--82
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4--76
+Underfull \hbox (badness 10000) in paragraph at lines 4--82
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4--76
+Underfull \hbox (badness 10000) in paragraph at lines 4--82
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4--76
+Underfull \hbox (badness 10000) in paragraph at lines 4--82
 
  []
 
-[18
+[19
 
 
 ]
@@ -1514,33 +1571,28 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--50
 
  []
 
-[19
+[20
 
 
-] <future_work/images/L_hour5_Map.pdf, id=534, 844.62358pt x 597.69287pt>
+] <future_work/images/L_hour5_Map.pdf, id=551, 844.62358pt x 597.69287pt>
 File: future_work/images/L_hour5_Map.pdf Graphic file (type pdf)
 
 <use future_work/images/L_hour5_Map.pdf>
 Package pdftex.def Info: future_work/images/L_hour5_Map.pdf used on input line 
 53.
 (pdftex.def)             Requested size: 422.31076pt x 298.8457pt.
-) [20 <./future_work/images/L_hour5_Map.pdf>]
+) [21 <./future_work/images/L_hour5_Map.pdf>]
 \openout2 = `acknowledgement/section.aux'.
 
  (./acknowledgement/section.tex)
-Underfull \hbox (badness 10000) in paragraph at lines 5--78
+Underfull \hbox (badness 10000) in paragraph at lines 5--84
 
  []
 
-[21
+[22
 
 
 ] (./d4d_challenge.bbl
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 23.
-
-(/usr/local/texlive/2011/texmf-dist/tex/latex/base/t1cmtt.fd
-File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
-)
 Underfull \hbox (badness 10000) in paragraph at lines 62--68
 []\T1/cmr/m/n/10.95 Oscar Marin, Ale-jan-dro Gon-za-lez, Roberto Maestre, Julio
  Gon-za-lez, Marco Mar-
@@ -1559,18 +1611,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 62--68
  []
 
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 86.
- [22
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 92.
+ [23
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 86.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 92.
  (./d4d_challenge.aux (./about_us/section.aux)
 (./state_of_the_art/section.aux) (./problem_and_hypothesis/section.aux)
 (./mathematical_definition/section.aux) (./methodology/section.aux)
 (./results/section.aux) (./conclusions/section.aux) (./future_work/section.aux)
 (./acknowledgement/section.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 86.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 86.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 92.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 92.
 Package rerunfilecheck Info: File `d4d_challenge.out' has not changed.
 (rerunfilecheck)             Checksum: FC0B2CF14CCCD3DFE221F7FCD81C118B;507.
 
@@ -1580,16 +1632,16 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 86.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 92.
  ) 
 Here is how much of TeX's memory you used:
- 8220 strings out of 493633
- 119020 string characters out of 3143377
- 212100 words of memory out of 3000000
- 11203 multiletter control sequences out of 15000+200000
- 22259 words of font info for 61 fonts, out of 3000000 for 9000
+ 8302 strings out of 493633
+ 119908 string characters out of 3143377
+ 212213 words of memory out of 3000000
+ 11279 multiletter control sequences out of 15000+200000
+ 22572 words of font info for 62 fonts, out of 3000000 for 9000
  831 hyphenation exceptions out of 8191
- 37i,13n,39p,1068b,327s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 37i,9n,39p,1068b,366s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/local/texlive/2011/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
 </usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
 /usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></
@@ -1597,26 +1649,26 @@ usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></us
 r/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/
 local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/loc
 al/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/loca
-l/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/
-texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/te
-xlive/2011/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/loca
-l/texlive/2011/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/local/
-texlive/2011/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb></usr/local/te
-xlive/2011/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texl
-ive/2011/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb></usr/local/texliv
-e/2011/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/
-2011/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb></usr/local/texlive/20
-11/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2011
-/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2011/t
-exmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2011/tex
-mf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/local/texlive/2011/texmf
--dist/fonts/type1/public/cm-super/sfrm2074.pfb></usr/local/texlive/2011/texmf-d
-ist/fonts/type1/public/cm-super/sfti1095.pfb></usr/local/texlive/2011/texmf-dis
-t/fonts/type1/public/cm-super/sftt1095.pfb>
-Output written on d4d_challenge.pdf (22 pages, 28876578 bytes).
+l/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/
+texlive/2011/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/lo
+cal/texlive/2011/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/loca
+l/texlive/2011/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb></usr/local/
+texlive/2011/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/te
+xlive/2011/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb></usr/local/texl
+ive/2011/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texliv
+e/2011/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb></usr/local/texlive/
+2011/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/20
+11/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2011
+/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2011/t
+exmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/local/texlive/2011/tex
+mf-dist/fonts/type1/public/cm-super/sfrm2074.pfb></usr/local/texlive/2011/texmf
+-dist/fonts/type1/public/cm-super/sfti1095.pfb></usr/local/texlive/2011/texmf-d
+ist/fonts/type1/public/cm-super/sftt1095.pfb></usr/local/texlive/2011/texmf-dis
+t/fonts/type1/public/cm-super/sftt1200.pfb>
+Output written on d4d_challenge.pdf (23 pages, 28866448 bytes).
 PDF statistics:
- 662 PDF objects out of 1000 (max. 8388607)
- 444 compressed objects within 5 object streams
- 83 named destinations out of 1000 (max. 500000)
+ 679 PDF objects out of 1000 (max. 8388607)
+ 450 compressed objects within 5 object streams
+ 84 named destinations out of 1000 (max. 500000)
  183 words of extra memory for PDF output out of 10000 (max. 10000000)
 
