@@ -1,4 +1,4 @@
-\begin{thebibliography}{13}
+\begin{thebibliography}{19}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -44,10 +44,32 @@ John~D. Cook.
 \newblock URL \url{http://www.johndcook.com/python_longitude_latitude.html}.
 \newblock [Online; accessed 4-January-2013].
 
+\bibitem[Craig et~al.(2002)Craig, Harris, and Weiner]{craig2002community}
+W.J. Craig, T.M. Harris, and D.~Weiner.
+\newblock \emph{Community Participation and Geographical Information Systems}.
+\newblock Community Participation and Geographic Information Systems. Taylor \&
+  Francis, 2002.
+\newblock ISBN 9780415237529.
+\newblock URL \url{http://books.google.es/books?id=IePxXod45z8C}.
+
+\bibitem[De~Jong et~al.(2005)De~Jong, Shaw, and Stammers]{de2005global}
+W.~De~Jong, M.~Shaw, and N.~Stammers.
+\newblock \emph{Global Activism, Global Media}.
+\newblock Pluto Press, 2005.
+\newblock ISBN 9780745321967.
+\newblock URL \url{http://books.google.com.co/books?id=ny6DAAAAMAAJ}.
+
 \bibitem[Eagle et~al.(2009)Eagle, Pentland, and Lazer]{eage09}
 Nathan Eagle, Alex Pentland, and David Lazer.
 \newblock {Inferring Friendship Network Structure by Using Mobile Phone Data}.
 \newblock \emph{PNAS}, 106\penalty0 (36), 2009.
+
+\bibitem[Fielding et~al.(2008)Fielding, Lee, and Blank]{fielding2008sage}
+N.G. Fielding, R.M. Lee, and G.~Blank.
+\newblock \emph{The SAGE Handbook of Online Research Methods}.
+\newblock SAGE Publications, 2008.
+\newblock ISBN 9781446206607.
+\newblock URL \url{http://books.google.es/books?id=EeMKURpicCgC}.
 
 \bibitem[Llano~Verduras(2006)]{llano2006localizacion}
 Carlos Llano~Verduras.
@@ -65,6 +87,29 @@ Oscar Marin, Alejandro Gonzalez, Roberto Maestre, Julio Gonzalez, Marco
 \newblock URL
   \url{http://labs.paradigmatecnologico.com/2011/12/19/15th-october-on-twitter-global-revolution-mapped/}.
 \newblock [Online; accessed 23-January-2013].
+
+\bibitem[Mitchell(1997)]{mitchell1997zeroing}
+A.~Mitchell.
+\newblock \emph{Zeroing In: Geographic Information Systems at Work in the
+  Community}.
+\newblock Esri Press, 1997.
+\newblock ISBN 9781879102507.
+\newblock URL \url{http://books.google.com.co/books?id=Tj6AAAAAMAAJ}.
+
+\bibitem[Moyo(2009)]{moyo2009dead}
+D.~Moyo.
+\newblock \emph{Dead Aid: Why Aid Is Not Working and How There Is a Better Way
+  for Africa}.
+\newblock Farrar, Straus and Giroux, 2009.
+\newblock ISBN 9780374139568.
+\newblock URL \url{http://books.google.es/books?id=2T\_RbtTslzEC}.
+
+\bibitem[SEN et~al.(2000)SEN, Sen, Rabasco, and Toharia]{sen2000desarrollo}
+A.A. SEN, A.K. Sen, E.~Rabasco, and L.~Toharia.
+\newblock \emph{Desarrollo y Libertad}.
+\newblock Colecci{\'o}n Documento Series. GeoPlaneta, Editorial, S. A., 2000.
+\newblock ISBN 9788408035244.
+\newblock URL \url{http://books.google.com.co/books?id=Jk\_bPQAACAAJ}.
 
 \bibitem[Solana and Alonso(2012)]{dyncoopnet2012}
 Ana Solana and David Alonso.

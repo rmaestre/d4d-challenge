@@ -1,4 +1,4 @@
-\contentsline {section}{Preface}{4}{section*.3}
+\contentsline {section}{Commuted Communities: Commuting Dynamics 4 a Change}{4}{section*.3}
 \contentsline {section}{About us and why we face this challenge}{5}{section*.4}
 \contentsline {section}{State of the art}{7}{section*.5}
 \contentsline {section}{Problem description \& Hypothesis}{9}{section*.6}
@@ -7,4 +7,4 @@
 \contentsline {section}{Results}{13}{section*.9}
 \contentsline {section}{Conclusions}{19}{section*.10}
 \contentsline {section}{Recommendations for further work}{20}{section*.11}
-\contentsline {section}{Acknowledgement}{22}{section*.12}
+\contentsline {section}{Acknowledgements}{22}{section*.12}

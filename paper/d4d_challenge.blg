@@ -1,6 +1,7 @@
-This is BibTeX, Version 0.99d (TeX Live 2011)
+This is BibTeX, Version 0.99d (TeX Live 2012/W32TeX)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: d4d_challenge.aux
+A level-1 auxiliary file: preface/section.aux
 A level-1 auxiliary file: about_us/section.aux
 A level-1 auxiliary file: state_of_the_art/section.aux
 A level-1 auxiliary file: problem_and_hypothesis/section.aux
@@ -9,46 +10,49 @@ A level-1 auxiliary file: methodology/section.aux
 A level-1 auxiliary file: results/section.aux
 A level-1 auxiliary file: conclusions/section.aux
 A level-1 auxiliary file: future_work/section.aux
+A level-1 auxiliary file: acknowledgement/section.aux
 The style file: plainnat.bst
 Database file #1: biblio.bib
-You've used 13 entries,
+Warning--I didn't find a database entry for "sassen2007sociología"
+You've used 19 entries,
             2773 wiz_defined-function locations,
-            692 strings with 8212 characters,
-and the built_in function-call counts, 6258 in all, are:
-= -- 560
-> -- 389
-< -- 9
-+ -- 133
-- -- 120
-* -- 498
-:= -- 974
-add.period$ -- 48
-call.type$ -- 13
-change.case$ -- 80
-chr.to.int$ -- 13
-cite$ -- 26
-duplicate$ -- 273
-empty$ -- 475
-format.name$ -- 137
-if$ -- 1309
+            735 strings with 9414 characters,
+and the built_in function-call counts, 8706 in all, are:
+= -- 771
+> -- 538
+< -- 11
++ -- 184
+- -- 165
+* -- 690
+:= -- 1385
+add.period$ -- 80
+call.type$ -- 19
+change.case$ -- 107
+chr.to.int$ -- 19
+cite$ -- 38
+duplicate$ -- 397
+empty$ -- 671
+format.name$ -- 188
+if$ -- 1816
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 9
-newline$ -- 82
-num.names$ -- 52
-pop$ -- 153
+missing$ -- 21
+newline$ -- 124
+num.names$ -- 76
+pop$ -- 223
 preamble$ -- 1
-purify$ -- 66
+purify$ -- 93
 quote$ -- 0
-skip$ -- 236
+skip$ -- 317
 stack$ -- 0
-substring$ -- 173
-swap$ -- 40
+substring$ -- 185
+swap$ -- 46
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 143
+type$ -- 179
 warning$ -- 0
-while$ -- 51
+while$ -- 69
 width$ -- 0
-write$ -- 191
+write$ -- 289
+(There was 1 warning)
