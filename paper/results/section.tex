@@ -14,7 +14,7 @@ b) A set of charts and maps which illustrate the previous model, making easier t
 c) An on-line application\footnote{http://labs.paradigmatecnologico.com/d4d/} to display all this information in a friendly and customizable way.
 \\
 \\
-Now, let's describe deeply them, as well as other partial findings.
+Now, let's describe them deeply, as well as other partial findings.
 \\
 \\
 According to the proposed model, a very important feature has been deduced for the Commuting Dynamic. As seen in the picture below, there are two time zones when people perform more phone calls from their handsets than usual. Static and dynamic users have not been distinguished, that is, both self-edges and transition edges are counted together.
@@ -44,7 +44,7 @@ Datasets have been processed according to the proposed G/T Model, filtering non-
 As shown in the results, there is no correlation between the number of dynamic users and the maximum displacement peaks, actually, at the same time the number of dynamic users are growing, the central valley and the two maximum commuting peaks are always presented in the sample.
 \\
 \\
-These seven charts below show a fitter correlation with the theoretical commuting model proposed in this paper (Figure ~\ref{fig:commuting}), displaying two high peaks and a lower central valley. However, more qualitative data is necessary to figure out the performance of the first high peak, because it is not related to the number of dynamic users. Furthermore, a first approach can be applied to say that few dynamic users (in comparision with the mean) travel longer distances in this first peak, specially in  the first uphill to the first peak. This is a common pattern figured out from the proposed model. However, it can be explained because there are people starting their travel from further distances early in the morning, since the most of the people live near their work places and travel nearer distances than the first group.  
+These seven charts below show a fitter correlation with the theoretical commuting model proposed in this paper (Figure ~\ref{fig:commuting}), displaying two high peaks and a lower central valley. However, more qualitative data are necessary to figure out the performance of the first high peak, because it is not related to the number of dynamic users. Furthermore, a first approach can be applied to say that a few dynamic users (in comparision with the mean) travel longer distances in this first peak, specially in  the first uphill to the first peak. This is a common pattern figured out from the proposed model. However, it can be explained because there are people starting their travel from further distances early in the morning, since the most of the people live near their work places and travel nearer distances than the first group.  
 
 
 \begin{figure}[h]
@@ -56,7 +56,7 @@ These seven charts below show a fitter correlation with the theoretical commutin
 \end{figure}
 
 \newpage
-Density analysis takes known quantities of some phenomena and spreads them across the landscape based on the quantity that is measured at each location and the spatial relationship of the locations of the measured quantities. From the position of the antennas of mobile telephony and the weight estimated for each of them, depending on their traffic intensity, a kernel function has been used to calculate the density of features in a neighbourhood around those features. It calculates a magnitude per unit area from point features (antennas) using a kernel function to fit a smoothly tapered surface to each point. The result is a surface, a raster image. The original information of the antenna positions was expressed in geographical spherical coordinates (longitude, latitude), but the kernel functions needs to work with  projected information to calculate the distances, therefore a previous conversion of the same ones was performed projecting them to a projection system UTM using the datum WGS84 and the zone 30N. Kernel Density calculates the density of point features around each output raster cell; the kernel function is based on the quadratic kernel function described in Silverman, 1986. Conceptually, a smoothly curved surface is fitted over each point. The surface value is highest at the location of the point and diminishes with increasing distance from the point, reaching zero at the ‘search radius’ distance from the point. Only a circular neighborhood is possible. The volume under the surface equals the ‘population field’ value for the point. The density at each output raster cell is calculated by adding the values of all the kernel surfaces where they overlay the raster cell center. The cells nearer the measured points, the antennas weight, receive higher proportions of the measured quantity than those farther away. (ESRI©, 2012).
+Density analysis takes known amounts of some phenomena and spreads them across the landscape basing on the quantity that is being measured at each location. With the position of the antennas of mobile telephony and the estimated weight for each of them, depending on their traffic intensity, a kernel function has been used to calculate the density of features in a neighbourhood around those features. It calculates a magnitude per unit area from point features (antennas) using a kernel function to fit a smoothly tapered surface to each point. The result is a surface, a raster image. The original information of the antenna positions was expressed in geographical spherical coordinates (longitude, latitude), but the kernel functions needs to work with  projected information to calculate the distances, therefore a previous conversion of the same ones was performed projecting them to a projection system UTM using the datum WGS84 and the zone 30N. Kernel Density calculates the density of point features around each output raster cell; the kernel function is based on the quadratic kernel function described in Silverman, 1986. Conceptually, a smoothly curved surface is fitted over each point. The surface value is higher at the location of the point and diminishes with increasing distance from the point, reaching zero at the ‘search radius’ distance from the point. Only a circular neighborhood is possible. The volume under the surface equals the ‘population field’ value for the point. The density at each output raster cell is calculated by adding the values of all the kernel surfaces where they overlay the raster cell center. The cells nearer the measured points, the antennas weight, receive higher proportions of the measured quantity than those farther away. (ESRI©, 2012).
 \\
 \\
 \begin{figure}[h]
@@ -68,7 +68,7 @@ Density analysis takes known quantities of some phenomena and spreads them acros
 \end{figure}
 
 
-A visualization of the displacement with a Kernel Density estimation using GIS with the antennas positions and users displacements like a directed graph has shown the contraction and the expansion of the commuting dynamics across the 24 hours of the day. The firsts expansion visualization through the kernel density estimation is clearly showed when peak $p_1$ starts to grown between 05:00 and 07:00 reaching the central valley at 8:00.
+A visualization of the displacements with a Kernel Density estimation using GIS with the antennas positions and users displacements like a directed graph has shown the contraction and the expansion of the commuting dynamics across the 24 hours of the day. The firsts expansion visualization through the kernel density estimation is clearly showed when peak $p_1$ starts to grow between 05:00 and 07:00 reaching the central valley at 8:00.
 
 \newpage
 
@@ -95,10 +95,10 @@ A visualization of the displacement with a Kernel Density estimation using GIS w
 \label{fig:kde_first_peak}
 \end{figure}
 
-Also, while a normalize displacement meassure is distributed across the country in the valley hours, a reduction of the displacement of the dynamics users can be appreciated especially on roads where KDE had a high intensity. Above picture,  Monday 06:00, shows cleary a high intensity kernel distributions, coinciding with the maximum displacement moment calculated and showed in the Figure~\ref{fig:dynamic_displacements} on Monday. This values should be identify independently each week day commuting displacement distribution, however, the ranges of peaks $p_1, p_2$ and the central valley are leading for a regular temporal pattern. 
+Also, while a normalized displacement meassure is distributed across the country in the valley hours, a reduction of the displacement of the dynamics users can be appreciated especially on roads where KDE had a high intensity. Above picture,  Monday 06:00, shows a high intensity kernel distributions, coinciding with the maximum displacement moment calculated and showed in the Figure~\ref{fig:dynamic_displacements} on Monday. These values should be identified regardless each week day commuting displacement distribution, however, the ranges of peaks $p_1, p_2$ and the central valley are leading for a regular temporal pattern. 
 \\
 \\
-Next pictures shows in a more detailed way the reduction on the KDE on the roads between main cities. We have selected a sample zone in order to show the correlation between the numeric distance calculated by means of the proposed mathematical model in Section~\ref{sec:math_model} and the KDE calculated by means of GIS technology, to test the final aim proposed in this study.
+Next pictures shows the reduction on the KDE for the roads among main cities in a more detailed way. We have selected a sample zone in order to show the correlation between the numeric distance calculated by means of the proposed mathematical model and the KDE calculated by means of GIS technology, to test the final aim proposed in this study.
 \newpage
 
 \begin{figure}[h!]
@@ -124,10 +124,10 @@ Next pictures shows in a more detailed way the reduction on the KDE on the roads
 \end{figure}
 
 
-Therefore, the pictures above show the evolution of KDE in the focus location when maximum displacement $p_1$ is reached at 06:00, after this hour, KDE becomes softer at 07:00 and 08:00 starting the central valley. Through KDE  we can figure out that the median displacement in the central valley 08:00 and go on until $p_2$ has a greater value as numerical results leads.
+Therefore, the pictures above show the evolution of KDE in the target location when maximum displacement $p_1$ is reached at 06:00, after this hour, KDE becomes softer at 07:00 and 08:00 starting the central valley. Through KDE  we can figure out that the median displacement in the central valley 08:00 and go on until $p_2$ has a greater value as numerical results leads.
 \\
 \\
-The central valley has a uniform distribution of KDE and also we can observe in the next picture how the intensity increases when peak $p_2$ is reached at 19:00. We propose the same location to explore and correlate the numerical results of $p_2$ with the final visualization of the dynamic taking into account the two variables.
+The central valley has a uniform distribution of KDE and also in the next picture we can observe how the intensity increases when peak $p_2$ is reached at 19:00. We propose the same location to explore and correlate the numerical results of $p_2$ with the final visualization of the dynamic taking into account the two variables.
 
 
 
@@ -154,7 +154,7 @@ The central valley has a uniform distribution of KDE and also we can observe in 
 \end{figure}
 
 
-In a more detailed form, the whole extension picture is provided by the nextfour pictures representing the KDE of dynamic users across the country.
+In a more detailed way, the whole extension picture is provided by the next four pictures representing the KDE of dynamic users across the country.
 
 \newpage
 
